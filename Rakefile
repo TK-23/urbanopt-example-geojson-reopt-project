@@ -32,6 +32,9 @@ require 'openstudio/extension'
 require 'openstudio/extension/rake_task'
 require 'urbanopt/scenario'
 require 'urbanopt/geojson'
+require 'urbanopt/reopt'
+require 'pry'
+
 
 module URBANopt
   module ExampleGeoJSONProject
@@ -78,6 +81,7 @@ def baseline_scenario
 
   feature_file = URBANopt::GeoJSON::GeoFile.from_file(feature_file_path)
   scenario = URBANopt::Scenario::ScenarioCSV.new(name, root_dir, run_dir, feature_file, mapper_files_dir, csv_file, num_header_rows)
+
   return scenario
 end
 
@@ -132,8 +136,25 @@ task :post_process_baseline do
   puts 'Post Processing Baseline Scenario...'
   
   default_post_processor = URBANopt::Scenario::ScenarioDefaultPostProcessor.new(baseline_scenario)
-  scenario_result = default_post_processor.run
-  scenario_result.save
+  scenario_report = default_post_processor.run
+  scenario_report.save
+
+
+
+  reopt_assumptions = nil
+  reopt_parameters_file = File.join(File.dirname(__FILE__), 'reopt/base_assumptions.json')
+  File.open(reopt_parameters_file, 'r') do |file|
+    reopt_assumptions = JSON.parse(file.read, symbolize_names: true)
+  end
+
+  reopt_runner = URBANopt::REopt::REoptRunner.new
+
+  scenario_report = reopt_runner.run_scenario_report(scenario_report,reopt_assumptions)
+  scenario_report = reopt_runner.run_scenario_report_features(scenario_report,reopt_assumptions)
+  feature_report = reopt_runner.run_feature_report(scenario_report.feature_reports[0],reopt_assumptions)
+  scenario_report.save()
+
+
 end
 
 ### High Efficiency 
