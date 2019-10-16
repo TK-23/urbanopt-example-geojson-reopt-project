@@ -30,12 +30,13 @@ else
   gem 'urbanopt-core', github: 'URBANopt/urbanopt-core-gem', branch: 'develop'
 end
 
-if allow_local && File.exist?('../urbanopt-scenario-gem')
-  # gem 'urbanopt-scenario', github: 'URBANopt/urbanopt-scenario-gem', branch: 'develop'
-  gem 'urbanopt-scenario', path: '../urbanopt-scenario-gem'
-else
-  gem 'urbanopt-scenario', github: 'URBANopt/urbanopt-scenario-gem', branch: 'post_process'
-end
+gem 'urbanopt-scenario', path: '../urbanopt-scenario-gem'
+# if allow_local && File.exist?('../urbanopt-scenario-gem')
+#   # gem 'urbanopt-scenario', github: 'URBANopt/urbanopt-scenario-gem', branch: 'develop'
+#   gem 'urbanopt-scenario', path: '../urbanopt-scenario-gem'
+# else
+#   gem 'urbanopt-scenario', github: 'URBANopt/urbanopt-scenario-gem', branch: 'post_process'
+# end
 
 if allow_local && File.exists?('../urbanopt-geojson-gem')
   # gem 'openstudio-extension', github: 'NREL/OpenStudio-extension-gem', branch: 'develop'
