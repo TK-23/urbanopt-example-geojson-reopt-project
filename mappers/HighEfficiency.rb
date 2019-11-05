@@ -32,6 +32,7 @@ require 'urbanopt/scenario'
 require 'openstudio/common_measures'
 require 'openstudio/model_articulation'
 
+
 require_relative 'BaselineMapper'
 
 require 'json'
@@ -41,7 +42,7 @@ module URBANopt
     class HighEfficiencyMapper < BaselineMapper
       
       def create_osw(scenario, features, feature_names)
-      
+        
         osw = super(scenario, features, feature_names)
         
         OpenStudio::Extension.set_measure_argument(osw, 'ReduceElectricEquipmentLoadsByPercentage', '__SKIP__', false)

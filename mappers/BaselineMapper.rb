@@ -31,7 +31,6 @@
 require 'urbanopt/scenario'
 require 'openstudio/common_measures'
 require 'openstudio/model_articulation'
-
 require 'json'
 
 module URBANopt
@@ -56,7 +55,7 @@ module URBANopt
             end
         
             # add any paths local to the project
-            @@osw[:file_paths] << File.join(File.dirname(__FILE__), '../weather/')
+            @@osw[:file_paths] << File.join(File.dirname(__FILE__), '../weather/')            
             
             # configures OSW with extension gem paths for measures and files, all extension gems must be 
             # required before this
@@ -66,7 +65,6 @@ module URBANopt
       end
       
       def create_osw(scenario, features, feature_names)
-        
         if features.size != 1
           raise "TestMapper1 currently cannot simulate more than one feature"
         end

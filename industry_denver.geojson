@@ -15,7 +15,8 @@
                 "footprint_area": 2000,
                 "building_type": "Office",
                 "number_of_stories": 5,
-                "surface_elevation": 5280
+                "surface_elevation": 5280,
+                "reopt_assumptions": 5280
             },
             "geometry": {
                 "type": "Polygon",
