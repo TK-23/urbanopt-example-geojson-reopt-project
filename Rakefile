@@ -40,6 +40,13 @@ require_relative 'developer_nrel_key'
 module URBANopt
   module ExampleGeoJSONProject
     class ExampleGeoJSONProject < OpenStudio::Extension::Extension
+     
+      # number of datapoints(features) you want to run in parallel 
+      # based on the number of available processors on your local machine.
+      OpenStudio::Extension::Extension::NUM_PARALLEL = 7
+
+      # set MAX_DATAPOINTS
+      OpenStudio::Extension::Extension::MAX_DATAPOINTS = 1000
 
       def initialize
         super
@@ -75,7 +82,7 @@ end
 def baseline_scenario
   name = 'Baseline Scenario'
   run_dir = File.join(File.dirname(__FILE__), 'run/baseline_scenario/')
-  feature_file_path = File.join(File.dirname(__FILE__), 'industry_denver.geojson')
+  feature_file_path = File.join(File.dirname(__FILE__), 'example_project.json')
   csv_file = File.join(File.dirname(__FILE__), 'baseline_scenario.csv')
   mapper_files_dir = File.join(File.dirname(__FILE__), 'mappers/')
   reopt_files_dir = File.join(File.dirname(__FILE__), 'reopt/')
@@ -90,7 +97,7 @@ end
 def high_efficiency_scenario
   name = 'High Efficiency Scenario'
   run_dir = File.join(File.dirname(__FILE__), 'run/high_efficiency_scenario/')
-  feature_file_path = File.join(File.dirname(__FILE__), 'industry_denver.geojson')
+  feature_file_path = File.join(File.dirname(__FILE__), 'example_project.json')
   csv_file = File.join(File.dirname(__FILE__), 'high_efficiency_scenario.csv')
   mapper_files_dir = File.join(File.dirname(__FILE__), 'mappers/')
   reopt_files_dir = File.join(File.dirname(__FILE__), 'reopt/')
@@ -105,7 +112,7 @@ end
 def mixed_scenario
   name = 'Mixed Scenario'
   run_dir = File.join(File.dirname(__FILE__), 'run/mixed_scenario/')
-  feature_file_path = File.join(File.dirname(__FILE__), 'industry_denver.geojson')
+  feature_file_path = File.join(File.dirname(__FILE__), 'example_project.json')
   csv_file = File.join(File.dirname(__FILE__), 'mixed_scenario.csv')
   mapper_files_dir = File.join(File.dirname(__FILE__), 'mappers/')
   reopt_files_dir = File.join(File.dirname(__FILE__), 'reopt/')
@@ -142,19 +149,18 @@ desc 'Post Process Baseline Scenario'
 task :post_process_baseline do
   puts 'Post Processing Baseline Scenario...'
   default_reopt_post_processor = URBANopt::Scenario::ScenarioDefaultREoptPostProcessor.new(baseline_scenario)
-  scenario_report = default_reopt_post_processor.run
-  scenario_report.save
+  scenario_report = default_reopt_post_processor.run  
  
   #Setup REopt Runner
   reopt_runner = URBANopt::REopt::REoptRunner.new(DEVELOPER_NREL_KEY)
 
   #Run Aggregate Scenario
   scenario_report = reopt_runner.run_scenario_report(scenario_report, default_reopt_post_processor.scenario_reopt_default_assumptions_hash, default_reopt_post_processor.scenario_reopt_default_output_file, default_reopt_post_processor.scenario_timeseries_default_output_file)
-  scenario_report.save()
+  scenario_report.save
   
   #Run features individually  
   scenario_report = reopt_runner.run_scenario_report_features(scenario_report, default_reopt_post_processor.feature_reports_reopt_default_assumption_hashes, default_reopt_post_processor.feature_reports_reopt_default_output_files, default_reopt_post_processor.feature_reports_timeseries_default_output_files)
-  scenario_report.save()
+  scenario_report.save
 end
 
 ### High Efficiency 
@@ -179,18 +185,17 @@ task :post_process_high_efficiency do
   
   default_reopt_post_processor = URBANopt::Scenario::ScenarioDefaultREoptPostProcessor.new(high_efficiency_scenario)
   scenario_report = default_reopt_post_processor.run
-  scenario_report.save
 
   #Setup REopt Runner
   reopt_runner = URBANopt::REopt::REoptRunner.new(DEVELOPER_NREL_KEY)
 
   #Run Aggregate Scenario
   scenario_report = reopt_runner.run_scenario_report(scenario_report, default_reopt_post_processor.scenario_reopt_default_assumptions_hash, default_reopt_post_processor.scenario_reopt_default_output_file, default_reopt_post_processor.scenario_timeseries_default_output_file)
-  scenario_report.save()
+  scenario_report.save
   
   #Run features individually  
   scenario_report = reopt_runner.run_scenario_report_features(scenario_report, default_reopt_post_processor.feature_reports_reopt_default_assumption_hashes, default_reopt_post_processor.feature_reports_reopt_default_output_files, default_reopt_post_processor.feature_reports_timeseries_default_output_files)
-  scenario_report.save()
+  scenario_report.save
 end
 
 ### Mixed
@@ -215,35 +220,38 @@ task :post_process_mixed do
   
   default_reopt_post_processor = URBANopt::Scenario::ScenarioDefaultREoptPostProcessor.new(mixed_scenario)
   scenario_report = default_reopt_post_processor.run
-  scenario_report.save
   
   #Setup REopt Runner
   reopt_runner = URBANopt::REopt::REoptRunner.new(DEVELOPER_NREL_KEY)
 
   #Run Aggregate Scenario
   scenario_report = reopt_runner.run_scenario_report(scenario_report, default_reopt_post_processor.scenario_reopt_default_assumptions_hash, default_reopt_post_processor.scenario_reopt_default_output_file, default_reopt_post_processor.scenario_timeseries_default_output_file)
-  scenario_report.save()
+  scenario_report.save
   
   #Run features individually  
   scenario_report = reopt_runner.run_scenario_report_features(scenario_report, default_reopt_post_processor.feature_reports_reopt_default_assumption_hashes, default_reopt_post_processor.feature_reports_reopt_default_output_files, default_reopt_post_processor.feature_reports_timeseries_default_output_files)
-  scenario_report.save()
+  scenario_report.save
   
 end
 
 ### All
 
+desc 'Clear all scenarios'
 task :clear_all => [:clear_baseline, :clear_high_efficiency, :clear_mixed] do
   # clear all the scenarios
 end
 
+desc 'Run all scenarios'
 task :run_all => [:run_baseline, :run_high_efficiency, :run_mixed] do
   # run all the scenarios
 end
 
+desc 'Post process all scenarios'
 task :post_process_all => [:post_process_baseline, :post_process_high_efficiency, :post_process_mixed] do
   # post_process all the scenarios
 end
 
+desc 'Run and post process all scenarios'
 task :update_all => [:run_all, :post_process_all] do
   # run and post_process all the scenarios
 end
