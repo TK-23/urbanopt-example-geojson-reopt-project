@@ -34,7 +34,6 @@ require 'urbanopt/scenario'
 require 'urbanopt/geojson'
 require 'urbanopt/reopt_scenario'
 require 'urbanopt/reopt'
-require 'pry'
 require_relative 'developer_nrel_key'
 
 module URBANopt
@@ -148,19 +147,42 @@ end
 desc 'Post Process Baseline Scenario'
 task :post_process_baseline do
   puts 'Post Processing Baseline Scenario...'
-  default_reopt_post_processor = URBANopt::Scenario::ScenarioDefaultREoptPostProcessor.new(baseline_scenario)
-  scenario_report = default_reopt_post_processor.run  
- 
-  #Setup REopt Runner
-  reopt_runner = URBANopt::REopt::REoptRunner.new(DEVELOPER_NREL_KEY)
-
-  #Run Aggregate Scenario
-  scenario_report = reopt_runner.run_scenario_report(scenario_report, default_reopt_post_processor.scenario_reopt_default_assumptions_hash, default_reopt_post_processor.scenario_reopt_default_output_file, default_reopt_post_processor.scenario_timeseries_default_output_file)
-  scenario_report.save
+  default_reopt_post_processor = URBANopt::Scenario::ScenarioDefaultPostProcessor.new(baseline_scenario) 
+  scenario_report = default_reopt_post_processor.run
+  scenario_base = default_reopt_post_processor.scenario_base
+  reopt_post_processor = URBANopt::REopt::REoptPostProcessor.new(scenario_report,scenario_base.scenario_reopt_assumptions_file, scenario_base.reopt_feature_assumptions, DEVELOPER_NREL_KEY) 
   
+  #Run Aggregate Scenario
+  scenario_report = reopt_post_processor.run_scenario_report(scenario_report, reopt_post_processor.scenario_reopt_default_assumptions_hash, reopt_post_processor.scenario_reopt_default_output_file, reopt_post_processor.scenario_timeseries_default_output_file)
+  scenario_report.save('baseline_scenario')
+
   #Run features individually  
-  scenario_report = reopt_runner.run_scenario_report_features(scenario_report, default_reopt_post_processor.feature_reports_reopt_default_assumption_hashes, default_reopt_post_processor.feature_reports_reopt_default_output_files, default_reopt_post_processor.feature_reports_timeseries_default_output_files)
-  scenario_report.save
+  scenario_report = reopt_post_processor.run_scenario_report_features(scenario_report, reopt_post_processor.feature_reports_reopt_default_assumption_hashes, reopt_post_processor.feature_reports_reopt_default_output_files, reopt_post_processor.feature_reports_timeseries_default_output_files)
+  scenario_report.save('baseline_features')
+
+  # reopt_post_processor.scenario_reopt_default_assumptions_hash[:Scenario][:Site][:Storage][:min_kw] = 17845.3772
+  # reopt_post_processor.scenario_reopt_default_assumptions_hash[:Scenario][:Site][:Storage][:max_kw] = 17845.3772
+  # reopt_post_processor.scenario_reopt_default_assumptions_hash[:Scenario][:Site][:Storage][:min_kwh] = 74997.2017
+  # reopt_post_processor.scenario_reopt_default_assumptions_hash[:Scenario][:Site][:Storage][:max_kwh] = 74997.2017
+  # scenario_report = reopt_post_processor.run_scenario_report(scenario_report, reopt_post_processor.scenario_reopt_default_assumptions_hash, reopt_post_processor.scenario_reopt_default_output_file, reopt_post_processor.scenario_timeseries_default_output_file)
+  # scenario_report.save('baseline_scenario_sized_to_features')
+
+  # modified_inputs = []
+  # reopt_post_processor.feature_reports_reopt_default_assumption_hashes.each do |h|
+
+  #   h[:Scenario][:Site][:Storage][:min_kw] = 1519.3045 / 13 
+  #   h[:Scenario][:Site][:Storage][:max_kw] = 1519.3045 / 13 
+  #   h[:Scenario][:Site][:Storage][:min_kwh] = 7790.9747 / 13
+  #   h[:Scenario][:Site][:Storage][:max_kwh] = 7790.9747 / 13
+  #   modified_inputs << h
+  # end
+
+  # scenario_report = reopt_post_processor.run_scenario_report_features(scenario_report, modified_inputs, reopt_post_processor.feature_reports_reopt_default_output_files, reopt_post_processor.feature_reports_timeseries_default_output_files)
+  # scenario_report.save('baseline_features_sized_to_scenario')
+
+
+
+
 end
 
 ### High Efficiency 
@@ -183,19 +205,18 @@ desc 'Post Process High Efficiency Scenario'
 task :post_process_high_efficiency do
   puts 'Post Processing High Efficiency Scenario...'
   
-  default_reopt_post_processor = URBANopt::Scenario::ScenarioDefaultREoptPostProcessor.new(high_efficiency_scenario)
+  default_reopt_post_processor = URBANopt::Scenario::ScenarioDefaultPostProcessor.new(high_efficiency_scenario) 
   scenario_report = default_reopt_post_processor.run
-
-  #Setup REopt Runner
-  reopt_runner = URBANopt::REopt::REoptRunner.new(DEVELOPER_NREL_KEY)
-
+  scenario_base = default_reopt_post_processor.scenario_base
+  reopt_post_processor = URBANopt::REopt::REoptPostProcessor.new(scenario_report,scenario_base.scenario_reopt_assumptions_file, scenario_base.reopt_feature_assumptions, DEVELOPER_NREL_KEY) 
+  
   #Run Aggregate Scenario
-  scenario_report = reopt_runner.run_scenario_report(scenario_report, default_reopt_post_processor.scenario_reopt_default_assumptions_hash, default_reopt_post_processor.scenario_reopt_default_output_file, default_reopt_post_processor.scenario_timeseries_default_output_file)
-  scenario_report.save
+  scenario_report = reopt_post_processor.run_scenario_report(scenario_report, reopt_post_processor.scenario_reopt_default_assumptions_hash, reopt_post_processor.scenario_reopt_default_output_file, reopt_post_processor.scenario_timeseries_default_output_file)
+  scenario_report.save('highE_scenario')
   
   #Run features individually  
-  scenario_report = reopt_runner.run_scenario_report_features(scenario_report, default_reopt_post_processor.feature_reports_reopt_default_assumption_hashes, default_reopt_post_processor.feature_reports_reopt_default_output_files, default_reopt_post_processor.feature_reports_timeseries_default_output_files)
-  scenario_report.save
+  scenario_report = reopt_post_processor.run_scenario_report_features(scenario_report, reopt_post_processor.feature_reports_reopt_default_assumption_hashes, reopt_post_processor.feature_reports_reopt_default_output_files, reopt_post_processor.feature_reports_timeseries_default_output_files)
+  scenario_report.save('highE_features')
 end
 
 ### Mixed
@@ -218,19 +239,18 @@ desc 'Post Process Mixed Scenario'
 task :post_process_mixed do
   puts 'Post Processing Mixed Scenario...'
   
-  default_reopt_post_processor = URBANopt::Scenario::ScenarioDefaultREoptPostProcessor.new(mixed_scenario)
+  default_reopt_post_processor = URBANopt::Scenario::ScenarioDefaultPostProcessor.new(mixed_scenario) 
   scenario_report = default_reopt_post_processor.run
+  scenario_base = default_reopt_post_processor.scenario_base
+  reopt_post_processor = URBANopt::REopt::REoptPostProcessor.new(scenario_report,scenario_base.scenario_reopt_assumptions_file, scenario_base.reopt_feature_assumptions, DEVELOPER_NREL_KEY) 
   
-  #Setup REopt Runner
-  reopt_runner = URBANopt::REopt::REoptRunner.new(DEVELOPER_NREL_KEY)
-
   #Run Aggregate Scenario
-  scenario_report = reopt_runner.run_scenario_report(scenario_report, default_reopt_post_processor.scenario_reopt_default_assumptions_hash, default_reopt_post_processor.scenario_reopt_default_output_file, default_reopt_post_processor.scenario_timeseries_default_output_file)
-  scenario_report.save
+  scenario_report = reopt_post_processor.run_scenario_report(scenario_report, reopt_post_processor.scenario_reopt_default_assumptions_hash, reopt_post_processor.scenario_reopt_default_output_file, reopt_post_processor.scenario_timeseries_default_output_file)
+  scenario_report.save('mixed_scenario')
   
   #Run features individually  
-  scenario_report = reopt_runner.run_scenario_report_features(scenario_report, default_reopt_post_processor.feature_reports_reopt_default_assumption_hashes, default_reopt_post_processor.feature_reports_reopt_default_output_files, default_reopt_post_processor.feature_reports_timeseries_default_output_files)
-  scenario_report.save
+  scenario_report = reopt_post_processor.run_scenario_report_features(scenario_report, reopt_post_processor.feature_reports_reopt_default_assumption_hashes, reopt_post_processor.feature_reports_reopt_default_output_files, reopt_post_processor.feature_reports_timeseries_default_output_files)
+  scenario_report.save('mixed_features')
   
 end
 
