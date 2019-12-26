@@ -4,7 +4,7 @@ This project demonstrates how to integrate the REopt Gem into an URBANopt projec
 
 REopt Lite is supported by a technoeconomic model which employs mixed integer linear programming and accessible via API. It is capable of selecting from Solar PV, Wind, Storage and Diesel Generation technologies and accepts a number of inputs regarding site location, load profile, electric tariff and financial assumptions (i.e. capital costs, escalation rates, incentives). Most inputs to the API are shown on the <a target="\_blank" href="https://reopt.nrel.gov/tool">REopt Lite</a> **Note:** You will need to expand *Advanced Options* to see all inputs.) For a complete set of inputs and more information about the API, see the <a target="\_blank" href="https://developer.nrel.gov/docs/energy-optimization/reopt-v1/">REopt Lite documentation</a>. 
 
-**Note:** Using the REopt Gem requires an API Key from the <a target="\_blank" href="https://developer.nrel.gov/signup/">NREL Developer Network</a>.
+<br>**Note:** Using the REopt Gem requires an API Key from the <a target="\_blank" href="https://developer.nrel.gov/signup/">NREL Developer Network</a>.
 
 ## REopt Gem Overview
 The REopt Lite Gem is activated during post-processing of a previously generated URBANopt::Scenario::DefaultReports::ScenarioReport or URBANopt::Scenario::DefaultReports::FeatureReport. The URBANopt::REopt::REoptRunner class is used to establish connections with the REopt Lite API and update Scenario Reports and Feature Reports. 
