@@ -7,7 +7,7 @@ REopt Lite is supported by a technoeconomic model which employs mixed integer li
 <br/>**Note:** Using the REopt Gem requires an API Key from the <a target="\_blank" href="https://developer.nrel.gov/signup/">NREL Developer Network</a>.
 
 ## REopt Gem Overview
-The REopt Lite Gem is activated during post-processing of a previously generated URBANopt::Scenario::DefaultReports::ScenarioReport or URBANopt::Scenario::DefaultReports::FeatureReport. The URBANopt::REopt::REoptRunner class is used to establish connections with the REopt Lite API and update Scenario Reports and Feature Reports. 
+The REopt Lite Gem is activated during post-processing of a previously generated **URBANopt::Scenario::DefaultReports::ScenarioReport** or **URBANopt::Scenario::DefaultReports::FeatureReport**. The **URBANopt::REopt::REoptRunner** class is used to establish connections with the REopt Lite API and update Scenario Reports and Feature Reports. 
 
 A REoptRunner is instantiated with at least an API Key, as follows:
 
