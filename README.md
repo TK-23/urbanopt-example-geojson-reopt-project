@@ -138,3 +138,14 @@ end
 ```
 
 The code above runs an analysis at the scenario level, and then at the feature level. In each case, REopt results and updated timeseries CSV's are saved in locations defined by the REoptPostProcessor. Updated Scenario Reports are exported as hashes and saved to separate files for further analysis.
+
+
+## Running the Project
+
+To run the full example project, including the baseline, high efficiency and mixed scenarios, run:
+
+```
+bundle install
+bundle update
+bundle exec rake
+```
