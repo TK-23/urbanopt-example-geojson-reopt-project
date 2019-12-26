@@ -1,17 +1,33 @@
 # REopt Lite enabled URBANopt Example Project
 
-This project demonstrates how to integrate the REopt Gem into an URBANopt project. The REopt Gem makes calls to (REopt Lite)[https://reopt.nrel.gov/tool] decision support platform in order to determine cost-optimal sizing and dispatch of distributed energy resource (DER) technologies for a building (i.e. Feature Report) and/or collection of buildings (i.e. Scenario Report). 
+This project demonstrates how to integrate the REopt Gem into an URBANopt project. The REopt Gem makes calls to (REopt Lite)[https://reopt.nrel.gov/tool] decision support platform via API in order to determine cost-optimal sizing and dispatch of distributed energy resource (DER) technologies for a building (i.e. Feature Report) and/or collection of buildings (i.e. Scenario Report). 
 
-REopt Lite is supported by a technoeconomic model which employs mixed integer linear programming and accessible via API. It is capable of selecting from Solar PV, Wind, Storage and Diesel Generation technologies and accepts a number of inputs regarding site location, load profile, electric tariff and financial assumptions (i.e. capital costs, escalation rates, incentives). All inputs to the API are shown on the (REopt Lite webtool)[https://reopt.nrel.gov/tool] **Note:** You will need to expand *Advanced Options* to see all inputs.) Also, see the (REopt Lite documentation)[https://developer.nrel.gov/docs/energy-optimization/reopt-v1/] for more information regarding API inputs and formatting. **Note:** Using the REopt Gem requires an API Key from the (NREL Developer Network)[https://developer.nrel.gov/signup/].
+REopt Lite is supported by a technoeconomic model which employs mixed integer linear programming and accessible via API. It is capable of selecting from Solar PV, Wind, Storage and Diesel Generation technologies and accepts a number of inputs regarding site location, load profile, electric tariff and financial assumptions (i.e. capital costs, escalation rates, incentives). Most inputs to the API are shown on the (REopt Lite webtool)[https://reopt.nrel.gov/tool] **Note:** You will need to expand *Advanced Options* to see all inputs.) For a complete set of inputs and more information about the API, see the (REopt Lite documentation)[https://developer.nrel.gov/docs/energy-optimization/reopt-v1/]. 
 
-The REopt Lite Gem is activated during post-processing of previously generated URBANopt::Scenario::DefaultReports::ScenarioReport and URBANopt::Scenario::DefaultReports::FeatureReport objects. The URBANopt::REopt::REoptRunner class is used to establish connections with the REopt Lite API and update ScenarioReports and FeatureReports. REoptRunner is instantiated with at least an API Key, as follows:
+**Note:** Using the REopt Gem requires an API Key from the (NREL Developer Network)[https://developer.nrel.gov/signup/].
+
+## REopt Gem Overview
+The REopt Lite Gem is activated during post-processing of a previously generated URBANopt::Scenario::DefaultReports::ScenarioReport or URBANopt::Scenario::DefaultReports::FeatureReport. The URBANopt::REopt::REoptRunner class is used to establish connections with the REopt Lite API and update Scenario Reports and Feature Reports. 
+
+A REoptRunner is instantiated with at least an API Key, as follows:
 
 ```
 DEVELOPER_NREL_KEY = '<insert API Key here>'
 reopt_runner = URBANopt::REopt::REoptRunner.new(DEVELOPER_NREL_KEY)
 ```
 
-Subsequently, the REopt Runner can be used to optimize DER sizing for a collection of features in aggregate (i.e. all loads are aggregating into one load profile) by passing to it at least a ScenarioReport via the _run_scenario_report_ method. The results from such optimizations would be reflective of centralized community scale assets and stored in the Scenario Report's distributed_generation attributes as shown in an example below:
+Now the REopt Runner is ready to be used in the post-processing of a collection of features in aggregate (i.e. all loads are aggregating into one load profile that is sent to REopt Lite) or for a collection of features individually (i.e. REopt Lite is called on multiple load profiles before results are aggregated at the scenario level). The results from the former method would be reflective of centralized community scale assets and are invoked by the the REoptRunner _run_scenario_report_ method, while the later would reflect individual asset ownership and operation and are invoked by _run_scenario_report_features_. See the (REopt Gem documentation)[https://github.com/urbanopt/urbanopt-reopt-gem/] for other approaches to calling a Feature Report or set of Feature Reports.
+
+To call REopt Lite on a Scenario Report in aggregate: 
+```
+updated_scenario_report = reopt_runner.run_scenario_report(scenario_report)
+```
+To call REopt Lite on a Scenario Report's features individually before aggregating results at the Scenario Report: 
+```
+updated_feature_report = reopt_runner.run_feature_report(feature_report)
+
+```
+Regardless of approach, REopt results are stored in the Feature or Scenario Report's distributed_generation attributes, formatted as shown in an example below:
 
 ```
 	"distributed_generation": {
@@ -37,7 +53,7 @@ Subsequently, the REopt Runner can be used to optimize DER sizing for a collecti
 	    }
 ```
 
-Moreover, the following optimal dispatch fields are added to a Feature Report or Scenario Reports's timeseries CSV after calling REopt Lite via the reopt gem. Where no system component is recommended the dispatch will be all zero (i.e. if no solar PV is recommended ElectricityProduced:PV:Total will be zero for all timesteps)
+Moreover, the following optimal dispatch fields are added to a Feature Report or Scenario Reports's timeseries CSV after calling REopt Lite via the REopt gem. Where no system component is recommended the dispatch will be all zero for all timesteps (i.e. if no solar PV is recommended ElectricityProduced:PV:Total will be zero for all timesteps)
 
 |            output                        |  unit   |
 | -----------------------------------------| ------- |
@@ -62,75 +78,27 @@ Moreover, the following optimal dispatch fields are added to a Feature Report or
 | ElectricityProduced:Wind:ToGrid          | kWh     |
     
 
-During the call to the REopt Lite API made as part of calling this method, default assumptions will be used for all parameters except latitude, longitude, and load profile unless otherwise specified in the _reopt_assumptions_hash_ input. The_reopt_assumptions_hash_ must be formatted in a nested structure as specified in the (REopt Lite documentation)[https://developer.nrel.gov/docs/energy-optimization/reopt-v1/]. For an example, see reopt/base_assumptions.json in this folder. Moreover, default files for saving the REopt Lite JSON response and the updated Scenario Report Timeseries CSV will be used unless specified explicitly in the _reopt_output_file_ and _timeseries_csv_path_ inputs respectively. 
+## Demonstration Project
 
-<b>Also, note:</b> Required attributes for a REopt run include latitude and longitude. If no utility rate is specified in your REopt Lite assumption settings, then a constant default rate of $0.13 is assumed without demand charges. Also, by default, only solar PV and storage are considered in the analysis (i.e. Wind and Generators are excluded from consideration).
+See the Rakefile in this directory for a demonstration of using the REopt Gem withinan URBANopt project. In this workflow example, REopt Lite assumptions that can be associated with Feature Reports and/or Scenario Reports are stored in a common directory, called _reopt_, as separate .json files. Assumptions are mapped to Feature Reports in the fourth column of a scenario CSV (as shown in baseline_scenario.csv) which is loaded by the URBANopt::Scenario::REoptScenarioCSV class. A REoptScenarioCSV is also optionally instantiated with the path the common REopt Lite assumptions folder (i.e. _reopt_) and the assumptions .json file in this folder to use in analysis at the aggregated Scenario Report level. Note, if either Scenario Report or Feature Report assumptions are specifed the _reopt_files_dir_ is then required.
 
-```
-updated_scenario_report = reopt_runner.run_scenario_report(scenario_report)
-
-p updated_scenario_report.timeseries.path
+A REoptScenarioCSV is loaded into a URBANopt::Scenario::ScenarioDefaultREoptPostProcessor before post-processing. On parsing the REoptScenarioCSV, the ScenarioDefaultREoptPostProcessor converts REopt Lite assumption files into hashes.
 
 ```
-An updated Scenario REport contains the following new (or updated) attributes.
-* timeseries.path (updated to the x,y,z dispatch columns)
-* sizes (pv, wind, generator, storage)
-* financials
+def baseline_scenario
+  name = 'Baseline Scenario'
+  run_dir = File.join(File.dirname(__FILE__), 'run/baseline_scenario/')
+  feature_file_path = File.join(File.dirname(__FILE__), 'example_project.json')
+  csv_file = File.join(File.dirname(__FILE__), 'baseline_scenario.csv')
+  mapper_files_dir = File.join(File.dirname(__FILE__), 'mappers/')
+  reopt_files_dir = File.join(File.dirname(__FILE__), 'reopt/')
+  scenario_reopt_assumptions_file_name = 'base_assumptions.json'
+  num_header_rows = 1
 
-
-Likewise, the REopt Runner can be used to optimize DER sizing for a individual site by passing to it at least a FeatureREport via the _run_feature_report_ method. Again, REopt Lite assumptions (formatted as described in (REopt Lite documentation)[https://developer.nrel.gov/docs/energy-optimization/reopt-v1/]) can be defined as in input. Also, default files for saving the REopt Lite JSON response and the updated Scenario Report Timeseries CSV will be used unless specified explicitly in the _reopt_output_file_ and _timeseries_csv_path_ inputs respectively. 
-
-```
-updated_feature_report = reopt_runner.run_feature_report(feature_report)
-
-p updated_feature_report.timeseries.path
-
-```
-An updated Feature REport also contains the following new (or updated) attributes.
-* timeseries.path (updated to the x,y,z dispatch columns)
-* sizes (pv, wind, generator, storage)
-* financials
-
-
-
-A collection of Feature Reports can be run from an array of FeatureReports.
-```
-feature_reports = [feature_report1, feature_report2]
-
-updated_feature_reports = reopt_runner.run_feature_report(feature_reports)
-
-updated_feature_reports.each do |feature_report|
-	p feature_report.timeseries.path
+  feature_file = URBANopt::GeoJSON::GeoFile.from_file(feature_file_path)
+  scenario = URBANopt::Scenario::REoptScenarioCSV.new(name, root_dir, run_dir, feature_file, mapper_files_dir, csv_file, num_header_rows, reopt_files_dir, scenario_reopt_assumptions_file_name)
+  return scenario
 end
-
-```
-Note that the optional _reopt_assumptions_hashes_, _reopt_output_files_, and _timeseries_csv_paths_ accept ordered arrays of inputs that match the order of the _feature_reports_ array.
-
-
-Finally, a Scenario Report can be updated by first running each of its Feature Reports and then aggregating the reponses from each of the Feature Reports to the Scenario Report level via the _run_scenario_report_features_ method. Again, the optional _reopt_assumptions_hashes_, _reopt_output_files_, and _timeseries_csv_paths_ accept ordered arrays of inputs that match the order of the _feature_reports_ array within the Scenario Report.
-```
-updated_feature_reports = reopt_runner.run_scenario_report_features(scenario_report)
-
-updated_feature_reports.each do |feature_report|
-	p feature_report.timeseries.path
-end
-
-```
-
-
-See Rakefile for a demonstration of loading REopt settings in an URBANopt project. In this workflow, optional REopt Lite assumptions are stored in a common directory as separate .json files. Assumptions relating to Feature Reports are defined in the fourth column of a scenario CSV (as shown in baseline_scenario.csv) which is loaded by the URBANopt::Scenario::REoptScenarioCSV class. A REoptScenarioCSV is also optionally instantiated with the path the common REopt Lite assumptions folder and the assumptions file to use at the aggregated Scenario Report level. Note, if Scenario Report or Feature Report assumptions are specifed the _reopt_files_dir_ is then required.
-
-
-A REoptScenarioCSV is loaded into a URBANopt::Scenario::ScenarioDefaultREoptPostProcessor before post-processing. On loading, the default REopt Lite assumptions are loaded into hashes accessible as follows:
-```
-baseline_scenario = URBANopt::Scenario::REoptScenarioCSV.new(name, root_dir, run_dir, feature_file, mapper_files_dir, csv_file, num_header_rows, reopt_files_dir, scenario_reopt_assumptions_file_name)
-
-default_reopt_post_processor = URBANopt::Scenario::ScenarioDefaultREoptPostProcessor.new(baseline_scenario)
-
-default_reopt_post_processor.scenario_reopt_default_assumptions_hash
-
-default_reopt_post_processor.feature_reports_reopt_default_assumption_hashes
-
 ```
 
 The ScenarioDefaultREoptPostProcessor also provides default files locations for saving REopt Lite responses and updating Timeseries CSV files:
