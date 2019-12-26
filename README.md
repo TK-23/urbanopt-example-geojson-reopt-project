@@ -16,17 +16,17 @@ DEVELOPER_NREL_KEY = '<insert API Key here>'
 reopt_runner = URBANopt::REopt::REoptRunner.new(DEVELOPER_NREL_KEY)
 ```
 
-Now the REopt Runner is ready to be used in the post-processing of a collection of features in aggregate (i.e. all loads are aggregating into one load profile that is sent to REopt Lite) or for a collection of features individually (i.e. REopt Lite is called on multiple load profiles before results are aggregated at the scenario level). The results from the former method would be reflective of centralized community scale assets and are invoked by the the REoptRunner _run_scenario_report_ method. The later would reflect individual asset ownership and operation and are invoked by _run_scenario_report_features_. See the <a target="\_blank" href="https://github.com/urbanopt/urbanopt-reopt-gem/">REopt Gem documentation</a> for other approaches to calling a Feature Report or set of Feature Reports.
+Now the REopt Runner is ready to be used in the post-processing of a collection of features in aggregate (i.e. all loads are aggregating into one load profile that is sent to REopt Lite) or for a collection of features individually (i.e. REopt Lite is called on multiple load profiles before results are aggregated at the scenario level). The results from the former approach (which is invoked by the the REoptRunner _run_scenario_report_ method) would be reflective of centralized community scale assets. The later would reflect individual asset ownership and operation, and is invoked by _run_scenario_report_features_. See the <a target="\_blank" href="https://github.com/urbanopt/urbanopt-reopt-gem/">REopt Gem documentation</a> for other approaches to calling a Feature Report or set of Feature Reports.
 
-To call REopt Lite on a Scenario Report in aggregate: 
-```
-updated_scenario_report = reopt_runner.run_scenario_report(scenario_report)
-```
-To call REopt Lite on a Scenario Report's features individually before aggregating results at the Scenario Report: 
-```
-updated_feature_report = reopt_runner.run_feature_report(feature_report)
+	To call REopt Lite on a Scenario Report in aggregate: 
+	```
+	updated_scenario_report = reopt_runner.run_scenario_report(scenario_report)
+	```	
+	To call REopt Lite on a Scenario Report's features individually before aggregating results at the Scenario Report: 
+	```
+	updated_feature_report = reopt_runner.run_feature_report(feature_report)
 
-```
+	```
 Regardless of approach, REopt results are stored in the Feature or Scenario Report's distributed_generation attributes, formatted as shown in an example below:
 
 ```
