@@ -1,7 +1,7 @@
 # REopt Lite enabled URBANopt Example Project
 
 This project demonstrates how to integrate the REopt Gem into an URBANopt project. The REopt Gem makes calls to (REopt Lite)[https://reopt.nrel.gov/tool] decision support platform via API in order to determine cost-optimal sizing and dispatch of distributed energy resource (DER) technologies for a building (i.e. Feature Report) and/or collection of buildings (i.e. Scenario Report). 
-
+<StaticLink target="\_blank" href="https://developer.nrel.gov/docs/energy-optimization/reopt-v1/">https://developer.nrel.gov/docs/energy-optimization/reopt-v1/</StaticLink>
 REopt Lite is supported by a technoeconomic model which employs mixed integer linear programming and accessible via API. It is capable of selecting from Solar PV, Wind, Storage and Diesel Generation technologies and accepts a number of inputs regarding site location, load profile, electric tariff and financial assumptions (i.e. capital costs, escalation rates, incentives). Most inputs to the API are shown on the (REopt Lite webtool)[https://reopt.nrel.gov/tool] **Note:** You will need to expand *Advanced Options* to see all inputs.) For a complete set of inputs and more information about the API, see the (REopt Lite documentation)[https://developer.nrel.gov/docs/energy-optimization/reopt-v1/]. 
 
 **Note:** Using the REopt Gem requires an API Key from the (NREL Developer Network)[https://developer.nrel.gov/signup/].
