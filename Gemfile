@@ -64,4 +64,4 @@ gem 'openstudio-standards', '0.2.10' # doesn't work in 0.2.8?
 # simplecov has an unneccesary dependency on native json gem, use fork that does not require this
 gem 'simplecov', github: 'NREL/simplecov'
 
-gem 'pry'
+gem 'certified'

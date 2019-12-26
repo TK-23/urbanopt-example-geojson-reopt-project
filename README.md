@@ -1,6 +1,6 @@
-Hope to send you an update later today.# REopt Lite enabled URBANopt Example Project
+# REopt Lite enabled URBANopt Example Project
 
-This project demonstrates how to integrate the REopt Gem into an URBANopt project. The REopt Gem makes calls to (REopt Lite)[https://reopt.nrel.gov/tool] decision support platform in order to determine optimal distributed energy resource (DER) technology selection, sizing, dispatch and economics for a buliding (i.e. Feature Report) or collection of buildings (i.e. Scenario Report). 
+This project demonstrates how to integrate the REopt Gem into an URBANopt project. The REopt Gem makes calls to (REopt Lite)[https://reopt.nrel.gov/tool] decision support platform in order to determine cost-optimal sizing and dispatch of distributed energy resource (DER) technologies for a building (i.e. Feature Report) and/or collection of buildings (i.e. Scenario Report). 
 
 REopt Lite is supported by a technoeconomic model which employs mixed integer linear programming and accessible via API. It is capable of selecting from Solar PV, Wind, Storage and Diesel Generation technologies and accepts a number of inputs regarding site location, load profile, electric tariff and financial assumptions (i.e. capital costs, escalation rates, incentives). All inputs to the API are shown on the (REopt Lite webtool)[https://reopt.nrel.gov/tool] **Note:** You will need to expand *Advanced Options* to see all inputs.) Also, see the (REopt Lite documentation)[https://developer.nrel.gov/docs/energy-optimization/reopt-v1/] for more information regarding API inputs and formatting. **Note:** Using the REopt Gem requires an API Key from the (NREL Developer Network)[https://developer.nrel.gov/signup/].
 
@@ -11,10 +11,60 @@ DEVELOPER_NREL_KEY = '<insert API Key here>'
 reopt_runner = URBANopt::REopt::REoptRunner.new(DEVELOPER_NREL_KEY)
 ```
 
-Subsequently, the REopt Runner can be used to optimize DER sizing for a collection of features in aggregate (i.e. all loads are aggregating into one load profile) by passing to it at least a ScenarioREport via the _run_scenario_report_ method. The results from such optimizations would be reflective of centralized community scale assets.
+Subsequently, the REopt Runner can be used to optimize DER sizing for a collection of features in aggregate (i.e. all loads are aggregating into one load profile) by passing to it at least a ScenarioReport via the _run_scenario_report_ method. The results from such optimizations would be reflective of centralized community scale assets and stored in the Scenario Report's distributed_generation attributes as shown in an example below:
+
+```
+	"distributed_generation": {
+	      "lcc_us_dollars": 100000000.0,
+	      "npv_us_dollars": 10000000.0,
+	      "year_one_energy_cost_us_dollars": 7000000.0,
+	      "year_one_demand_cost_us_dollars": 3000000.0,
+	      "year_one_bill_us_dollars": 10000000.0,
+	      "total_energy_cost_us_dollars": 70000000.0,
+	      "solar_pv": {
+	        "size_kw": 30000.0
+	      },
+	      "wind": {
+	        "size_kw": 0.0
+	      },
+	      "generator": {
+	        "size_kw": 0.0
+	      },
+	      "storage": {
+	        "size_kw": 2000.0,
+	        "size_kwh": 5000.0
+	      }
+	    }
+```
+
+Moreover, the following optimal dispatch fields are added to a Feature Report or Scenario Reports's timeseries CSV after calling REopt Lite via the reopt gem. Where no system component is recommended the dispatch will be all zero (i.e. if no solar PV is recommended ElectricityProduced:PV:Total will be zero for all timesteps)
+
+|            output                        |  unit   |
+| -----------------------------------------| ------- |
+| ElectricityProduced:Total                | kWh     |
+| Electricity:Load:Total                   | kWh     |
+| Electricity:Grid:ToLoad                  | kWh     |
+| Electricity:Grid:ToBattery               | kWh     |
+| Electricity:Storage:ToLoad               | kWh     |
+| Electricity:Storage:ToGrid               | kWh     |
+| Electricity:Storage:StateOfCharge        | kWh     |
+| ElectricityProduced:Generator:Total      | kWh     |
+| ElectricityProduced:Generator:ToBattery  | kWh     |
+| ElectricityProduced:Generator:ToLoad     | kWh     |
+| ElectricityProduced:Generator:ToGrid     | kWh     |
+| ElectricityProduced:PV:Total             | kWh     |
+| ElectricityProduced:PV:ToBattery         | kWh     |
+| ElectricityProduced:PV:ToLoad            | kWh     |
+| ElectricityProduced:PV:ToGrid            | kWh     |
+| ElectricityProduced:Wind:Total           | kWh     |
+| ElectricityProduced:Wind:ToBattery       | kWh     |
+| ElectricityProduced:Wind:ToLoad          | kWh     |
+| ElectricityProduced:Wind:ToGrid          | kWh     |
+    
 
 During the call to the REopt Lite API made as part of calling this method, default assumptions will be used for all parameters except latitude, longitude, and load profile unless otherwise specified in the _reopt_assumptions_hash_ input. The_reopt_assumptions_hash_ must be formatted in a nested structure as specified in the (REopt Lite documentation)[https://developer.nrel.gov/docs/energy-optimization/reopt-v1/]. For an example, see reopt/base_assumptions.json in this folder. Moreover, default files for saving the REopt Lite JSON response and the updated Scenario Report Timeseries CSV will be used unless specified explicitly in the _reopt_output_file_ and _timeseries_csv_path_ inputs respectively. 
 
+<b>Also, note:</b> Required attributes for a REopt run include latitude and longitude. If no utility rate is specified in your REopt Lite assumption settings, then a constant default rate of $0.13 is assumed without demand charges. Also, by default, only solar PV and storage are considered in the analysis (i.e. Wind and Generators are excluded from consideration).
 
 ```
 updated_scenario_report = reopt_runner.run_scenario_report(scenario_report)

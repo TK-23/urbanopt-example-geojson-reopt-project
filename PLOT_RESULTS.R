@@ -88,7 +88,7 @@ theme.facet = theme(
 
 
 theme.tilt_x = theme(
-  axis.text.x         = element_text( angle = 45, vjust=0.5, size=12),
+  axis.text.x         = element_text( angle = 45, vjust=0.5, size=18),
 )
 
 theme.no_legend = theme(
@@ -114,6 +114,15 @@ get_density <- function(x, y, n = 100) {
 
 ### PV ###
 
-df <- read.csv('/Users/tkwasnik/Desktop/smash_data/combined_results.csv')
-df <- df[which(!is.na(df$b_pv_kw)),]
-df <- df[which(!is.na(df$pv_kw)),]
+df <- read.csv('/Users/tkwasnik/github/urbanopt-example-geojson-reopt-project/compiled_SDGESolarOnly_results.csv')
+df$scenario <- gsub('runSDGE/','',df$scenario)
+df$scenario <- gsub('scenario','',df$scenario)
+df$scenario <- gsub('_',' ',df$scenario)
+
+ggplot(df, aes(x=scenario,y=solar_pv_size_kw)) + geom_col() + ylab("Solar PV (kW)") + xlab("") + facet_wrap(df$level)+ theme.main + theme.tilt_x +theme(axis.text=element_text(size=18))
+ggplot(df, aes(x=scenario,y=storage_size_kw)) + geom_col() + ylab("Storage (kW)") + xlab("") +  facet_wrap(df$level)+ theme.main + theme.tilt_x
+ggplot(df, aes(x=scenario,y=npv_us_dollars/lcc_us_dollars)) + ylab("Percent Savings") + xlab("") + geom_col() + facet_wrap(df$level) + theme.main + theme.tilt_x
+ggplot(df, aes(x=scenario,y=lcc_us_dollars)) + ylab("Lifecycle Costs ($)") + xlab("") + geom_col() + facet_wrap(df$level) + theme.main + theme.tilt_x
+
+
+
