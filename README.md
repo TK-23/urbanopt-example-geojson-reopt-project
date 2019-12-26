@@ -24,6 +24,7 @@ updated_scenario_report = reopt_runner.run_scenario_report(scenario_report)
 ```
 <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To call REopt Lite on a Scenario Report's features individually before aggregating results at the Scenario Report:<br/> 
+
 ```
 updated_feature_report = reopt_runner.run_feature_report(feature_report)
 ```
