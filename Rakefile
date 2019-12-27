@@ -147,9 +147,9 @@ end
 desc 'Post Process Baseline Scenario'
 task :post_process_baseline do
   puts 'Post Processing Baseline Scenario...'
-  default_reopt_post_processor = URBANopt::Scenario::ScenarioDefaultPostProcessor.new(baseline_scenario) 
-  scenario_report = default_reopt_post_processor.run
-  scenario_base = default_reopt_post_processor.scenario_base
+  default_post_processor = URBANopt::Scenario::ScenarioDefaultPostProcessor.new(baseline_scenario) 
+  scenario_report = default_post_processor.run
+  scenario_base = default_post_processor.scenario_base
   reopt_post_processor = URBANopt::REopt::REoptPostProcessor.new(scenario_report,scenario_base.scenario_reopt_assumptions_file, scenario_base.reopt_feature_assumptions, DEVELOPER_NREL_KEY) 
   
   #Run Aggregate Scenario
@@ -205,9 +205,9 @@ desc 'Post Process High Efficiency Scenario'
 task :post_process_high_efficiency do
   puts 'Post Processing High Efficiency Scenario...'
   
-  default_reopt_post_processor = URBANopt::Scenario::ScenarioDefaultPostProcessor.new(high_efficiency_scenario) 
-  scenario_report = default_reopt_post_processor.run
-  scenario_base = default_reopt_post_processor.scenario_base
+  default_post_processor = URBANopt::Scenario::ScenarioDefaultPostProcessor.new(high_efficiency_scenario) 
+  scenario_report = default_post_processor.run
+  scenario_base = default_post_processor.scenario_base
   reopt_post_processor = URBANopt::REopt::REoptPostProcessor.new(scenario_report,scenario_base.scenario_reopt_assumptions_file, scenario_base.reopt_feature_assumptions, DEVELOPER_NREL_KEY) 
   
   #Run Aggregate Scenario
@@ -239,9 +239,9 @@ desc 'Post Process Mixed Scenario'
 task :post_process_mixed do
   puts 'Post Processing Mixed Scenario...'
   
-  default_reopt_post_processor = URBANopt::Scenario::ScenarioDefaultPostProcessor.new(mixed_scenario) 
-  scenario_report = default_reopt_post_processor.run
-  scenario_base = default_reopt_post_processor.scenario_base
+  default_post_processor = URBANopt::Scenario::ScenarioDefaultPostProcessor.new(mixed_scenario) 
+  scenario_report = default_post_processor.run
+  scenario_base = default_post_processor.scenario_base
   reopt_post_processor = URBANopt::REopt::REoptPostProcessor.new(scenario_report,scenario_base.scenario_reopt_assumptions_file, scenario_base.reopt_feature_assumptions, DEVELOPER_NREL_KEY) 
   
   #Run Aggregate Scenario
