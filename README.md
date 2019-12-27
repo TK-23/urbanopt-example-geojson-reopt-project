@@ -184,4 +184,6 @@ bundle install
 bundle update
 bundle exec rake
 ```
-This example project optimizes the three scenarios at the aggregate scenario level and at the feature levels. Results are saved as updated .json files the respective scenario folders for future visualization and analysis.
+This example project includes 13 commercial and residential sites. All sites are first simulated for one year in OpenStudio  according to the scenario's mapper files. This initial process creates and populates a "run" folder, with subfolders for each scenario. 
+
+Next, for each scenario, REopt is used to assess optimal solar and storage configurations at both the feature level (i.e. individual ownership of assets) and aggregated scenario level (i.e. community-scale resources). This process creates updated Scenario Report hashes and timeseries CSV files in the scenario's subfolder within the "run" folder that can be furthermore visualized and analyzed.
