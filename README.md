@@ -5,11 +5,13 @@ This project demonstrates how to integrate the REopt Gem into an URBANopt projec
 REopt Lite is supported by a technoeconomic model which employs mixed integer linear programming and accessible via API. It is capable of selecting from Solar PV, Wind, Storage and Diesel Generation technologies and accepts a number of inputs regarding site location, load profile, electric tariff and financial assumptions (i.e. capital costs, escalation rates, incentives). Most inputs to the API are shown on the <a target="\_blank" href="https://reopt.nrel.gov/tool">REopt Lite</a> _You will need to expand *Advanced Options* to see all inputs._ For a complete set of inputs and more information about the API, see the <a target="\_blank" href="https://developer.nrel.gov/docs/energy-optimization/reopt-v1/">REopt Lite documentation</a>. 
 
 The REopt Gem accomplishes three basic functions:
+
 	1. Accept a json/hash of assumptions
 	2. Updates the distributed_generation attributes of a Feature Report or Scenario Report based on a cost-optimal DER system
 	3. Updates the timeseries attributes of a Feature Report or Scenario Report based on the dispatch of a cost-optimal DER system
 
 The REopt Gem can be run in several modes, either on:
+
 	 * a Feature Report, 
 	 * a collection of Feature Reports - 
 	 * all the features in a Scenario Report before aggregating results at the scenario level
@@ -17,20 +19,14 @@ The REopt Gem can be run in several modes, either on:
 
 You'll find a description of common workflows below, but for more information regarding the REopt Gem itself, see: https://github.com/urbanopt/urbanopt-reopt-gem/
 
-## Jupyter Notebook Workflow Example
+The sections in this document include:
 
-For a Jupyter Notebook based tutorial, first run:
+  1. Workflow Overview
+  2. Jupyter Notebook Workflow Example
+  3. Workflow Example
+  4. Running a Complete Project
 
-	$ bundle install
-	$ bundle update
-
-Next, run the following to open a notebook that will open in a browser window:
-
-	$  iruby notebook 'WorkflowTutorial.ipynb'
-
-Otherwise, see the workflow section that follows.
-
-## Workflow 
+## Workflow Overview
 
 The REopt Lite Gem is activated during post-processing of previously generated URBANopt::Scenario::DefaultReports::ScenarioReport and URBANopt::Scenario::DefaultReports::FeatureReport objects. The URBANopt::REopt::REoptRunner class is used to establish connections with the REopt Lite API and update ScenarioReports and FeatureReports. REoptRunner is instantiated with at least an API Key, as follows:
 
@@ -102,8 +98,19 @@ Moreover, the following optimal dispatch fields are added to a Feature Report or
 | ElectricityProduced:Wind:ToLoad          | kWh     |
 | ElectricityProduced:Wind:ToGrid          | kWh     |
     
+## Jupyter Notebook Workflow Example
 
-## Demonstration Project
+For a Jupyter Notebook based tutorial, first run:
+
+	$ bundle install
+	$ bundle update
+
+Next, run the following to open a notebook that will open in a browser window:
+
+	$  iruby notebook 'WorkflowTutorial.ipynb'
+
+Otherwise, see the workflow section that follows.
+## Workflow Example
 
 To understand how to use the REopt Gem in the context of a larger URBANopt project, see the Rakefile in this directory for a demonstration which runs three scenarios: a baseline, a high efficiency case, and a mixed case. 
 
@@ -168,7 +175,7 @@ After instantiating the REoptPostProcessor, the code above runs an analysis at t
 Ultimately, in this example updated scenario and feature level results are exported as separate files for further analysis.
 
 
-## Running the Project
+## Running a Complete Project
 
 To run the full example project, including the baseline, high efficiency and mixed scenarios, run:
 
@@ -177,3 +184,4 @@ bundle install
 bundle update
 bundle exec rake
 ```
+This example project optimizes the three scenarios at the aggregate scenario level and at the feature levels. Results are saved as updated .json files the respective scenario folders for future visualization and analysis.
