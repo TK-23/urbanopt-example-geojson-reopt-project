@@ -65,3 +65,11 @@ gem 'openstudio-standards', '0.2.10' # doesn't work in 0.2.8?
 gem 'simplecov', github: 'NREL/simplecov'
 
 gem 'certified'
+
+gem 'rbczmq'
+gem 'iruby'
+
+gem 'daru'
+gem 'daru-view', git: 'https://github.com/SciRuby/daru-view'
+
+

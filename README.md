@@ -4,6 +4,34 @@ This project demonstrates how to integrate the REopt Gem into an URBANopt projec
 
 REopt Lite is supported by a technoeconomic model which employs mixed integer linear programming and accessible via API. It is capable of selecting from Solar PV, Wind, Storage and Diesel Generation technologies and accepts a number of inputs regarding site location, load profile, electric tariff and financial assumptions (i.e. capital costs, escalation rates, incentives). All inputs to the API are shown on the (REopt Lite webtool)[https://reopt.nrel.gov/tool] **Note:** You will need to expand *Advanced Options* to see all inputs.) Also, see the (REopt Lite documentation)[https://developer.nrel.gov/docs/energy-optimization/reopt-v1/] for more information regarding API inputs and formatting. **Note:** Using the REopt Gem requires an API Key from the (NREL Developer Network)[https://developer.nrel.gov/signup/].
 
+The REopt Gem accomplishes three basic functions:
+	- Accept a json/hash of assumptions
+	- Updates the distributed_generation attributes of a Feature Report or Scenario Report based on a cost-optimal DER system
+	- Updates the timeseries attributes of a Feature Report or Scenario Report based on the dispatch of a cost-optimal DER system
+
+The REopt Gem can be run in several modes, either on:
+	 - a Feature Report, 
+	 - a collection of Feature Reports - 
+	 - all the features in a Scenario Report before aggregating results at the scenario level
+	 - the collection of features in aggregate as summarized in a Scenario Report
+
+You'll find a description of common workflows below, but for more information regarding the REopt Gem itself, see: https://github.com/urbanopt/urbanopt-reopt-gem/
+
+## Jupyter Notebook Workflow Example
+
+For a Jupyter Notebook based tutorial, first run:
+
+	$ bundle install
+	$ bundle update
+
+Next, run the following to open a notebook that will open in a browser window:
+
+	$  iruby notebook 'WorkflowTutorial.ipynb'
+
+Otherwise, see the workflow section that follows.
+
+## Workflow 
+
 The REopt Lite Gem is activated during post-processing of previously generated URBANopt::Scenario::DefaultReports::ScenarioReport and URBANopt::Scenario::DefaultReports::FeatureReport objects. The URBANopt::REopt::REoptRunner class is used to establish connections with the REopt Lite API and update ScenarioReports and FeatureReports. REoptRunner is instantiated with at least an API Key, as follows:
 
 ```
