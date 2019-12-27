@@ -5,9 +5,9 @@ This project demonstrates how to integrate the REopt Gem into an URBANopt projec
 REopt Lite is supported by a technoeconomic model which employs mixed integer linear programming and accessible via API. It is capable of selecting from Solar PV, Wind, Storage and Diesel Generation technologies and accepts a number of inputs regarding site location, load profile, electric tariff and financial assumptions (i.e. capital costs, escalation rates, incentives). Most inputs to the API are shown on the <a target="\_blank" href="https://reopt.nrel.gov/tool">REopt Lite</a> _You will need to expand *Advanced Options* to see all inputs._ For a complete set of inputs and more information about the API, see the <a target="\_blank" href="https://developer.nrel.gov/docs/energy-optimization/reopt-v1/">REopt Lite documentation</a>. 
 
 The REopt Gem accomplishes three basic functions:
-	* Accept a json/hash of assumptions
-	* Updates the distributed_generation attributes of a Feature Report or Scenario Report based on a cost-optimal DER system
-	* Updates the timeseries attributes of a Feature Report or Scenario Report based on the dispatch of a cost-optimal DER system
+	1. Accept a json/hash of assumptions
+	2. Updates the distributed_generation attributes of a Feature Report or Scenario Report based on a cost-optimal DER system
+	3. Updates the timeseries attributes of a Feature Report or Scenario Report based on the dispatch of a cost-optimal DER system
 
 The REopt Gem can be run in several modes, either on:
 	 * a Feature Report, 
