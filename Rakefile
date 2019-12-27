@@ -153,12 +153,12 @@ task :post_process_baseline do
   reopt_post_processor = URBANopt::REopt::REoptPostProcessor.new(scenario_report,scenario_base.scenario_reopt_assumptions_file, scenario_base.reopt_feature_assumptions, DEVELOPER_NREL_KEY) 
   
   #Run Aggregate Scenario
-  scenario_report_scenario = reopt_post_processor.run_scenario_report(scenario_report, reopt_post_processor.scenario_reopt_default_assumptions_hash, reopt_post_processor.scenario_reopt_default_output_file, reopt_post_processor.scenario_timeseries_default_output_file)
+  scenario_report_scenario = reopt_post_processor.run_scenario_report(scenario_report)
   scenario_report_scenario.save('baseline_scenario')
 
   #Run features individually  
-  # scenario_report_features = reopt_post_processor.run_scenario_report_features(scenario_report, reopt_post_processor.feature_reports_reopt_default_assumption_hashes, reopt_post_processor.feature_reports_reopt_default_output_files, reopt_post_processor.feature_reports_timeseries_default_output_files)
-  # scenario_report_features.save('baseline_features')
+  scenario_report_features = reopt_post_processor.run_scenario_report_features(scenario_report)
+  scenario_report_features.save('baseline_features')
 
   # reopt_post_processor.scenario_reopt_default_assumptions_hash[:Scenario][:Site][:Storage][:min_kw] = 17845.3772
   # reopt_post_processor.scenario_reopt_default_assumptions_hash[:Scenario][:Site][:Storage][:max_kw] = 17845.3772
