@@ -38,17 +38,24 @@ allow_local = ENV['FAVOR_LOCAL_GEMS']
 #   gem 'openstudio-model-articulation', '0.1.0'
 # end
 
-gem 'urbanopt-reopt', path: '../urbanopt-reopt-gem'
 
-gem 'urbanopt-scenario', path: '../urbanopt-scenario-gem'
 
-# if allow_local && File.exist?('../urbanopt-scenario-gem')
-#   gem 'urbanopt-scenario', path: '../urbanopt-scenario-gem'
-# elsif allow_local
-#   gem 'urbanopt-scenario', github: 'URBANopt/urbanopt-scenario-gem', branch: 'post_process'
-# else
-#   gem 'urbanopt-scenario', '0.1.0'
-# end
+if allow_local && File.exist?('../urbanopt-scenario-gem')
+  gem 'urbanopt-scenario', path: '../urbanopt-scenario-gem'
+elsif allow_local
+  gem 'urbanopt-scenario', github: 'URBANopt/urbanopt-scenario-gem', branch: 'der'
+else
+  gem 'urbanopt-scenario', '0.1.0'
+end
+
+if allow_local && File.exist?('../urbanopt-reopt-gem')
+  gem 'urbanopt-reopt', path: '../urbanopt-reopt-gem'
+elsif allow_local
+  gem 'urbanopt-reopt', github: 'urbanopt/urbanopt-reopt-gem/', branch: 'initial_measure'
+else
+  gem 'urbanopt-scenario', '0.1.0'
+end
+
 
 if allow_local && File.exists?('../urbanopt-geojson-gem')
   # gem 'openstudio-extension', github: 'NREL/OpenStudio-extension-gem', branch: 'develop'
@@ -68,7 +75,6 @@ gem 'certified'
 
 gem 'rbczmq'
 gem 'iruby'
-
 gem 'daru'
 gem 'daru-view', git: 'https://github.com/SciRuby/daru-view'
 
