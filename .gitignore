@@ -1,3 +1,8 @@
+
+jupyter_example/env/
+jupyter_example/.pynb_checkpoints
+jupyter_example/Gemfile.lock
+jupyter_example/.ruby-version
 env/
 .ipynb_checkpoints
 .DS_Store
