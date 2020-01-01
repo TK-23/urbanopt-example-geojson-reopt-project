@@ -160,29 +160,6 @@ task :post_process_baseline do
   scenario_report_features = reopt_post_processor.run_scenario_report_features(scenario_report)
   scenario_report_features.save('baseline_features')
 
-  # reopt_post_processor.scenario_reopt_default_assumptions_hash[:Scenario][:Site][:Storage][:min_kw] = 17845.3772
-  # reopt_post_processor.scenario_reopt_default_assumptions_hash[:Scenario][:Site][:Storage][:max_kw] = 17845.3772
-  # reopt_post_processor.scenario_reopt_default_assumptions_hash[:Scenario][:Site][:Storage][:min_kwh] = 74997.2017
-  # reopt_post_processor.scenario_reopt_default_assumptions_hash[:Scenario][:Site][:Storage][:max_kwh] = 74997.2017
-  # scenario_report = reopt_post_processor.run_scenario_report(scenario_report, reopt_post_processor.scenario_reopt_default_assumptions_hash, reopt_post_processor.scenario_reopt_default_output_file, reopt_post_processor.scenario_timeseries_default_output_file)
-  # scenario_report.save('baseline_scenario_sized_to_features')
-
-  # modified_inputs = []
-  # reopt_post_processor.feature_reports_reopt_default_assumption_hashes.each do |h|
-
-  #   h[:Scenario][:Site][:Storage][:min_kw] = 1519.3045 / 13 
-  #   h[:Scenario][:Site][:Storage][:max_kw] = 1519.3045 / 13 
-  #   h[:Scenario][:Site][:Storage][:min_kwh] = 7790.9747 / 13
-  #   h[:Scenario][:Site][:Storage][:max_kwh] = 7790.9747 / 13
-  #   modified_inputs << h
-  # end
-
-  # scenario_report = reopt_post_processor.run_scenario_report_features(scenario_report, modified_inputs, reopt_post_processor.feature_reports_reopt_default_output_files, reopt_post_processor.feature_reports_timeseries_default_output_files)
-  # scenario_report.save('baseline_features_sized_to_scenario')
-
-
-
-
 end
 
 ### High Efficiency 
@@ -257,7 +234,7 @@ end
 ### All
 
 desc 'Clear all scenarios'
-task :clear_all => [ :clear_high_efficiency, :clear_mixed] do
+task :clear_all => [ :clear_baseline, :clear_high_efficiency, :clear_mixed] do
   # clear all the scenarios
 end
 

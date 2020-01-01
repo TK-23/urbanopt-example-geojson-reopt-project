@@ -76,3 +76,7 @@ gem 'simplecov', github: 'NREL/simplecov'
 
 gem 'certified'
 
+gem 'daru', '0.2.2'
+gem 'nyaplot', '0.1.6'
+gem 'iruby'
+gem 'ffi-rzmq'

@@ -100,16 +100,8 @@ Moreover, the following optimal dispatch fields are added to a Feature Report or
     
 ## Jupyter Notebook Workflow Example
 
-For a Jupyter Notebook based tutorial, first run:
+See the README in the jupyter_example folder to run this example. 
 
-	$ bundle install
-	$ bundle update
-
-Next, run the following to open a notebook that will open in a browser window:
-
-	$  iruby notebook 'WorkflowTutorial.ipynb'
-
-Otherwise, see the workflow section that follows.
 ## Workflow Example
 
 To understand how to use the REopt Gem in the context of a larger URBANopt project, see the Rakefile in this directory for a demonstration which runs three scenarios: a baseline, a high efficiency case, and a mixed case. 
