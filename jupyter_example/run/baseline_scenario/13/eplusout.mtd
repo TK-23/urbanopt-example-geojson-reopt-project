@@ -1,0 +1,2318 @@
+
+ Meters for 10,BUILDING STORY 9 THERMALZONE LARGEHOTEL BANQUET LIGHTS 1:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 83,BUILDING STORY 9 THERMALZONE LARGEHOTEL CAFE LIGHTS 1:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 84,BUILDING STORY 9 THERMALZONE LARGEHOTEL KITCHEN LIGHTS 1:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 85,BUILDING STORY 9 THERMALZONE LARGEHOTEL LAUNDRY LIGHTS 1:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 86,BUILDING STORY 9 THERMALZONE LARGEHOTEL MECHANICAL LIGHTS 1:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 87,BUILDING STORY 9 THERMALZONE LARGEHOTEL RETAIL LIGHTS 1:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 88,BUILDING STORY 9 THERMALZONE LARGEHOTEL STORAGE LIGHTS 1:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 89,BUILDING STORY 7 THERMALZONE LARGEHOTEL BANQUET LIGHTS 2:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 7 THERMALZONE [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:BUILDING STORY 7 THERMALZONE [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 114,BUILDING STORY 7 THERMALZONE LARGEHOTEL LOBBY LIGHTS 1:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 7 THERMALZONE [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:BUILDING STORY 7 THERMALZONE [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 115,BUILDING STORY 8 THERMALZONE LARGEHOTEL CORRIDOR LIGHTS 1:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 8 THERMALZONE [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:BUILDING STORY 8 THERMALZONE [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 140,BUILDING STORY 8 THERMALZONE LARGEHOTEL LOBBY LIGHTS 2:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 8 THERMALZONE [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:BUILDING STORY 8 THERMALZONE [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 141,BUILDING STORY 4 THERMALZONE LARGEHOTEL CORRIDOR LIGHTS 2:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 4 THERMALZONE [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:BUILDING STORY 4 THERMALZONE [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 166,BUILDING STORY 3 THERMALZONE LARGEHOTEL CORRIDOR LIGHTS 3:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 3 THERMALZONE [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:BUILDING STORY 3 THERMALZONE [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 191,BUILDING STORY 6 THERMALZONE LARGEHOTEL CORRIDOR LIGHTS 4:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 6 THERMALZONE [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:BUILDING STORY 6 THERMALZONE [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 216,BUILDING STORY 6 THERMALZONE LARGEHOTEL GUESTROOM LIGHTS 1:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 6 THERMALZONE [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:BUILDING STORY 6 THERMALZONE [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 217,BUILDING STORY 2 THERMALZONE LARGEHOTEL GUESTROOM LIGHTS 2:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 2 THERMALZONE [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:BUILDING STORY 2 THERMALZONE [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 242,BUILDING STORY 5 THERMALZONE LARGEHOTEL GUESTROOM LIGHTS 3:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 5 THERMALZONE [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:BUILDING STORY 5 THERMALZONE [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 267,BUILDING STORY 10 THERMALZONE LARGEHOTEL GUESTROOM LIGHTS 4:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 10 THERMALZONE [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:BUILDING STORY 10 THERMALZONE [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 292,BUILDING STORY 1 THERMALZONE LARGEHOTEL GUESTROOM LIGHTS 5:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 1 THERMALZONE [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:BUILDING STORY 1 THERMALZONE [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 317,BUILDING STORY 9 THERMALZONE 13 ELEVATOR FANS:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=Elevators:InteriorEquipment:Electricity [J]
+
+ Meters for 354,BUILDING STORY 9 THERMALZONE 13 ELEVATOR LIFT MOTORS:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=Elevators:InteriorEquipment:Electricity [J]
+
+ Meters for 355,BUILDING STORY 9 THERMALZONE 13 ELEVATOR LIGHTS:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=Elevators:InteriorEquipment:Electricity [J]
+
+ Meters for 356,BUILDING STORY 9 THERMALZONE LARGEHOTEL BANQUET ELEC EQUIP 1:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 369,BUILDING STORY 9 THERMALZONE LARGEHOTEL CAFE ELEC EQUIP 1:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 370,BUILDING STORY 9 THERMALZONE LARGEHOTEL KITCHEN ELEC EQUIP 1:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 371,BUILDING STORY 9 THERMALZONE LARGEHOTEL LAUNDRY ELEC EQUIP 1:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 372,BUILDING STORY 9 THERMALZONE LARGEHOTEL MECHANICAL ELEC EQUIP 1:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 373,BUILDING STORY 9 THERMALZONE LARGEHOTEL RETAIL ELEC EQUIP 1:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 374,BUILDING STORY 9 THERMALZONE LARGEHOTEL STORAGE ELEC EQUIP 1:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 375,BUILDING STORY 7 THERMALZONE LARGEHOTEL BANQUET ELEC EQUIP 2:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 7 THERMALZONE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:BUILDING STORY 7 THERMALZONE [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 388,BUILDING STORY 7 THERMALZONE LARGEHOTEL LOBBY ELEC EQUIP 1:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 7 THERMALZONE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:BUILDING STORY 7 THERMALZONE [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 389,BUILDING STORY 8 THERMALZONE LARGEHOTEL LOBBY ELEC EQUIP 2:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 8 THERMALZONE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:BUILDING STORY 8 THERMALZONE [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 402,BUILDING STORY 6 THERMALZONE LARGEHOTEL GUESTROOM ELEC EQUIP 1:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 6 THERMALZONE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:BUILDING STORY 6 THERMALZONE [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 415,BUILDING STORY 2 THERMALZONE LARGEHOTEL GUESTROOM ELEC EQUIP 2:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 2 THERMALZONE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:BUILDING STORY 2 THERMALZONE [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 428,BUILDING STORY 5 THERMALZONE LARGEHOTEL GUESTROOM ELEC EQUIP 3:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 5 THERMALZONE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:BUILDING STORY 5 THERMALZONE [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 441,BUILDING STORY 10 THERMALZONE LARGEHOTEL GUESTROOM ELEC EQUIP 4:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 10 THERMALZONE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:BUILDING STORY 10 THERMALZONE [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 454,BUILDING STORY 1 THERMALZONE LARGEHOTEL GUESTROOM ELEC EQUIP 5:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 1 THERMALZONE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:BUILDING STORY 1 THERMALZONE [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 467,BUILDING STORY 9 THERMALZONE LARGEHOTEL KITCHEN GAS EQUIP 1:Gas Equipment Gas Energy [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:Building [J]
+  OnMeter=Gas:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=InteriorEquipment:Gas [J]
+  OnMeter=InteriorEquipment:Gas:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=General:InteriorEquipment:Gas [J]
+
+ Meters for 540,BUILDING STORY 9 THERMALZONE LARGEHOTEL LAUNDRY GAS EQUIP 1:Gas Equipment Gas Energy [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:Building [J]
+  OnMeter=Gas:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=InteriorEquipment:Gas [J]
+  OnMeter=InteriorEquipment:Gas:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=General:InteriorEquipment:Gas [J]
+
+ Meters for 541,6.0GAL ELECTRICITY BOOSTER WATER HEATER - 50KBTU/HR 1.0 THERM EFF:Water Heater Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:Plant [J]
+  OnMeter=WaterSystems:PlantLoopHeatingDemand [J]
+  OnMeter=Booster:WaterSystems:PlantLoopHeatingDemand [J]
+
+ Meters for 590,6.0GAL ELECTRICITY BOOSTER WATER HEATER - 50KBTU/HR 1.0 THERM EFF:Water Heater Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=WaterSystems:Electricity [J]
+  OnMeter=Booster:WaterSystems:Electricity [J]
+
+ Meters for 627,6.0GAL ELECTRICITY BOOSTER WATER HEATER - 50KBTU/HR 1.0 THERM EFF:Water Heater Off Cycle Parasitic Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=WaterSystems:Electricity [J]
+  OnMeter=Booster:WaterSystems:Electricity [J]
+
+ Meters for 628,6.0GAL ELECTRICITY BOOSTER WATER HEATER - 50KBTU/HR 1.0 THERM EFF:Water Heater On Cycle Parasitic Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=WaterSystems:Electricity [J]
+  OnMeter=Booster:WaterSystems:Electricity [J]
+
+ Meters for 629,6.0GAL ELECTRICITY BOOSTER WATER HEATER - 50KBTU/HR 1.0 THERM EFF:Water Heater Water Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=WaterSystems:Water [m3]
+  OnMeter=Booster:WaterSystems:Water [m3]
+
+ Meters for 678,6.0GAL ELECTRICITY BOOSTER WATER HEATER - 50KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=WaterSystems:MainsWater [m3]
+  OnMeter=Booster:WaterSystems:MainsWater [m3]
+
+ Meters for 727,263GAL NATURALGAS WATER HEATER - 263KBTU/HR 0.804 THERM EFF:Water Heater Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:Plant [J]
+  OnMeter=WaterSystems:PlantLoopHeatingDemand [J]
+  OnMeter=General:WaterSystems:PlantLoopHeatingDemand [J]
+
+ Meters for 740,263GAL NATURALGAS WATER HEATER - 263KBTU/HR 0.804 THERM EFF:Water Heater Gas Energy [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:Plant [J]
+  OnMeter=WaterSystems:Gas [J]
+  OnMeter=General:WaterSystems:Gas [J]
+
+ Meters for 777,263GAL NATURALGAS WATER HEATER - 263KBTU/HR 0.804 THERM EFF:Water Heater Off Cycle Parasitic Gas Energy [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:Plant [J]
+  OnMeter=WaterSystems:Gas [J]
+  OnMeter=General:WaterSystems:Gas [J]
+
+ Meters for 778,263GAL NATURALGAS WATER HEATER - 263KBTU/HR 0.804 THERM EFF:Water Heater On Cycle Parasitic Gas Energy [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:Plant [J]
+  OnMeter=WaterSystems:Gas [J]
+  OnMeter=General:WaterSystems:Gas [J]
+
+ Meters for 779,263GAL NATURALGAS WATER HEATER - 263KBTU/HR 0.804 THERM EFF:Water Heater Water Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=WaterSystems:Water [m3]
+  OnMeter=General:WaterSystems:Water [m3]
+
+ Meters for 792,263GAL NATURALGAS WATER HEATER - 263KBTU/HR 0.804 THERM EFF:Water Heater Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=WaterSystems:MainsWater [m3]
+  OnMeter=General:WaterSystems:MainsWater [m3]
+
+ Meters for 805,517GAL ELECTRICITY WATER HEATER - 517KBTU/HR 1.0 THERM EFF:Water Heater Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:Plant [J]
+  OnMeter=WaterSystems:PlantLoopHeatingDemand [J]
+  OnMeter=General:WaterSystems:PlantLoopHeatingDemand [J]
+
+ Meters for 806,517GAL ELECTRICITY WATER HEATER - 517KBTU/HR 1.0 THERM EFF:Water Heater Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=WaterSystems:Electricity [J]
+  OnMeter=General:WaterSystems:Electricity [J]
+
+ Meters for 819,517GAL ELECTRICITY WATER HEATER - 517KBTU/HR 1.0 THERM EFF:Water Heater Off Cycle Parasitic Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=WaterSystems:Electricity [J]
+  OnMeter=General:WaterSystems:Electricity [J]
+
+ Meters for 820,517GAL ELECTRICITY WATER HEATER - 517KBTU/HR 1.0 THERM EFF:Water Heater On Cycle Parasitic Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=WaterSystems:Electricity [J]
+  OnMeter=General:WaterSystems:Electricity [J]
+
+ Meters for 821,517GAL ELECTRICITY WATER HEATER - 517KBTU/HR 1.0 THERM EFF:Water Heater Water Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=WaterSystems:Water [m3]
+  OnMeter=General:WaterSystems:Water [m3]
+
+ Meters for 822,517GAL ELECTRICITY WATER HEATER - 517KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=WaterSystems:MainsWater [m3]
+  OnMeter=General:WaterSystems:MainsWater [m3]
+
+ Meters for 823,392GAL ELECTRICITY WATER HEATER - 392KBTU/HR 1.0 THERM EFF:Water Heater Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:Plant [J]
+  OnMeter=WaterSystems:PlantLoopHeatingDemand [J]
+  OnMeter=General:WaterSystems:PlantLoopHeatingDemand [J]
+
+ Meters for 824,392GAL ELECTRICITY WATER HEATER - 392KBTU/HR 1.0 THERM EFF:Water Heater Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=WaterSystems:Electricity [J]
+  OnMeter=General:WaterSystems:Electricity [J]
+
+ Meters for 825,392GAL ELECTRICITY WATER HEATER - 392KBTU/HR 1.0 THERM EFF:Water Heater Off Cycle Parasitic Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=WaterSystems:Electricity [J]
+  OnMeter=General:WaterSystems:Electricity [J]
+
+ Meters for 826,392GAL ELECTRICITY WATER HEATER - 392KBTU/HR 1.0 THERM EFF:Water Heater On Cycle Parasitic Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=WaterSystems:Electricity [J]
+  OnMeter=General:WaterSystems:Electricity [J]
+
+ Meters for 827,392GAL ELECTRICITY WATER HEATER - 392KBTU/HR 1.0 THERM EFF:Water Heater Water Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=WaterSystems:Water [m3]
+  OnMeter=General:WaterSystems:Water [m3]
+
+ Meters for 828,392GAL ELECTRICITY WATER HEATER - 392KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=WaterSystems:MainsWater [m3]
+  OnMeter=General:WaterSystems:MainsWater [m3]
+
+ Meters for 829,BUILDING STORY 1 THERMALZONE:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BUILDING STORY 1 THERMALZONE [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:BUILDING STORY 1 THERMALZONE [J]
+
+ Meters for 890,BUILDING STORY 1 THERMALZONE:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BUILDING STORY 1 THERMALZONE [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:BUILDING STORY 1 THERMALZONE [J]
+
+ Meters for 916,BUILDING STORY 10 THERMALZONE:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BUILDING STORY 10 THERMALZONE [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:BUILDING STORY 10 THERMALZONE [J]
+
+ Meters for 941,BUILDING STORY 10 THERMALZONE:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BUILDING STORY 10 THERMALZONE [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:BUILDING STORY 10 THERMALZONE [J]
+
+ Meters for 955,BUILDING STORY 2 THERMALZONE:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BUILDING STORY 2 THERMALZONE [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:BUILDING STORY 2 THERMALZONE [J]
+
+ Meters for 980,BUILDING STORY 2 THERMALZONE:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BUILDING STORY 2 THERMALZONE [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:BUILDING STORY 2 THERMALZONE [J]
+
+ Meters for 994,BUILDING STORY 3 THERMALZONE:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BUILDING STORY 3 THERMALZONE [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:BUILDING STORY 3 THERMALZONE [J]
+
+ Meters for 1019,BUILDING STORY 3 THERMALZONE:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BUILDING STORY 3 THERMALZONE [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:BUILDING STORY 3 THERMALZONE [J]
+
+ Meters for 1033,BUILDING STORY 4 THERMALZONE:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BUILDING STORY 4 THERMALZONE [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:BUILDING STORY 4 THERMALZONE [J]
+
+ Meters for 1058,BUILDING STORY 4 THERMALZONE:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BUILDING STORY 4 THERMALZONE [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:BUILDING STORY 4 THERMALZONE [J]
+
+ Meters for 1072,BUILDING STORY 5 THERMALZONE:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BUILDING STORY 5 THERMALZONE [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:BUILDING STORY 5 THERMALZONE [J]
+
+ Meters for 1097,BUILDING STORY 5 THERMALZONE:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BUILDING STORY 5 THERMALZONE [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:BUILDING STORY 5 THERMALZONE [J]
+
+ Meters for 1111,BUILDING STORY 6 THERMALZONE:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BUILDING STORY 6 THERMALZONE [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:BUILDING STORY 6 THERMALZONE [J]
+
+ Meters for 1136,BUILDING STORY 6 THERMALZONE:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BUILDING STORY 6 THERMALZONE [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:BUILDING STORY 6 THERMALZONE [J]
+
+ Meters for 1150,BUILDING STORY 7 THERMALZONE:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BUILDING STORY 7 THERMALZONE [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:BUILDING STORY 7 THERMALZONE [J]
+
+ Meters for 1175,BUILDING STORY 7 THERMALZONE:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BUILDING STORY 7 THERMALZONE [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:BUILDING STORY 7 THERMALZONE [J]
+
+ Meters for 1189,BUILDING STORY 8 THERMALZONE:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BUILDING STORY 8 THERMALZONE [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:BUILDING STORY 8 THERMALZONE [J]
+
+ Meters for 1214,BUILDING STORY 8 THERMALZONE:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BUILDING STORY 8 THERMALZONE [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:BUILDING STORY 8 THERMALZONE [J]
+
+ Meters for 1228,BUILDING STORY 9 THERMALZONE:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:BUILDING STORY 9 THERMALZONE [J]
+
+ Meters for 1253,BUILDING STORY 9 THERMALZONE:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BUILDING STORY 9 THERMALZONE [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:BUILDING STORY 9 THERMALZONE [J]
+
+ Meters for 1267,BOOSTER LARGEHOTEL KITCHEN - 90.1-2004 SERVICE WATER USE 4.17GPM AT 180F:Water Use Equipment Total Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=WaterSystems:Water [m3]
+  OnMeter=General:WaterSystems:Water [m3]
+
+ Meters for 1268,BOOSTER LARGEHOTEL KITCHEN - 90.1-2004 SERVICE WATER USE 4.17GPM AT 180F:Water Use Equipment Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=WaterSystems:MainsWater [m3]
+  OnMeter=General:WaterSystems:MainsWater [m3]
+
+ Meters for 1269,BOOSTER LARGEHOTEL KITCHEN - 90.1-2004 SERVICE WATER USE 4.17GPM AT 180F:Water Use Equipment Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Plant [J]
+  OnMeter=WaterSystems:EnergyTransfer [J]
+  OnMeter=General:WaterSystems:EnergyTransfer [J]
+
+ Meters for 1306,LARGEHOTEL KITCHEN - 90.1-2004 SERVICE WATER USE 2.78GPM AT 140F:Water Use Equipment Total Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=WaterSystems:Water [m3]
+  OnMeter=General:WaterSystems:Water [m3]
+
+ Meters for 1307,LARGEHOTEL KITCHEN - 90.1-2004 SERVICE WATER USE 2.78GPM AT 140F:Water Use Equipment Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=WaterSystems:MainsWater [m3]
+  OnMeter=General:WaterSystems:MainsWater [m3]
+
+ Meters for 1308,LARGEHOTEL KITCHEN - 90.1-2004 SERVICE WATER USE 2.78GPM AT 140F:Water Use Equipment Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Plant [J]
+  OnMeter=WaterSystems:EnergyTransfer [J]
+  OnMeter=General:WaterSystems:EnergyTransfer [J]
+
+ Meters for 1309,LARGEHOTEL LAUNDRY - 90.1-2004 SERVICE WATER USE 8.21GPM AT 140F:Water Use Equipment Total Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=WaterSystems:Water [m3]
+  OnMeter=General:WaterSystems:Water [m3]
+
+ Meters for 1310,LARGEHOTEL LAUNDRY - 90.1-2004 SERVICE WATER USE 8.21GPM AT 140F:Water Use Equipment Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=WaterSystems:MainsWater [m3]
+  OnMeter=General:WaterSystems:MainsWater [m3]
+
+ Meters for 1311,LARGEHOTEL LAUNDRY - 90.1-2004 SERVICE WATER USE 8.21GPM AT 140F:Water Use Equipment Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Plant [J]
+  OnMeter=WaterSystems:EnergyTransfer [J]
+  OnMeter=General:WaterSystems:EnergyTransfer [J]
+
+ Meters for 1312,LARGEHOTEL GUESTROOM - 90.1-2004 SERVICE WATER USE 7.79GPM AT 140F:Water Use Equipment Total Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=WaterSystems:Water [m3]
+  OnMeter=General:WaterSystems:Water [m3]
+
+ Meters for 1313,LARGEHOTEL GUESTROOM - 90.1-2004 SERVICE WATER USE 7.79GPM AT 140F:Water Use Equipment Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=WaterSystems:MainsWater [m3]
+  OnMeter=General:WaterSystems:MainsWater [m3]
+
+ Meters for 1314,LARGEHOTEL GUESTROOM - 90.1-2004 SERVICE WATER USE 7.79GPM AT 140F:Water Use Equipment Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Plant [J]
+  OnMeter=WaterSystems:EnergyTransfer [J]
+  OnMeter=General:WaterSystems:EnergyTransfer [J]
+
+ Meters for 1315,BOOSTER LARGEHOTEL KITCHEN - 90.1-2004 WUC 4.17GPM AT 180F:Water Use Connections Plant Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:Plant [J]
+  OnMeter=WaterSystems:PlantLoopHeatingDemand [J]
+
+ Meters for 1316,LARGEHOTEL KITCHEN - 90.1-2004 WUC 2.78GPM AT 140F:Water Use Connections Plant Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:Plant [J]
+  OnMeter=WaterSystems:PlantLoopHeatingDemand [J]
+
+ Meters for 1317,LARGEHOTEL LAUNDRY - 90.1-2004 WUC 8.21GPM AT 140F:Water Use Connections Plant Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:Plant [J]
+  OnMeter=WaterSystems:PlantLoopHeatingDemand [J]
+
+ Meters for 1318,LARGEHOTEL GUESTROOM - 90.1-2004 WUC 7.79GPM AT 140F:Water Use Connections Plant Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:Plant [J]
+  OnMeter=WaterSystems:PlantLoopHeatingDemand [J]
+
+ Meters for 1319,Whole Building:Facility Total Purchased Electric Energy [J]
+  OnMeter=ElectricityPurchased:Facility [J]
+  OnMeter=ElectricityPurchased:Plant [J]
+  OnMeter=Cogeneration:ElectricityPurchased [J]
+
+ Meters for 1356,Whole Building:Facility Total Surplus Electric Energy [J]
+  OnMeter=ElectricitySurplusSold:Facility [J]
+  OnMeter=ElectricitySurplusSold:Plant [J]
+  OnMeter=Cogeneration:ElectricitySurplusSold [J]
+
+ Meters for 1393,Whole Building:Facility Net Purchased Electric Energy [J]
+  OnMeter=ElectricityNet:Facility [J]
+  OnMeter=ElectricityNet:Plant [J]
+  OnMeter=Cogeneration:ElectricityNet [J]
+
+ Meters for 1430,BUILDING STORY 1 THERMALZONE PTAC FAN:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 1467,BUILDING STORY 10 THERMALZONE PTAC FAN:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 1468,BUILDING STORY 2 THERMALZONE PTAC FAN:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 1469,BUILDING STORY 5 THERMALZONE PTAC FAN:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 1470,BUILDING STORY 6 THERMALZONE PTAC FAN:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 1471,1 ZONE VAV FAN:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 1472,1 ZONE VAV 1 FAN:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 1473,1 ZONE VAV 2 FAN:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 1474,1 ZONE VAV 3 FAN:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 1475,1 ZONE VAV 4 FAN:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 1476,ZONE LARGEHOTEL KITCHEN A  - STORY GROUND EXHAUST FAN:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=Zone Exhaust Fans:Fans:Electricity [J]
+
+ Meters for 1489,ZONE LARGEHOTEL KITCHEN B  - STORY GROUND EXHAUST FAN:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=Zone Exhaust Fans:Fans:Electricity [J]
+
+ Meters for 1490,ZONE LARGEHOTEL KITCHEN C  - STORY GROUND EXHAUST FAN:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=Zone Exhaust Fans:Fans:Electricity [J]
+
+ Meters for 1491,HOT WATER LOOP WATER HTG COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 1516,HOT WATER LOOP WATER HTG COIL:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 1541,HOT WATER LOOP WATER HTG COIL 1:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 1542,HOT WATER LOOP WATER HTG COIL 1:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 1543,HOT WATER LOOP WATER HTG COIL 2:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 1544,HOT WATER LOOP WATER HTG COIL 2:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 1545,BUILDING STORY 3 THERMALZONE REHEAT COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 1546,BUILDING STORY 3 THERMALZONE REHEAT COIL:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 1547,BUILDING STORY 4 THERMALZONE REHEAT COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 1548,BUILDING STORY 4 THERMALZONE REHEAT COIL:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 1549,HOT WATER LOOP WATER HTG COIL 3:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 1550,HOT WATER LOOP WATER HTG COIL 3:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 1551,HOT WATER LOOP WATER HTG COIL 4:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 1552,HOT WATER LOOP WATER HTG COIL 4:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 1553,BUILDING STORY 7 THERMALZONE REHEAT COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 1554,BUILDING STORY 7 THERMALZONE REHEAT COIL:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 1555,BUILDING STORY 8 THERMALZONE REHEAT COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 1556,BUILDING STORY 8 THERMALZONE REHEAT COIL:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 1557,BUILDING STORY 9 THERMALZONE REHEAT COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 1558,BUILDING STORY 9 THERMALZONE REHEAT COIL:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 1559,1 ZONE VAV MAIN HTG COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 1560,1 ZONE VAV MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 1561,1 ZONE VAV 1 MAIN HTG COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 1562,1 ZONE VAV 1 MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 1563,1 ZONE VAV 2 MAIN HTG COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 1564,1 ZONE VAV 2 MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 1565,1 ZONE VAV 3 MAIN HTG COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 1566,1 ZONE VAV 3 MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 1567,1 ZONE VAV 4 MAIN HTG COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 1568,1 ZONE VAV 4 MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 1569,1 ZONE VAV CLG COIL:Cooling Coil Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 1582,1 ZONE VAV CLG COIL:Cooling Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopCoolingDemand:Facility [J]
+  OnMeter=PlantLoopCoolingDemand:HVAC [J]
+  OnMeter=CoolingCoils:PlantLoopCoolingDemand [J]
+
+ Meters for 1619,1 ZONE VAV 1 CLG COIL:Cooling Coil Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 1620,1 ZONE VAV 1 CLG COIL:Cooling Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopCoolingDemand:Facility [J]
+  OnMeter=PlantLoopCoolingDemand:HVAC [J]
+  OnMeter=CoolingCoils:PlantLoopCoolingDemand [J]
+
+ Meters for 1621,1 ZONE VAV 2 CLG COIL:Cooling Coil Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 1622,1 ZONE VAV 2 CLG COIL:Cooling Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopCoolingDemand:Facility [J]
+  OnMeter=PlantLoopCoolingDemand:HVAC [J]
+  OnMeter=CoolingCoils:PlantLoopCoolingDemand [J]
+
+ Meters for 1623,1 ZONE VAV 3 CLG COIL:Cooling Coil Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 1624,1 ZONE VAV 3 CLG COIL:Cooling Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopCoolingDemand:Facility [J]
+  OnMeter=PlantLoopCoolingDemand:HVAC [J]
+  OnMeter=CoolingCoils:PlantLoopCoolingDemand [J]
+
+ Meters for 1625,1 ZONE VAV 4 CLG COIL:Cooling Coil Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 1626,1 ZONE VAV 4 CLG COIL:Cooling Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopCoolingDemand:Facility [J]
+  OnMeter=PlantLoopCoolingDemand:HVAC [J]
+  OnMeter=CoolingCoils:PlantLoopCoolingDemand [J]
+
+ Meters for 1627,BUILDING STORY 1 THERMALZONE PTAC 1SPD DX AC CLG COIL 254KBTU/HR 9.3EER:Cooling Coil Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 1628,BUILDING STORY 1 THERMALZONE PTAC 1SPD DX AC CLG COIL 254KBTU/HR 9.3EER:Cooling Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 1641,BUILDING STORY 10 THERMALZONE PTAC 1SPD DX AC CLG COIL 716KBTU/HR 9.3EER:Cooling Coil Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 1642,BUILDING STORY 10 THERMALZONE PTAC 1SPD DX AC CLG COIL 716KBTU/HR 9.3EER:Cooling Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 1643,BUILDING STORY 2 THERMALZONE PTAC 1SPD DX AC CLG COIL 484KBTU/HR 9.3EER:Cooling Coil Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 1644,BUILDING STORY 2 THERMALZONE PTAC 1SPD DX AC CLG COIL 484KBTU/HR 9.3EER:Cooling Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 1645,BUILDING STORY 5 THERMALZONE PTAC 1SPD DX AC CLG COIL 472KBTU/HR 9.3EER:Cooling Coil Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 1646,BUILDING STORY 5 THERMALZONE PTAC 1SPD DX AC CLG COIL 472KBTU/HR 9.3EER:Cooling Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 1647,BUILDING STORY 6 THERMALZONE PTAC 1SPD DX AC CLG COIL 463KBTU/HR 9.3EER:Cooling Coil Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 1648,BUILDING STORY 6 THERMALZONE PTAC 1SPD DX AC CLG COIL 463KBTU/HR 9.3EER:Cooling Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 1649,BUILDING FACADES:Exterior Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=ExteriorLights:Electricity [J]
+  OnMeter=Building Facades:ExteriorLights:Electricity [J]
+
+ Meters for 1674,ENTRY CANOPIES:Exterior Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=ExteriorLights:Electricity [J]
+  OnMeter=Entry Canopies:ExteriorLights:Electricity [J]
+
+ Meters for 1687,MAIN ENTRIES:Exterior Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=ExteriorLights:Electricity [J]
+  OnMeter=Main Entries:ExteriorLights:Electricity [J]
+
+ Meters for 1700,OTHER DOORS:Exterior Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=ExteriorLights:Electricity [J]
+  OnMeter=Other Doors:ExteriorLights:Electricity [J]
+
+ Meters for 1713,PARKING AREAS AND DRIVES:Exterior Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=ExteriorLights:Electricity [J]
+  OnMeter=Parking Areas and Drives:ExteriorLights:Electricity [J]
+
+ Meters for 1726,1 ZONE VAV 2 ERV:Heat Exchanger Total Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatRecoveryForHeating:EnergyTransfer [J]
+
+ Meters for 1739,1 ZONE VAV 2 ERV:Heat Exchanger Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatRecoveryForCooling:EnergyTransfer [J]
+
+ Meters for 1752,1 ZONE VAV 2 ERV:Heat Exchanger Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=HeatRecovery:Electricity [J]
+
+ Meters for 1765,BUILDING STORY 1 THERMALZONE PTAC 1SPD DX AC CLG COIL 254KBTU/HR 9.3EER:Cooling Coil Crankcase Heater Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 1766,BUILDING STORY 10 THERMALZONE PTAC 1SPD DX AC CLG COIL 716KBTU/HR 9.3EER:Cooling Coil Crankcase Heater Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 1767,BUILDING STORY 2 THERMALZONE PTAC 1SPD DX AC CLG COIL 484KBTU/HR 9.3EER:Cooling Coil Crankcase Heater Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 1768,BUILDING STORY 5 THERMALZONE PTAC 1SPD DX AC CLG COIL 472KBTU/HR 9.3EER:Cooling Coil Crankcase Heater Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 1769,BUILDING STORY 6 THERMALZONE PTAC 1SPD DX AC CLG COIL 463KBTU/HR 9.3EER:Cooling Coil Crankcase Heater Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 1770,90.1-2004 WATERCOOLED  ROTARY SCREW CHILLER 0 545TONS 0.6KW/TON:Chiller Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Cooling:Electricity [J]
+  OnMeter=General:Cooling:Electricity [J]
+
+ Meters for 1783,90.1-2004 WATERCOOLED  ROTARY SCREW CHILLER 0 545TONS 0.6KW/TON:Chiller Evaporator Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Plant [J]
+  OnMeter=Chillers:EnergyTransfer [J]
+
+ Meters for 1796,90.1-2004 WATERCOOLED  ROTARY SCREW CHILLER 0 545TONS 0.6KW/TON:Chiller Condenser Heat Transfer Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Plant [J]
+  OnMeter=HeatRejection:EnergyTransfer [J]
+
+ Meters for 1809,HX FOR BOOSTER WATER HEATING:Fluid Heat Exchanger Heat Transfer Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Plant [J]
+  OnMeter=LoopToLoop:EnergyTransfer [J]
+
+ Meters for 1822,PROPELLER OR AXIAL TWOSPEED FAN OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=HeatRejection:Electricity [J]
+  OnMeter=General:HeatRejection:Electricity [J]
+
+ Meters for 1847,PROPELLER OR AXIAL TWOSPEED FAN OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Make Up Water Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=HeatRejection:Water [m3]
+
+ Meters for 1860,PROPELLER OR AXIAL TWOSPEED FAN OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Make Up Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=HeatRejection:MainsWater [m3]
+
+ Meters for 1873,BOILER 11186KBTU/HR 0.75 THERMAL EFF:Boiler Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Plant [J]
+  OnMeter=Boilers:EnergyTransfer [J]
+
+ Meters for 1886,BOILER 11186KBTU/HR 0.75 THERMAL EFF:Boiler Gas Energy [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:Plant [J]
+  OnMeter=Heating:Gas [J]
+  OnMeter=General:Heating:Gas [J]
+
+ Meters for 1911,BOILER 11186KBTU/HR 0.75 THERMAL EFF:Boiler Ancillary Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Heating:Electricity [J]
+  OnMeter=Boiler Parasitic:Heating:Electricity [J]
+
+ Meters for 1936,CHILLED WATER LOOP SECONDARY PUMP:Pump Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Pumps:Electricity [J]
+  OnMeter=General:Pumps:Electricity [J]
+
+ Meters for 1961,HOT WATER LOOP PUMP:Pump Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Pumps:Electricity [J]
+  OnMeter=General:Pumps:Electricity [J]
+
+ Meters for 1962,BOOSTER WATER LOOP PUMP:Pump Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Pumps:Electricity [J]
+  OnMeter=General:Pumps:Electricity [J]
+
+ Meters for 1963,LARGEHOTEL KITCHEN - 90.1-2004 SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN:Pump Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Pumps:Electricity [J]
+  OnMeter=General:Pumps:Electricity [J]
+
+ Meters for 1964,LARGEHOTEL LAUNDRY - 90.1-2004 SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN:Pump Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Pumps:Electricity [J]
+  OnMeter=General:Pumps:Electricity [J]
+
+ Meters for 1965,CHILLED WATER LOOP PRIMARY PUMP:Pump Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Pumps:Electricity [J]
+  OnMeter=General:Pumps:Electricity [J]
+
+ Meters for 1966,CONDENSER WATER LOOP CONSTANT PUMP:Pump Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Pumps:Electricity [J]
+  OnMeter=General:Pumps:Electricity [J]
+
+ Meters for 1967,LARGEHOTEL SHARED SERVICE WATER LOOP CIRCULATOR PUMP:Pump Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Pumps:Electricity [J]
+  OnMeter=General:Pumps:Electricity [J]
+
+ Meters for 1968,Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 1993,Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 1994,Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ For Meter=Electricity:Facility [J], ResourceType=Electricity, contents are:
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL BANQUET LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL CAFE LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL KITCHEN LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL LAUNDRY LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL MECHANICAL LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL RETAIL LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL STORAGE LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 7 THERMALZONE LARGEHOTEL BANQUET LIGHTS 2:Lights Electric Energy
+  BUILDING STORY 7 THERMALZONE LARGEHOTEL LOBBY LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 8 THERMALZONE LARGEHOTEL CORRIDOR LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 8 THERMALZONE LARGEHOTEL LOBBY LIGHTS 2:Lights Electric Energy
+  BUILDING STORY 4 THERMALZONE LARGEHOTEL CORRIDOR LIGHTS 2:Lights Electric Energy
+  BUILDING STORY 3 THERMALZONE LARGEHOTEL CORRIDOR LIGHTS 3:Lights Electric Energy
+  BUILDING STORY 6 THERMALZONE LARGEHOTEL CORRIDOR LIGHTS 4:Lights Electric Energy
+  BUILDING STORY 6 THERMALZONE LARGEHOTEL GUESTROOM LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 2 THERMALZONE LARGEHOTEL GUESTROOM LIGHTS 2:Lights Electric Energy
+  BUILDING STORY 5 THERMALZONE LARGEHOTEL GUESTROOM LIGHTS 3:Lights Electric Energy
+  BUILDING STORY 10 THERMALZONE LARGEHOTEL GUESTROOM LIGHTS 4:Lights Electric Energy
+  BUILDING STORY 1 THERMALZONE LARGEHOTEL GUESTROOM LIGHTS 5:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE 13 ELEVATOR FANS:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE 13 ELEVATOR LIFT MOTORS:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE 13 ELEVATOR LIGHTS:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL BANQUET ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL CAFE ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL KITCHEN ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL LAUNDRY ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL MECHANICAL ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL RETAIL ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL STORAGE ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 7 THERMALZONE LARGEHOTEL BANQUET ELEC EQUIP 2:Electric Equipment Electric Energy
+  BUILDING STORY 7 THERMALZONE LARGEHOTEL LOBBY ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 8 THERMALZONE LARGEHOTEL LOBBY ELEC EQUIP 2:Electric Equipment Electric Energy
+  BUILDING STORY 6 THERMALZONE LARGEHOTEL GUESTROOM ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 2 THERMALZONE LARGEHOTEL GUESTROOM ELEC EQUIP 2:Electric Equipment Electric Energy
+  BUILDING STORY 5 THERMALZONE LARGEHOTEL GUESTROOM ELEC EQUIP 3:Electric Equipment Electric Energy
+  BUILDING STORY 10 THERMALZONE LARGEHOTEL GUESTROOM ELEC EQUIP 4:Electric Equipment Electric Energy
+  BUILDING STORY 1 THERMALZONE LARGEHOTEL GUESTROOM ELEC EQUIP 5:Electric Equipment Electric Energy
+  6.0GAL ELECTRICITY BOOSTER WATER HEATER - 50KBTU/HR 1.0 THERM EFF:Water Heater Electric Energy
+  6.0GAL ELECTRICITY BOOSTER WATER HEATER - 50KBTU/HR 1.0 THERM EFF:Water Heater Off Cycle Parasitic Electric Energy
+  6.0GAL ELECTRICITY BOOSTER WATER HEATER - 50KBTU/HR 1.0 THERM EFF:Water Heater On Cycle Parasitic Electric Energy
+  517GAL ELECTRICITY WATER HEATER - 517KBTU/HR 1.0 THERM EFF:Water Heater Electric Energy
+  517GAL ELECTRICITY WATER HEATER - 517KBTU/HR 1.0 THERM EFF:Water Heater Off Cycle Parasitic Electric Energy
+  517GAL ELECTRICITY WATER HEATER - 517KBTU/HR 1.0 THERM EFF:Water Heater On Cycle Parasitic Electric Energy
+  392GAL ELECTRICITY WATER HEATER - 392KBTU/HR 1.0 THERM EFF:Water Heater Electric Energy
+  392GAL ELECTRICITY WATER HEATER - 392KBTU/HR 1.0 THERM EFF:Water Heater Off Cycle Parasitic Electric Energy
+  392GAL ELECTRICITY WATER HEATER - 392KBTU/HR 1.0 THERM EFF:Water Heater On Cycle Parasitic Electric Energy
+  BUILDING STORY 1 THERMALZONE PTAC FAN:Fan Electric Energy
+  BUILDING STORY 10 THERMALZONE PTAC FAN:Fan Electric Energy
+  BUILDING STORY 2 THERMALZONE PTAC FAN:Fan Electric Energy
+  BUILDING STORY 5 THERMALZONE PTAC FAN:Fan Electric Energy
+  BUILDING STORY 6 THERMALZONE PTAC FAN:Fan Electric Energy
+  1 ZONE VAV FAN:Fan Electric Energy
+  1 ZONE VAV 1 FAN:Fan Electric Energy
+  1 ZONE VAV 2 FAN:Fan Electric Energy
+  1 ZONE VAV 3 FAN:Fan Electric Energy
+  1 ZONE VAV 4 FAN:Fan Electric Energy
+  ZONE LARGEHOTEL KITCHEN A  - STORY GROUND EXHAUST FAN:Fan Electric Energy
+  ZONE LARGEHOTEL KITCHEN B  - STORY GROUND EXHAUST FAN:Fan Electric Energy
+  ZONE LARGEHOTEL KITCHEN C  - STORY GROUND EXHAUST FAN:Fan Electric Energy
+  BUILDING STORY 1 THERMALZONE PTAC 1SPD DX AC CLG COIL 254KBTU/HR 9.3EER:Cooling Coil Electric Energy
+  BUILDING STORY 10 THERMALZONE PTAC 1SPD DX AC CLG COIL 716KBTU/HR 9.3EER:Cooling Coil Electric Energy
+  BUILDING STORY 2 THERMALZONE PTAC 1SPD DX AC CLG COIL 484KBTU/HR 9.3EER:Cooling Coil Electric Energy
+  BUILDING STORY 5 THERMALZONE PTAC 1SPD DX AC CLG COIL 472KBTU/HR 9.3EER:Cooling Coil Electric Energy
+  BUILDING STORY 6 THERMALZONE PTAC 1SPD DX AC CLG COIL 463KBTU/HR 9.3EER:Cooling Coil Electric Energy
+  BUILDING FACADES:Exterior Lights Electric Energy
+  ENTRY CANOPIES:Exterior Lights Electric Energy
+  MAIN ENTRIES:Exterior Lights Electric Energy
+  OTHER DOORS:Exterior Lights Electric Energy
+  PARKING AREAS AND DRIVES:Exterior Lights Electric Energy
+  1 ZONE VAV 2 ERV:Heat Exchanger Electric Energy
+  BUILDING STORY 1 THERMALZONE PTAC 1SPD DX AC CLG COIL 254KBTU/HR 9.3EER:Cooling Coil Crankcase Heater Electric Energy
+  BUILDING STORY 10 THERMALZONE PTAC 1SPD DX AC CLG COIL 716KBTU/HR 9.3EER:Cooling Coil Crankcase Heater Electric Energy
+  BUILDING STORY 2 THERMALZONE PTAC 1SPD DX AC CLG COIL 484KBTU/HR 9.3EER:Cooling Coil Crankcase Heater Electric Energy
+  BUILDING STORY 5 THERMALZONE PTAC 1SPD DX AC CLG COIL 472KBTU/HR 9.3EER:Cooling Coil Crankcase Heater Electric Energy
+  BUILDING STORY 6 THERMALZONE PTAC 1SPD DX AC CLG COIL 463KBTU/HR 9.3EER:Cooling Coil Crankcase Heater Electric Energy
+  90.1-2004 WATERCOOLED  ROTARY SCREW CHILLER 0 545TONS 0.6KW/TON:Chiller Electric Energy
+  PROPELLER OR AXIAL TWOSPEED FAN OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Fan Electric Energy
+  BOILER 11186KBTU/HR 0.75 THERMAL EFF:Boiler Ancillary Electric Energy
+  CHILLED WATER LOOP SECONDARY PUMP:Pump Electric Energy
+  HOT WATER LOOP PUMP:Pump Electric Energy
+  BOOSTER WATER LOOP PUMP:Pump Electric Energy
+  LARGEHOTEL KITCHEN - 90.1-2004 SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN:Pump Electric Energy
+  LARGEHOTEL LAUNDRY - 90.1-2004 SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN:Pump Electric Energy
+  CHILLED WATER LOOP PRIMARY PUMP:Pump Electric Energy
+  CONDENSER WATER LOOP CONSTANT PUMP:Pump Electric Energy
+  LARGEHOTEL SHARED SERVICE WATER LOOP CIRCULATOR PUMP:Pump Electric Energy
+
+ For Meter=Electricity:Building [J], ResourceType=Electricity, Group=Building, contents are:
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL BANQUET LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL CAFE LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL KITCHEN LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL LAUNDRY LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL MECHANICAL LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL RETAIL LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL STORAGE LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 7 THERMALZONE LARGEHOTEL BANQUET LIGHTS 2:Lights Electric Energy
+  BUILDING STORY 7 THERMALZONE LARGEHOTEL LOBBY LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 8 THERMALZONE LARGEHOTEL CORRIDOR LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 8 THERMALZONE LARGEHOTEL LOBBY LIGHTS 2:Lights Electric Energy
+  BUILDING STORY 4 THERMALZONE LARGEHOTEL CORRIDOR LIGHTS 2:Lights Electric Energy
+  BUILDING STORY 3 THERMALZONE LARGEHOTEL CORRIDOR LIGHTS 3:Lights Electric Energy
+  BUILDING STORY 6 THERMALZONE LARGEHOTEL CORRIDOR LIGHTS 4:Lights Electric Energy
+  BUILDING STORY 6 THERMALZONE LARGEHOTEL GUESTROOM LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 2 THERMALZONE LARGEHOTEL GUESTROOM LIGHTS 2:Lights Electric Energy
+  BUILDING STORY 5 THERMALZONE LARGEHOTEL GUESTROOM LIGHTS 3:Lights Electric Energy
+  BUILDING STORY 10 THERMALZONE LARGEHOTEL GUESTROOM LIGHTS 4:Lights Electric Energy
+  BUILDING STORY 1 THERMALZONE LARGEHOTEL GUESTROOM LIGHTS 5:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE 13 ELEVATOR FANS:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE 13 ELEVATOR LIFT MOTORS:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE 13 ELEVATOR LIGHTS:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL BANQUET ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL CAFE ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL KITCHEN ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL LAUNDRY ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL MECHANICAL ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL RETAIL ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL STORAGE ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 7 THERMALZONE LARGEHOTEL BANQUET ELEC EQUIP 2:Electric Equipment Electric Energy
+  BUILDING STORY 7 THERMALZONE LARGEHOTEL LOBBY ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 8 THERMALZONE LARGEHOTEL LOBBY ELEC EQUIP 2:Electric Equipment Electric Energy
+  BUILDING STORY 6 THERMALZONE LARGEHOTEL GUESTROOM ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 2 THERMALZONE LARGEHOTEL GUESTROOM ELEC EQUIP 2:Electric Equipment Electric Energy
+  BUILDING STORY 5 THERMALZONE LARGEHOTEL GUESTROOM ELEC EQUIP 3:Electric Equipment Electric Energy
+  BUILDING STORY 10 THERMALZONE LARGEHOTEL GUESTROOM ELEC EQUIP 4:Electric Equipment Electric Energy
+  BUILDING STORY 1 THERMALZONE LARGEHOTEL GUESTROOM ELEC EQUIP 5:Electric Equipment Electric Energy
+
+ For Meter=Electricity:Zone:BUILDING STORY 9 THERMALZONE [J], ResourceType=Electricity, Group=Zone, contents are:
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL BANQUET LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL CAFE LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL KITCHEN LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL LAUNDRY LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL MECHANICAL LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL RETAIL LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL STORAGE LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE 13 ELEVATOR FANS:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE 13 ELEVATOR LIFT MOTORS:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE 13 ELEVATOR LIGHTS:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL BANQUET ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL CAFE ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL KITCHEN ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL LAUNDRY ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL MECHANICAL ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL RETAIL ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL STORAGE ELEC EQUIP 1:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL BANQUET LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL CAFE LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL KITCHEN LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL LAUNDRY LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL MECHANICAL LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL RETAIL LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL STORAGE LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 7 THERMALZONE LARGEHOTEL BANQUET LIGHTS 2:Lights Electric Energy
+  BUILDING STORY 7 THERMALZONE LARGEHOTEL LOBBY LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 8 THERMALZONE LARGEHOTEL CORRIDOR LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 8 THERMALZONE LARGEHOTEL LOBBY LIGHTS 2:Lights Electric Energy
+  BUILDING STORY 4 THERMALZONE LARGEHOTEL CORRIDOR LIGHTS 2:Lights Electric Energy
+  BUILDING STORY 3 THERMALZONE LARGEHOTEL CORRIDOR LIGHTS 3:Lights Electric Energy
+  BUILDING STORY 6 THERMALZONE LARGEHOTEL CORRIDOR LIGHTS 4:Lights Electric Energy
+  BUILDING STORY 6 THERMALZONE LARGEHOTEL GUESTROOM LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 2 THERMALZONE LARGEHOTEL GUESTROOM LIGHTS 2:Lights Electric Energy
+  BUILDING STORY 5 THERMALZONE LARGEHOTEL GUESTROOM LIGHTS 3:Lights Electric Energy
+  BUILDING STORY 10 THERMALZONE LARGEHOTEL GUESTROOM LIGHTS 4:Lights Electric Energy
+  BUILDING STORY 1 THERMALZONE LARGEHOTEL GUESTROOM LIGHTS 5:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:BUILDING STORY 9 THERMALZONE [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL BANQUET LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL CAFE LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL KITCHEN LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL LAUNDRY LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL MECHANICAL LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL RETAIL LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL STORAGE LIGHTS 1:Lights Electric Energy
+
+ For Meter=General:InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL BANQUET LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL CAFE LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL KITCHEN LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL LAUNDRY LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL MECHANICAL LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL RETAIL LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL STORAGE LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 7 THERMALZONE LARGEHOTEL BANQUET LIGHTS 2:Lights Electric Energy
+  BUILDING STORY 7 THERMALZONE LARGEHOTEL LOBBY LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 8 THERMALZONE LARGEHOTEL CORRIDOR LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 8 THERMALZONE LARGEHOTEL LOBBY LIGHTS 2:Lights Electric Energy
+  BUILDING STORY 4 THERMALZONE LARGEHOTEL CORRIDOR LIGHTS 2:Lights Electric Energy
+  BUILDING STORY 3 THERMALZONE LARGEHOTEL CORRIDOR LIGHTS 3:Lights Electric Energy
+  BUILDING STORY 6 THERMALZONE LARGEHOTEL CORRIDOR LIGHTS 4:Lights Electric Energy
+  BUILDING STORY 6 THERMALZONE LARGEHOTEL GUESTROOM LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 2 THERMALZONE LARGEHOTEL GUESTROOM LIGHTS 2:Lights Electric Energy
+  BUILDING STORY 5 THERMALZONE LARGEHOTEL GUESTROOM LIGHTS 3:Lights Electric Energy
+  BUILDING STORY 10 THERMALZONE LARGEHOTEL GUESTROOM LIGHTS 4:Lights Electric Energy
+  BUILDING STORY 1 THERMALZONE LARGEHOTEL GUESTROOM LIGHTS 5:Lights Electric Energy
+
+ For Meter=Electricity:Zone:BUILDING STORY 7 THERMALZONE [J], ResourceType=Electricity, Group=Zone, contents are:
+  BUILDING STORY 7 THERMALZONE LARGEHOTEL BANQUET LIGHTS 2:Lights Electric Energy
+  BUILDING STORY 7 THERMALZONE LARGEHOTEL LOBBY LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 7 THERMALZONE LARGEHOTEL BANQUET ELEC EQUIP 2:Electric Equipment Electric Energy
+  BUILDING STORY 7 THERMALZONE LARGEHOTEL LOBBY ELEC EQUIP 1:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:BUILDING STORY 7 THERMALZONE [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  BUILDING STORY 7 THERMALZONE LARGEHOTEL BANQUET LIGHTS 2:Lights Electric Energy
+  BUILDING STORY 7 THERMALZONE LARGEHOTEL LOBBY LIGHTS 1:Lights Electric Energy
+
+ For Meter=Electricity:Zone:BUILDING STORY 8 THERMALZONE [J], ResourceType=Electricity, Group=Zone, contents are:
+  BUILDING STORY 8 THERMALZONE LARGEHOTEL CORRIDOR LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 8 THERMALZONE LARGEHOTEL LOBBY LIGHTS 2:Lights Electric Energy
+  BUILDING STORY 8 THERMALZONE LARGEHOTEL LOBBY ELEC EQUIP 2:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:BUILDING STORY 8 THERMALZONE [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  BUILDING STORY 8 THERMALZONE LARGEHOTEL CORRIDOR LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 8 THERMALZONE LARGEHOTEL LOBBY LIGHTS 2:Lights Electric Energy
+
+ For Meter=Electricity:Zone:BUILDING STORY 4 THERMALZONE [J], ResourceType=Electricity, Group=Zone, contents are:
+  BUILDING STORY 4 THERMALZONE LARGEHOTEL CORRIDOR LIGHTS 2:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:BUILDING STORY 4 THERMALZONE [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  BUILDING STORY 4 THERMALZONE LARGEHOTEL CORRIDOR LIGHTS 2:Lights Electric Energy
+
+ For Meter=Electricity:Zone:BUILDING STORY 3 THERMALZONE [J], ResourceType=Electricity, Group=Zone, contents are:
+  BUILDING STORY 3 THERMALZONE LARGEHOTEL CORRIDOR LIGHTS 3:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:BUILDING STORY 3 THERMALZONE [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  BUILDING STORY 3 THERMALZONE LARGEHOTEL CORRIDOR LIGHTS 3:Lights Electric Energy
+
+ For Meter=Electricity:Zone:BUILDING STORY 6 THERMALZONE [J], ResourceType=Electricity, Group=Zone, contents are:
+  BUILDING STORY 6 THERMALZONE LARGEHOTEL CORRIDOR LIGHTS 4:Lights Electric Energy
+  BUILDING STORY 6 THERMALZONE LARGEHOTEL GUESTROOM LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 6 THERMALZONE LARGEHOTEL GUESTROOM ELEC EQUIP 1:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:BUILDING STORY 6 THERMALZONE [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  BUILDING STORY 6 THERMALZONE LARGEHOTEL CORRIDOR LIGHTS 4:Lights Electric Energy
+  BUILDING STORY 6 THERMALZONE LARGEHOTEL GUESTROOM LIGHTS 1:Lights Electric Energy
+
+ For Meter=Electricity:Zone:BUILDING STORY 2 THERMALZONE [J], ResourceType=Electricity, Group=Zone, contents are:
+  BUILDING STORY 2 THERMALZONE LARGEHOTEL GUESTROOM LIGHTS 2:Lights Electric Energy
+  BUILDING STORY 2 THERMALZONE LARGEHOTEL GUESTROOM ELEC EQUIP 2:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:BUILDING STORY 2 THERMALZONE [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  BUILDING STORY 2 THERMALZONE LARGEHOTEL GUESTROOM LIGHTS 2:Lights Electric Energy
+
+ For Meter=Electricity:Zone:BUILDING STORY 5 THERMALZONE [J], ResourceType=Electricity, Group=Zone, contents are:
+  BUILDING STORY 5 THERMALZONE LARGEHOTEL GUESTROOM LIGHTS 3:Lights Electric Energy
+  BUILDING STORY 5 THERMALZONE LARGEHOTEL GUESTROOM ELEC EQUIP 3:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:BUILDING STORY 5 THERMALZONE [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  BUILDING STORY 5 THERMALZONE LARGEHOTEL GUESTROOM LIGHTS 3:Lights Electric Energy
+
+ For Meter=Electricity:Zone:BUILDING STORY 10 THERMALZONE [J], ResourceType=Electricity, Group=Zone, contents are:
+  BUILDING STORY 10 THERMALZONE LARGEHOTEL GUESTROOM LIGHTS 4:Lights Electric Energy
+  BUILDING STORY 10 THERMALZONE LARGEHOTEL GUESTROOM ELEC EQUIP 4:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:BUILDING STORY 10 THERMALZONE [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  BUILDING STORY 10 THERMALZONE LARGEHOTEL GUESTROOM LIGHTS 4:Lights Electric Energy
+
+ For Meter=Electricity:Zone:BUILDING STORY 1 THERMALZONE [J], ResourceType=Electricity, Group=Zone, contents are:
+  BUILDING STORY 1 THERMALZONE LARGEHOTEL GUESTROOM LIGHTS 5:Lights Electric Energy
+  BUILDING STORY 1 THERMALZONE LARGEHOTEL GUESTROOM ELEC EQUIP 5:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:BUILDING STORY 1 THERMALZONE [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  BUILDING STORY 1 THERMALZONE LARGEHOTEL GUESTROOM LIGHTS 5:Lights Electric Energy
+
+ For Meter=InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  BUILDING STORY 9 THERMALZONE 13 ELEVATOR FANS:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE 13 ELEVATOR LIFT MOTORS:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE 13 ELEVATOR LIGHTS:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL BANQUET ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL CAFE ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL KITCHEN ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL LAUNDRY ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL MECHANICAL ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL RETAIL ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL STORAGE ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 7 THERMALZONE LARGEHOTEL BANQUET ELEC EQUIP 2:Electric Equipment Electric Energy
+  BUILDING STORY 7 THERMALZONE LARGEHOTEL LOBBY ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 8 THERMALZONE LARGEHOTEL LOBBY ELEC EQUIP 2:Electric Equipment Electric Energy
+  BUILDING STORY 6 THERMALZONE LARGEHOTEL GUESTROOM ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 2 THERMALZONE LARGEHOTEL GUESTROOM ELEC EQUIP 2:Electric Equipment Electric Energy
+  BUILDING STORY 5 THERMALZONE LARGEHOTEL GUESTROOM ELEC EQUIP 3:Electric Equipment Electric Energy
+  BUILDING STORY 10 THERMALZONE LARGEHOTEL GUESTROOM ELEC EQUIP 4:Electric Equipment Electric Energy
+  BUILDING STORY 1 THERMALZONE LARGEHOTEL GUESTROOM ELEC EQUIP 5:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:BUILDING STORY 9 THERMALZONE [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  BUILDING STORY 9 THERMALZONE 13 ELEVATOR FANS:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE 13 ELEVATOR LIFT MOTORS:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE 13 ELEVATOR LIGHTS:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL BANQUET ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL CAFE ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL KITCHEN ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL LAUNDRY ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL MECHANICAL ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL RETAIL ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL STORAGE ELEC EQUIP 1:Electric Equipment Electric Energy
+
+ For Meter=Elevators:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  BUILDING STORY 9 THERMALZONE 13 ELEVATOR FANS:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE 13 ELEVATOR LIFT MOTORS:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE 13 ELEVATOR LIGHTS:Electric Equipment Electric Energy
+
+ For Meter=General:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL BANQUET ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL CAFE ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL KITCHEN ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL LAUNDRY ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL MECHANICAL ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL RETAIL ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL STORAGE ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 7 THERMALZONE LARGEHOTEL BANQUET ELEC EQUIP 2:Electric Equipment Electric Energy
+  BUILDING STORY 7 THERMALZONE LARGEHOTEL LOBBY ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 8 THERMALZONE LARGEHOTEL LOBBY ELEC EQUIP 2:Electric Equipment Electric Energy
+  BUILDING STORY 6 THERMALZONE LARGEHOTEL GUESTROOM ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 2 THERMALZONE LARGEHOTEL GUESTROOM ELEC EQUIP 2:Electric Equipment Electric Energy
+  BUILDING STORY 5 THERMALZONE LARGEHOTEL GUESTROOM ELEC EQUIP 3:Electric Equipment Electric Energy
+  BUILDING STORY 10 THERMALZONE LARGEHOTEL GUESTROOM ELEC EQUIP 4:Electric Equipment Electric Energy
+  BUILDING STORY 1 THERMALZONE LARGEHOTEL GUESTROOM ELEC EQUIP 5:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:BUILDING STORY 7 THERMALZONE [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  BUILDING STORY 7 THERMALZONE LARGEHOTEL BANQUET ELEC EQUIP 2:Electric Equipment Electric Energy
+  BUILDING STORY 7 THERMALZONE LARGEHOTEL LOBBY ELEC EQUIP 1:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:BUILDING STORY 8 THERMALZONE [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  BUILDING STORY 8 THERMALZONE LARGEHOTEL LOBBY ELEC EQUIP 2:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:BUILDING STORY 6 THERMALZONE [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  BUILDING STORY 6 THERMALZONE LARGEHOTEL GUESTROOM ELEC EQUIP 1:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:BUILDING STORY 2 THERMALZONE [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  BUILDING STORY 2 THERMALZONE LARGEHOTEL GUESTROOM ELEC EQUIP 2:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:BUILDING STORY 5 THERMALZONE [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  BUILDING STORY 5 THERMALZONE LARGEHOTEL GUESTROOM ELEC EQUIP 3:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:BUILDING STORY 10 THERMALZONE [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  BUILDING STORY 10 THERMALZONE LARGEHOTEL GUESTROOM ELEC EQUIP 4:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:BUILDING STORY 1 THERMALZONE [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  BUILDING STORY 1 THERMALZONE LARGEHOTEL GUESTROOM ELEC EQUIP 5:Electric Equipment Electric Energy
+
+ For Meter=Gas:Facility [J], ResourceType=Gas, contents are:
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL KITCHEN GAS EQUIP 1:Gas Equipment Gas Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL LAUNDRY GAS EQUIP 1:Gas Equipment Gas Energy
+  263GAL NATURALGAS WATER HEATER - 263KBTU/HR 0.804 THERM EFF:Water Heater Gas Energy
+  263GAL NATURALGAS WATER HEATER - 263KBTU/HR 0.804 THERM EFF:Water Heater Off Cycle Parasitic Gas Energy
+  263GAL NATURALGAS WATER HEATER - 263KBTU/HR 0.804 THERM EFF:Water Heater On Cycle Parasitic Gas Energy
+  BOILER 11186KBTU/HR 0.75 THERMAL EFF:Boiler Gas Energy
+
+ For Meter=Gas:Building [J], ResourceType=Gas, Group=Building, contents are:
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL KITCHEN GAS EQUIP 1:Gas Equipment Gas Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL LAUNDRY GAS EQUIP 1:Gas Equipment Gas Energy
+
+ For Meter=Gas:Zone:BUILDING STORY 9 THERMALZONE [J], ResourceType=Gas, Group=Zone, contents are:
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL KITCHEN GAS EQUIP 1:Gas Equipment Gas Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL LAUNDRY GAS EQUIP 1:Gas Equipment Gas Energy
+
+ For Meter=InteriorEquipment:Gas [J], ResourceType=Gas, EndUse=InteriorEquipment, contents are:
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL KITCHEN GAS EQUIP 1:Gas Equipment Gas Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL LAUNDRY GAS EQUIP 1:Gas Equipment Gas Energy
+
+ For Meter=InteriorEquipment:Gas:Zone:BUILDING STORY 9 THERMALZONE [J], ResourceType=Gas, EndUse=InteriorEquipment, Group=Zone, contents are:
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL KITCHEN GAS EQUIP 1:Gas Equipment Gas Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL LAUNDRY GAS EQUIP 1:Gas Equipment Gas Energy
+
+ For Meter=General:InteriorEquipment:Gas [J], ResourceType=Gas, EndUse=InteriorEquipment, contents are:
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL KITCHEN GAS EQUIP 1:Gas Equipment Gas Energy
+  BUILDING STORY 9 THERMALZONE LARGEHOTEL LAUNDRY GAS EQUIP 1:Gas Equipment Gas Energy
+
+ For Meter=PlantLoopHeatingDemand:Facility [J], ResourceType=PlantLoopHeatingDemand, contents are:
+  6.0GAL ELECTRICITY BOOSTER WATER HEATER - 50KBTU/HR 1.0 THERM EFF:Water Heater Source Side Heat Transfer Energy
+  263GAL NATURALGAS WATER HEATER - 263KBTU/HR 0.804 THERM EFF:Water Heater Source Side Heat Transfer Energy
+  517GAL ELECTRICITY WATER HEATER - 517KBTU/HR 1.0 THERM EFF:Water Heater Source Side Heat Transfer Energy
+  392GAL ELECTRICITY WATER HEATER - 392KBTU/HR 1.0 THERM EFF:Water Heater Source Side Heat Transfer Energy
+  BOOSTER LARGEHOTEL KITCHEN - 90.1-2004 WUC 4.17GPM AT 180F:Water Use Connections Plant Hot Water Energy
+  LARGEHOTEL KITCHEN - 90.1-2004 WUC 2.78GPM AT 140F:Water Use Connections Plant Hot Water Energy
+  LARGEHOTEL LAUNDRY - 90.1-2004 WUC 8.21GPM AT 140F:Water Use Connections Plant Hot Water Energy
+  LARGEHOTEL GUESTROOM - 90.1-2004 WUC 7.79GPM AT 140F:Water Use Connections Plant Hot Water Energy
+  HOT WATER LOOP WATER HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  HOT WATER LOOP WATER HTG COIL 1:Heating Coil Source Side Heat Transfer Energy
+  HOT WATER LOOP WATER HTG COIL 2:Heating Coil Source Side Heat Transfer Energy
+  BUILDING STORY 3 THERMALZONE REHEAT COIL:Heating Coil Source Side Heat Transfer Energy
+  BUILDING STORY 4 THERMALZONE REHEAT COIL:Heating Coil Source Side Heat Transfer Energy
+  HOT WATER LOOP WATER HTG COIL 3:Heating Coil Source Side Heat Transfer Energy
+  HOT WATER LOOP WATER HTG COIL 4:Heating Coil Source Side Heat Transfer Energy
+  BUILDING STORY 7 THERMALZONE REHEAT COIL:Heating Coil Source Side Heat Transfer Energy
+  BUILDING STORY 8 THERMALZONE REHEAT COIL:Heating Coil Source Side Heat Transfer Energy
+  BUILDING STORY 9 THERMALZONE REHEAT COIL:Heating Coil Source Side Heat Transfer Energy
+  1 ZONE VAV MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  1 ZONE VAV 1 MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  1 ZONE VAV 2 MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  1 ZONE VAV 3 MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  1 ZONE VAV 4 MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy
+
+ For Meter=PlantLoopHeatingDemand:Plant [J], ResourceType=PlantLoopHeatingDemand, Group=Plant, contents are:
+  6.0GAL ELECTRICITY BOOSTER WATER HEATER - 50KBTU/HR 1.0 THERM EFF:Water Heater Source Side Heat Transfer Energy
+  263GAL NATURALGAS WATER HEATER - 263KBTU/HR 0.804 THERM EFF:Water Heater Source Side Heat Transfer Energy
+  517GAL ELECTRICITY WATER HEATER - 517KBTU/HR 1.0 THERM EFF:Water Heater Source Side Heat Transfer Energy
+  392GAL ELECTRICITY WATER HEATER - 392KBTU/HR 1.0 THERM EFF:Water Heater Source Side Heat Transfer Energy
+  BOOSTER LARGEHOTEL KITCHEN - 90.1-2004 WUC 4.17GPM AT 180F:Water Use Connections Plant Hot Water Energy
+  LARGEHOTEL KITCHEN - 90.1-2004 WUC 2.78GPM AT 140F:Water Use Connections Plant Hot Water Energy
+  LARGEHOTEL LAUNDRY - 90.1-2004 WUC 8.21GPM AT 140F:Water Use Connections Plant Hot Water Energy
+  LARGEHOTEL GUESTROOM - 90.1-2004 WUC 7.79GPM AT 140F:Water Use Connections Plant Hot Water Energy
+
+ For Meter=WaterSystems:PlantLoopHeatingDemand [J], ResourceType=PlantLoopHeatingDemand, EndUse=WaterSystems, contents are:
+  6.0GAL ELECTRICITY BOOSTER WATER HEATER - 50KBTU/HR 1.0 THERM EFF:Water Heater Source Side Heat Transfer Energy
+  263GAL NATURALGAS WATER HEATER - 263KBTU/HR 0.804 THERM EFF:Water Heater Source Side Heat Transfer Energy
+  517GAL ELECTRICITY WATER HEATER - 517KBTU/HR 1.0 THERM EFF:Water Heater Source Side Heat Transfer Energy
+  392GAL ELECTRICITY WATER HEATER - 392KBTU/HR 1.0 THERM EFF:Water Heater Source Side Heat Transfer Energy
+  BOOSTER LARGEHOTEL KITCHEN - 90.1-2004 WUC 4.17GPM AT 180F:Water Use Connections Plant Hot Water Energy
+  LARGEHOTEL KITCHEN - 90.1-2004 WUC 2.78GPM AT 140F:Water Use Connections Plant Hot Water Energy
+  LARGEHOTEL LAUNDRY - 90.1-2004 WUC 8.21GPM AT 140F:Water Use Connections Plant Hot Water Energy
+  LARGEHOTEL GUESTROOM - 90.1-2004 WUC 7.79GPM AT 140F:Water Use Connections Plant Hot Water Energy
+
+ For Meter=Booster:WaterSystems:PlantLoopHeatingDemand [J], ResourceType=PlantLoopHeatingDemand, EndUse=WaterSystems, contents are:
+  6.0GAL ELECTRICITY BOOSTER WATER HEATER - 50KBTU/HR 1.0 THERM EFF:Water Heater Source Side Heat Transfer Energy
+
+ For Meter=Electricity:Plant [J], ResourceType=Electricity, Group=Plant, contents are:
+  6.0GAL ELECTRICITY BOOSTER WATER HEATER - 50KBTU/HR 1.0 THERM EFF:Water Heater Electric Energy
+  6.0GAL ELECTRICITY BOOSTER WATER HEATER - 50KBTU/HR 1.0 THERM EFF:Water Heater Off Cycle Parasitic Electric Energy
+  6.0GAL ELECTRICITY BOOSTER WATER HEATER - 50KBTU/HR 1.0 THERM EFF:Water Heater On Cycle Parasitic Electric Energy
+  517GAL ELECTRICITY WATER HEATER - 517KBTU/HR 1.0 THERM EFF:Water Heater Electric Energy
+  517GAL ELECTRICITY WATER HEATER - 517KBTU/HR 1.0 THERM EFF:Water Heater Off Cycle Parasitic Electric Energy
+  517GAL ELECTRICITY WATER HEATER - 517KBTU/HR 1.0 THERM EFF:Water Heater On Cycle Parasitic Electric Energy
+  392GAL ELECTRICITY WATER HEATER - 392KBTU/HR 1.0 THERM EFF:Water Heater Electric Energy
+  392GAL ELECTRICITY WATER HEATER - 392KBTU/HR 1.0 THERM EFF:Water Heater Off Cycle Parasitic Electric Energy
+  392GAL ELECTRICITY WATER HEATER - 392KBTU/HR 1.0 THERM EFF:Water Heater On Cycle Parasitic Electric Energy
+  BUILDING STORY 1 THERMALZONE PTAC 1SPD DX AC CLG COIL 254KBTU/HR 9.3EER:Cooling Coil Crankcase Heater Electric Energy
+  BUILDING STORY 10 THERMALZONE PTAC 1SPD DX AC CLG COIL 716KBTU/HR 9.3EER:Cooling Coil Crankcase Heater Electric Energy
+  BUILDING STORY 2 THERMALZONE PTAC 1SPD DX AC CLG COIL 484KBTU/HR 9.3EER:Cooling Coil Crankcase Heater Electric Energy
+  BUILDING STORY 5 THERMALZONE PTAC 1SPD DX AC CLG COIL 472KBTU/HR 9.3EER:Cooling Coil Crankcase Heater Electric Energy
+  BUILDING STORY 6 THERMALZONE PTAC 1SPD DX AC CLG COIL 463KBTU/HR 9.3EER:Cooling Coil Crankcase Heater Electric Energy
+  90.1-2004 WATERCOOLED  ROTARY SCREW CHILLER 0 545TONS 0.6KW/TON:Chiller Electric Energy
+  PROPELLER OR AXIAL TWOSPEED FAN OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Fan Electric Energy
+  BOILER 11186KBTU/HR 0.75 THERMAL EFF:Boiler Ancillary Electric Energy
+  CHILLED WATER LOOP SECONDARY PUMP:Pump Electric Energy
+  HOT WATER LOOP PUMP:Pump Electric Energy
+  BOOSTER WATER LOOP PUMP:Pump Electric Energy
+  LARGEHOTEL KITCHEN - 90.1-2004 SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN:Pump Electric Energy
+  LARGEHOTEL LAUNDRY - 90.1-2004 SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN:Pump Electric Energy
+  CHILLED WATER LOOP PRIMARY PUMP:Pump Electric Energy
+  CONDENSER WATER LOOP CONSTANT PUMP:Pump Electric Energy
+  LARGEHOTEL SHARED SERVICE WATER LOOP CIRCULATOR PUMP:Pump Electric Energy
+
+ For Meter=WaterSystems:Electricity [J], ResourceType=Electricity, EndUse=WaterSystems, contents are:
+  6.0GAL ELECTRICITY BOOSTER WATER HEATER - 50KBTU/HR 1.0 THERM EFF:Water Heater Electric Energy
+  6.0GAL ELECTRICITY BOOSTER WATER HEATER - 50KBTU/HR 1.0 THERM EFF:Water Heater Off Cycle Parasitic Electric Energy
+  6.0GAL ELECTRICITY BOOSTER WATER HEATER - 50KBTU/HR 1.0 THERM EFF:Water Heater On Cycle Parasitic Electric Energy
+  517GAL ELECTRICITY WATER HEATER - 517KBTU/HR 1.0 THERM EFF:Water Heater Electric Energy
+  517GAL ELECTRICITY WATER HEATER - 517KBTU/HR 1.0 THERM EFF:Water Heater Off Cycle Parasitic Electric Energy
+  517GAL ELECTRICITY WATER HEATER - 517KBTU/HR 1.0 THERM EFF:Water Heater On Cycle Parasitic Electric Energy
+  392GAL ELECTRICITY WATER HEATER - 392KBTU/HR 1.0 THERM EFF:Water Heater Electric Energy
+  392GAL ELECTRICITY WATER HEATER - 392KBTU/HR 1.0 THERM EFF:Water Heater Off Cycle Parasitic Electric Energy
+  392GAL ELECTRICITY WATER HEATER - 392KBTU/HR 1.0 THERM EFF:Water Heater On Cycle Parasitic Electric Energy
+
+ For Meter=Booster:WaterSystems:Electricity [J], ResourceType=Electricity, EndUse=WaterSystems, contents are:
+  6.0GAL ELECTRICITY BOOSTER WATER HEATER - 50KBTU/HR 1.0 THERM EFF:Water Heater Electric Energy
+  6.0GAL ELECTRICITY BOOSTER WATER HEATER - 50KBTU/HR 1.0 THERM EFF:Water Heater Off Cycle Parasitic Electric Energy
+  6.0GAL ELECTRICITY BOOSTER WATER HEATER - 50KBTU/HR 1.0 THERM EFF:Water Heater On Cycle Parasitic Electric Energy
+
+ For Meter=Water:Facility [m3], ResourceType=Water, contents are:
+  6.0GAL ELECTRICITY BOOSTER WATER HEATER - 50KBTU/HR 1.0 THERM EFF:Water Heater Water Volume
+  263GAL NATURALGAS WATER HEATER - 263KBTU/HR 0.804 THERM EFF:Water Heater Water Volume
+  517GAL ELECTRICITY WATER HEATER - 517KBTU/HR 1.0 THERM EFF:Water Heater Water Volume
+  392GAL ELECTRICITY WATER HEATER - 392KBTU/HR 1.0 THERM EFF:Water Heater Water Volume
+  BOOSTER LARGEHOTEL KITCHEN - 90.1-2004 SERVICE WATER USE 4.17GPM AT 180F:Water Use Equipment Total Volume
+  LARGEHOTEL KITCHEN - 90.1-2004 SERVICE WATER USE 2.78GPM AT 140F:Water Use Equipment Total Volume
+  LARGEHOTEL LAUNDRY - 90.1-2004 SERVICE WATER USE 8.21GPM AT 140F:Water Use Equipment Total Volume
+  LARGEHOTEL GUESTROOM - 90.1-2004 SERVICE WATER USE 7.79GPM AT 140F:Water Use Equipment Total Volume
+  PROPELLER OR AXIAL TWOSPEED FAN OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Make Up Water Volume
+
+ For Meter=Water:Plant [m3], ResourceType=Water, Group=Plant, contents are:
+  6.0GAL ELECTRICITY BOOSTER WATER HEATER - 50KBTU/HR 1.0 THERM EFF:Water Heater Water Volume
+  263GAL NATURALGAS WATER HEATER - 263KBTU/HR 0.804 THERM EFF:Water Heater Water Volume
+  517GAL ELECTRICITY WATER HEATER - 517KBTU/HR 1.0 THERM EFF:Water Heater Water Volume
+  392GAL ELECTRICITY WATER HEATER - 392KBTU/HR 1.0 THERM EFF:Water Heater Water Volume
+  BOOSTER LARGEHOTEL KITCHEN - 90.1-2004 SERVICE WATER USE 4.17GPM AT 180F:Water Use Equipment Total Volume
+  LARGEHOTEL KITCHEN - 90.1-2004 SERVICE WATER USE 2.78GPM AT 140F:Water Use Equipment Total Volume
+  LARGEHOTEL LAUNDRY - 90.1-2004 SERVICE WATER USE 8.21GPM AT 140F:Water Use Equipment Total Volume
+  LARGEHOTEL GUESTROOM - 90.1-2004 SERVICE WATER USE 7.79GPM AT 140F:Water Use Equipment Total Volume
+  PROPELLER OR AXIAL TWOSPEED FAN OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Make Up Water Volume
+
+ For Meter=WaterSystems:Water [m3], ResourceType=Water, EndUse=WaterSystems, contents are:
+  6.0GAL ELECTRICITY BOOSTER WATER HEATER - 50KBTU/HR 1.0 THERM EFF:Water Heater Water Volume
+  263GAL NATURALGAS WATER HEATER - 263KBTU/HR 0.804 THERM EFF:Water Heater Water Volume
+  517GAL ELECTRICITY WATER HEATER - 517KBTU/HR 1.0 THERM EFF:Water Heater Water Volume
+  392GAL ELECTRICITY WATER HEATER - 392KBTU/HR 1.0 THERM EFF:Water Heater Water Volume
+  BOOSTER LARGEHOTEL KITCHEN - 90.1-2004 SERVICE WATER USE 4.17GPM AT 180F:Water Use Equipment Total Volume
+  LARGEHOTEL KITCHEN - 90.1-2004 SERVICE WATER USE 2.78GPM AT 140F:Water Use Equipment Total Volume
+  LARGEHOTEL LAUNDRY - 90.1-2004 SERVICE WATER USE 8.21GPM AT 140F:Water Use Equipment Total Volume
+  LARGEHOTEL GUESTROOM - 90.1-2004 SERVICE WATER USE 7.79GPM AT 140F:Water Use Equipment Total Volume
+
+ For Meter=Booster:WaterSystems:Water [m3], ResourceType=Water, EndUse=WaterSystems, contents are:
+  6.0GAL ELECTRICITY BOOSTER WATER HEATER - 50KBTU/HR 1.0 THERM EFF:Water Heater Water Volume
+
+ For Meter=MainsWater:Facility [m3], ResourceType=MainsWater, contents are:
+  6.0GAL ELECTRICITY BOOSTER WATER HEATER - 50KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume
+  263GAL NATURALGAS WATER HEATER - 263KBTU/HR 0.804 THERM EFF:Water Heater Mains Water Volume
+  517GAL ELECTRICITY WATER HEATER - 517KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume
+  392GAL ELECTRICITY WATER HEATER - 392KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume
+  BOOSTER LARGEHOTEL KITCHEN - 90.1-2004 SERVICE WATER USE 4.17GPM AT 180F:Water Use Equipment Mains Water Volume
+  LARGEHOTEL KITCHEN - 90.1-2004 SERVICE WATER USE 2.78GPM AT 140F:Water Use Equipment Mains Water Volume
+  LARGEHOTEL LAUNDRY - 90.1-2004 SERVICE WATER USE 8.21GPM AT 140F:Water Use Equipment Mains Water Volume
+  LARGEHOTEL GUESTROOM - 90.1-2004 SERVICE WATER USE 7.79GPM AT 140F:Water Use Equipment Mains Water Volume
+  PROPELLER OR AXIAL TWOSPEED FAN OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Make Up Mains Water Volume
+
+ For Meter=MainsWater:Plant [m3], ResourceType=MainsWater, Group=Plant, contents are:
+  6.0GAL ELECTRICITY BOOSTER WATER HEATER - 50KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume
+  263GAL NATURALGAS WATER HEATER - 263KBTU/HR 0.804 THERM EFF:Water Heater Mains Water Volume
+  517GAL ELECTRICITY WATER HEATER - 517KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume
+  392GAL ELECTRICITY WATER HEATER - 392KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume
+  BOOSTER LARGEHOTEL KITCHEN - 90.1-2004 SERVICE WATER USE 4.17GPM AT 180F:Water Use Equipment Mains Water Volume
+  LARGEHOTEL KITCHEN - 90.1-2004 SERVICE WATER USE 2.78GPM AT 140F:Water Use Equipment Mains Water Volume
+  LARGEHOTEL LAUNDRY - 90.1-2004 SERVICE WATER USE 8.21GPM AT 140F:Water Use Equipment Mains Water Volume
+  LARGEHOTEL GUESTROOM - 90.1-2004 SERVICE WATER USE 7.79GPM AT 140F:Water Use Equipment Mains Water Volume
+  PROPELLER OR AXIAL TWOSPEED FAN OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Make Up Mains Water Volume
+
+ For Meter=WaterSystems:MainsWater [m3], ResourceType=MainsWater, EndUse=WaterSystems, contents are:
+  6.0GAL ELECTRICITY BOOSTER WATER HEATER - 50KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume
+  263GAL NATURALGAS WATER HEATER - 263KBTU/HR 0.804 THERM EFF:Water Heater Mains Water Volume
+  517GAL ELECTRICITY WATER HEATER - 517KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume
+  392GAL ELECTRICITY WATER HEATER - 392KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume
+  BOOSTER LARGEHOTEL KITCHEN - 90.1-2004 SERVICE WATER USE 4.17GPM AT 180F:Water Use Equipment Mains Water Volume
+  LARGEHOTEL KITCHEN - 90.1-2004 SERVICE WATER USE 2.78GPM AT 140F:Water Use Equipment Mains Water Volume
+  LARGEHOTEL LAUNDRY - 90.1-2004 SERVICE WATER USE 8.21GPM AT 140F:Water Use Equipment Mains Water Volume
+  LARGEHOTEL GUESTROOM - 90.1-2004 SERVICE WATER USE 7.79GPM AT 140F:Water Use Equipment Mains Water Volume
+
+ For Meter=Booster:WaterSystems:MainsWater [m3], ResourceType=MainsWater, EndUse=WaterSystems, contents are:
+  6.0GAL ELECTRICITY BOOSTER WATER HEATER - 50KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume
+
+ For Meter=General:WaterSystems:PlantLoopHeatingDemand [J], ResourceType=PlantLoopHeatingDemand, EndUse=WaterSystems, contents are:
+  263GAL NATURALGAS WATER HEATER - 263KBTU/HR 0.804 THERM EFF:Water Heater Source Side Heat Transfer Energy
+  517GAL ELECTRICITY WATER HEATER - 517KBTU/HR 1.0 THERM EFF:Water Heater Source Side Heat Transfer Energy
+  392GAL ELECTRICITY WATER HEATER - 392KBTU/HR 1.0 THERM EFF:Water Heater Source Side Heat Transfer Energy
+
+ For Meter=Gas:Plant [J], ResourceType=Gas, Group=Plant, contents are:
+  263GAL NATURALGAS WATER HEATER - 263KBTU/HR 0.804 THERM EFF:Water Heater Gas Energy
+  263GAL NATURALGAS WATER HEATER - 263KBTU/HR 0.804 THERM EFF:Water Heater Off Cycle Parasitic Gas Energy
+  263GAL NATURALGAS WATER HEATER - 263KBTU/HR 0.804 THERM EFF:Water Heater On Cycle Parasitic Gas Energy
+  BOILER 11186KBTU/HR 0.75 THERMAL EFF:Boiler Gas Energy
+
+ For Meter=WaterSystems:Gas [J], ResourceType=Gas, EndUse=WaterSystems, contents are:
+  263GAL NATURALGAS WATER HEATER - 263KBTU/HR 0.804 THERM EFF:Water Heater Gas Energy
+  263GAL NATURALGAS WATER HEATER - 263KBTU/HR 0.804 THERM EFF:Water Heater Off Cycle Parasitic Gas Energy
+  263GAL NATURALGAS WATER HEATER - 263KBTU/HR 0.804 THERM EFF:Water Heater On Cycle Parasitic Gas Energy
+
+ For Meter=General:WaterSystems:Gas [J], ResourceType=Gas, EndUse=WaterSystems, contents are:
+  263GAL NATURALGAS WATER HEATER - 263KBTU/HR 0.804 THERM EFF:Water Heater Gas Energy
+  263GAL NATURALGAS WATER HEATER - 263KBTU/HR 0.804 THERM EFF:Water Heater Off Cycle Parasitic Gas Energy
+  263GAL NATURALGAS WATER HEATER - 263KBTU/HR 0.804 THERM EFF:Water Heater On Cycle Parasitic Gas Energy
+
+ For Meter=General:WaterSystems:Water [m3], ResourceType=Water, EndUse=WaterSystems, contents are:
+  263GAL NATURALGAS WATER HEATER - 263KBTU/HR 0.804 THERM EFF:Water Heater Water Volume
+  517GAL ELECTRICITY WATER HEATER - 517KBTU/HR 1.0 THERM EFF:Water Heater Water Volume
+  392GAL ELECTRICITY WATER HEATER - 392KBTU/HR 1.0 THERM EFF:Water Heater Water Volume
+  BOOSTER LARGEHOTEL KITCHEN - 90.1-2004 SERVICE WATER USE 4.17GPM AT 180F:Water Use Equipment Total Volume
+  LARGEHOTEL KITCHEN - 90.1-2004 SERVICE WATER USE 2.78GPM AT 140F:Water Use Equipment Total Volume
+  LARGEHOTEL LAUNDRY - 90.1-2004 SERVICE WATER USE 8.21GPM AT 140F:Water Use Equipment Total Volume
+  LARGEHOTEL GUESTROOM - 90.1-2004 SERVICE WATER USE 7.79GPM AT 140F:Water Use Equipment Total Volume
+
+ For Meter=General:WaterSystems:MainsWater [m3], ResourceType=MainsWater, EndUse=WaterSystems, contents are:
+  263GAL NATURALGAS WATER HEATER - 263KBTU/HR 0.804 THERM EFF:Water Heater Mains Water Volume
+  517GAL ELECTRICITY WATER HEATER - 517KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume
+  392GAL ELECTRICITY WATER HEATER - 392KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume
+  BOOSTER LARGEHOTEL KITCHEN - 90.1-2004 SERVICE WATER USE 4.17GPM AT 180F:Water Use Equipment Mains Water Volume
+  LARGEHOTEL KITCHEN - 90.1-2004 SERVICE WATER USE 2.78GPM AT 140F:Water Use Equipment Mains Water Volume
+  LARGEHOTEL LAUNDRY - 90.1-2004 SERVICE WATER USE 8.21GPM AT 140F:Water Use Equipment Mains Water Volume
+  LARGEHOTEL GUESTROOM - 90.1-2004 SERVICE WATER USE 7.79GPM AT 140F:Water Use Equipment Mains Water Volume
+
+ For Meter=General:WaterSystems:Electricity [J], ResourceType=Electricity, EndUse=WaterSystems, contents are:
+  517GAL ELECTRICITY WATER HEATER - 517KBTU/HR 1.0 THERM EFF:Water Heater Electric Energy
+  517GAL ELECTRICITY WATER HEATER - 517KBTU/HR 1.0 THERM EFF:Water Heater Off Cycle Parasitic Electric Energy
+  517GAL ELECTRICITY WATER HEATER - 517KBTU/HR 1.0 THERM EFF:Water Heater On Cycle Parasitic Electric Energy
+  392GAL ELECTRICITY WATER HEATER - 392KBTU/HR 1.0 THERM EFF:Water Heater Electric Energy
+  392GAL ELECTRICITY WATER HEATER - 392KBTU/HR 1.0 THERM EFF:Water Heater Off Cycle Parasitic Electric Energy
+  392GAL ELECTRICITY WATER HEATER - 392KBTU/HR 1.0 THERM EFF:Water Heater On Cycle Parasitic Electric Energy
+
+ For Meter=EnergyTransfer:Facility [J], ResourceType=EnergyTransfer, contents are:
+  BUILDING STORY 1 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 1 THERMALZONE:Zone Air System Sensible Cooling Energy
+  BUILDING STORY 10 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 10 THERMALZONE:Zone Air System Sensible Cooling Energy
+  BUILDING STORY 2 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 2 THERMALZONE:Zone Air System Sensible Cooling Energy
+  BUILDING STORY 3 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 3 THERMALZONE:Zone Air System Sensible Cooling Energy
+  BUILDING STORY 4 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 4 THERMALZONE:Zone Air System Sensible Cooling Energy
+  BUILDING STORY 5 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 5 THERMALZONE:Zone Air System Sensible Cooling Energy
+  BUILDING STORY 6 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 6 THERMALZONE:Zone Air System Sensible Cooling Energy
+  BUILDING STORY 7 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 7 THERMALZONE:Zone Air System Sensible Cooling Energy
+  BUILDING STORY 8 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 8 THERMALZONE:Zone Air System Sensible Cooling Energy
+  BUILDING STORY 9 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 9 THERMALZONE:Zone Air System Sensible Cooling Energy
+  BOOSTER LARGEHOTEL KITCHEN - 90.1-2004 SERVICE WATER USE 4.17GPM AT 180F:Water Use Equipment Heating Energy
+  LARGEHOTEL KITCHEN - 90.1-2004 SERVICE WATER USE 2.78GPM AT 140F:Water Use Equipment Heating Energy
+  LARGEHOTEL LAUNDRY - 90.1-2004 SERVICE WATER USE 8.21GPM AT 140F:Water Use Equipment Heating Energy
+  LARGEHOTEL GUESTROOM - 90.1-2004 SERVICE WATER USE 7.79GPM AT 140F:Water Use Equipment Heating Energy
+  HOT WATER LOOP WATER HTG COIL:Heating Coil Heating Energy
+  HOT WATER LOOP WATER HTG COIL 1:Heating Coil Heating Energy
+  HOT WATER LOOP WATER HTG COIL 2:Heating Coil Heating Energy
+  BUILDING STORY 3 THERMALZONE REHEAT COIL:Heating Coil Heating Energy
+  BUILDING STORY 4 THERMALZONE REHEAT COIL:Heating Coil Heating Energy
+  HOT WATER LOOP WATER HTG COIL 3:Heating Coil Heating Energy
+  HOT WATER LOOP WATER HTG COIL 4:Heating Coil Heating Energy
+  BUILDING STORY 7 THERMALZONE REHEAT COIL:Heating Coil Heating Energy
+  BUILDING STORY 8 THERMALZONE REHEAT COIL:Heating Coil Heating Energy
+  BUILDING STORY 9 THERMALZONE REHEAT COIL:Heating Coil Heating Energy
+  1 ZONE VAV MAIN HTG COIL:Heating Coil Heating Energy
+  1 ZONE VAV 1 MAIN HTG COIL:Heating Coil Heating Energy
+  1 ZONE VAV 2 MAIN HTG COIL:Heating Coil Heating Energy
+  1 ZONE VAV 3 MAIN HTG COIL:Heating Coil Heating Energy
+  1 ZONE VAV 4 MAIN HTG COIL:Heating Coil Heating Energy
+  1 ZONE VAV CLG COIL:Cooling Coil Total Cooling Energy
+  1 ZONE VAV 1 CLG COIL:Cooling Coil Total Cooling Energy
+  1 ZONE VAV 2 CLG COIL:Cooling Coil Total Cooling Energy
+  1 ZONE VAV 3 CLG COIL:Cooling Coil Total Cooling Energy
+  1 ZONE VAV 4 CLG COIL:Cooling Coil Total Cooling Energy
+  BUILDING STORY 1 THERMALZONE PTAC 1SPD DX AC CLG COIL 254KBTU/HR 9.3EER:Cooling Coil Total Cooling Energy
+  BUILDING STORY 10 THERMALZONE PTAC 1SPD DX AC CLG COIL 716KBTU/HR 9.3EER:Cooling Coil Total Cooling Energy
+  BUILDING STORY 2 THERMALZONE PTAC 1SPD DX AC CLG COIL 484KBTU/HR 9.3EER:Cooling Coil Total Cooling Energy
+  BUILDING STORY 5 THERMALZONE PTAC 1SPD DX AC CLG COIL 472KBTU/HR 9.3EER:Cooling Coil Total Cooling Energy
+  BUILDING STORY 6 THERMALZONE PTAC 1SPD DX AC CLG COIL 463KBTU/HR 9.3EER:Cooling Coil Total Cooling Energy
+  1 ZONE VAV 2 ERV:Heat Exchanger Total Heating Energy
+  1 ZONE VAV 2 ERV:Heat Exchanger Total Cooling Energy
+  90.1-2004 WATERCOOLED  ROTARY SCREW CHILLER 0 545TONS 0.6KW/TON:Chiller Evaporator Cooling Energy
+  90.1-2004 WATERCOOLED  ROTARY SCREW CHILLER 0 545TONS 0.6KW/TON:Chiller Condenser Heat Transfer Energy
+  HX FOR BOOSTER WATER HEATING:Fluid Heat Exchanger Heat Transfer Energy
+  BOILER 11186KBTU/HR 0.75 THERMAL EFF:Boiler Heating Energy
+
+ For Meter=EnergyTransfer:Building [J], ResourceType=EnergyTransfer, Group=Building, contents are:
+  BUILDING STORY 1 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 1 THERMALZONE:Zone Air System Sensible Cooling Energy
+  BUILDING STORY 10 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 10 THERMALZONE:Zone Air System Sensible Cooling Energy
+  BUILDING STORY 2 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 2 THERMALZONE:Zone Air System Sensible Cooling Energy
+  BUILDING STORY 3 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 3 THERMALZONE:Zone Air System Sensible Cooling Energy
+  BUILDING STORY 4 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 4 THERMALZONE:Zone Air System Sensible Cooling Energy
+  BUILDING STORY 5 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 5 THERMALZONE:Zone Air System Sensible Cooling Energy
+  BUILDING STORY 6 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 6 THERMALZONE:Zone Air System Sensible Cooling Energy
+  BUILDING STORY 7 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 7 THERMALZONE:Zone Air System Sensible Cooling Energy
+  BUILDING STORY 8 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 8 THERMALZONE:Zone Air System Sensible Cooling Energy
+  BUILDING STORY 9 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 9 THERMALZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:BUILDING STORY 1 THERMALZONE [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  BUILDING STORY 1 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 1 THERMALZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  BUILDING STORY 1 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 10 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 2 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 3 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 4 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 5 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 6 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 7 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 8 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 9 THERMALZONE:Zone Air System Sensible Heating Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:BUILDING STORY 1 THERMALZONE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  BUILDING STORY 1 THERMALZONE:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  BUILDING STORY 1 THERMALZONE:Zone Air System Sensible Cooling Energy
+  BUILDING STORY 10 THERMALZONE:Zone Air System Sensible Cooling Energy
+  BUILDING STORY 2 THERMALZONE:Zone Air System Sensible Cooling Energy
+  BUILDING STORY 3 THERMALZONE:Zone Air System Sensible Cooling Energy
+  BUILDING STORY 4 THERMALZONE:Zone Air System Sensible Cooling Energy
+  BUILDING STORY 5 THERMALZONE:Zone Air System Sensible Cooling Energy
+  BUILDING STORY 6 THERMALZONE:Zone Air System Sensible Cooling Energy
+  BUILDING STORY 7 THERMALZONE:Zone Air System Sensible Cooling Energy
+  BUILDING STORY 8 THERMALZONE:Zone Air System Sensible Cooling Energy
+  BUILDING STORY 9 THERMALZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:BUILDING STORY 1 THERMALZONE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  BUILDING STORY 1 THERMALZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:BUILDING STORY 10 THERMALZONE [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  BUILDING STORY 10 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 10 THERMALZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:BUILDING STORY 10 THERMALZONE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  BUILDING STORY 10 THERMALZONE:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:BUILDING STORY 10 THERMALZONE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  BUILDING STORY 10 THERMALZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:BUILDING STORY 2 THERMALZONE [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  BUILDING STORY 2 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 2 THERMALZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:BUILDING STORY 2 THERMALZONE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  BUILDING STORY 2 THERMALZONE:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:BUILDING STORY 2 THERMALZONE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  BUILDING STORY 2 THERMALZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:BUILDING STORY 3 THERMALZONE [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  BUILDING STORY 3 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 3 THERMALZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:BUILDING STORY 3 THERMALZONE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  BUILDING STORY 3 THERMALZONE:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:BUILDING STORY 3 THERMALZONE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  BUILDING STORY 3 THERMALZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:BUILDING STORY 4 THERMALZONE [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  BUILDING STORY 4 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 4 THERMALZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:BUILDING STORY 4 THERMALZONE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  BUILDING STORY 4 THERMALZONE:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:BUILDING STORY 4 THERMALZONE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  BUILDING STORY 4 THERMALZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:BUILDING STORY 5 THERMALZONE [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  BUILDING STORY 5 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 5 THERMALZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:BUILDING STORY 5 THERMALZONE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  BUILDING STORY 5 THERMALZONE:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:BUILDING STORY 5 THERMALZONE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  BUILDING STORY 5 THERMALZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:BUILDING STORY 6 THERMALZONE [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  BUILDING STORY 6 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 6 THERMALZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:BUILDING STORY 6 THERMALZONE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  BUILDING STORY 6 THERMALZONE:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:BUILDING STORY 6 THERMALZONE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  BUILDING STORY 6 THERMALZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:BUILDING STORY 7 THERMALZONE [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  BUILDING STORY 7 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 7 THERMALZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:BUILDING STORY 7 THERMALZONE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  BUILDING STORY 7 THERMALZONE:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:BUILDING STORY 7 THERMALZONE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  BUILDING STORY 7 THERMALZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:BUILDING STORY 8 THERMALZONE [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  BUILDING STORY 8 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 8 THERMALZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:BUILDING STORY 8 THERMALZONE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  BUILDING STORY 8 THERMALZONE:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:BUILDING STORY 8 THERMALZONE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  BUILDING STORY 8 THERMALZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:BUILDING STORY 9 THERMALZONE [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  BUILDING STORY 9 THERMALZONE:Zone Air System Sensible Heating Energy
+  BUILDING STORY 9 THERMALZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:BUILDING STORY 9 THERMALZONE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  BUILDING STORY 9 THERMALZONE:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:BUILDING STORY 9 THERMALZONE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  BUILDING STORY 9 THERMALZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Plant [J], ResourceType=EnergyTransfer, Group=Plant, contents are:
+  BOOSTER LARGEHOTEL KITCHEN - 90.1-2004 SERVICE WATER USE 4.17GPM AT 180F:Water Use Equipment Heating Energy
+  LARGEHOTEL KITCHEN - 90.1-2004 SERVICE WATER USE 2.78GPM AT 140F:Water Use Equipment Heating Energy
+  LARGEHOTEL LAUNDRY - 90.1-2004 SERVICE WATER USE 8.21GPM AT 140F:Water Use Equipment Heating Energy
+  LARGEHOTEL GUESTROOM - 90.1-2004 SERVICE WATER USE 7.79GPM AT 140F:Water Use Equipment Heating Energy
+  90.1-2004 WATERCOOLED  ROTARY SCREW CHILLER 0 545TONS 0.6KW/TON:Chiller Evaporator Cooling Energy
+  90.1-2004 WATERCOOLED  ROTARY SCREW CHILLER 0 545TONS 0.6KW/TON:Chiller Condenser Heat Transfer Energy
+  HX FOR BOOSTER WATER HEATING:Fluid Heat Exchanger Heat Transfer Energy
+  BOILER 11186KBTU/HR 0.75 THERMAL EFF:Boiler Heating Energy
+
+ For Meter=WaterSystems:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=WaterSystems, contents are:
+  BOOSTER LARGEHOTEL KITCHEN - 90.1-2004 SERVICE WATER USE 4.17GPM AT 180F:Water Use Equipment Heating Energy
+  LARGEHOTEL KITCHEN - 90.1-2004 SERVICE WATER USE 2.78GPM AT 140F:Water Use Equipment Heating Energy
+  LARGEHOTEL LAUNDRY - 90.1-2004 SERVICE WATER USE 8.21GPM AT 140F:Water Use Equipment Heating Energy
+  LARGEHOTEL GUESTROOM - 90.1-2004 SERVICE WATER USE 7.79GPM AT 140F:Water Use Equipment Heating Energy
+
+ For Meter=General:WaterSystems:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=WaterSystems, contents are:
+  BOOSTER LARGEHOTEL KITCHEN - 90.1-2004 SERVICE WATER USE 4.17GPM AT 180F:Water Use Equipment Heating Energy
+  LARGEHOTEL KITCHEN - 90.1-2004 SERVICE WATER USE 2.78GPM AT 140F:Water Use Equipment Heating Energy
+  LARGEHOTEL LAUNDRY - 90.1-2004 SERVICE WATER USE 8.21GPM AT 140F:Water Use Equipment Heating Energy
+  LARGEHOTEL GUESTROOM - 90.1-2004 SERVICE WATER USE 7.79GPM AT 140F:Water Use Equipment Heating Energy
+
+ For Meter=ElectricityPurchased:Facility [J], ResourceType=ElectricityPurchased, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=ElectricityPurchased:Plant [J], ResourceType=ElectricityPurchased, Group=Plant, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=Cogeneration:ElectricityPurchased [J], ResourceType=ElectricityPurchased, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=ElectricitySurplusSold:Facility [J], ResourceType=ElectricitySurplusSold, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=ElectricitySurplusSold:Plant [J], ResourceType=ElectricitySurplusSold, Group=Plant, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=Cogeneration:ElectricitySurplusSold [J], ResourceType=ElectricitySurplusSold, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=ElectricityNet:Facility [J], ResourceType=ElectricityNet, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=ElectricityNet:Plant [J], ResourceType=ElectricityNet, Group=Plant, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=Cogeneration:ElectricityNet [J], ResourceType=ElectricityNet, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=Electricity:HVAC [J], ResourceType=Electricity, Group=HVAC, contents are:
+  BUILDING STORY 1 THERMALZONE PTAC FAN:Fan Electric Energy
+  BUILDING STORY 10 THERMALZONE PTAC FAN:Fan Electric Energy
+  BUILDING STORY 2 THERMALZONE PTAC FAN:Fan Electric Energy
+  BUILDING STORY 5 THERMALZONE PTAC FAN:Fan Electric Energy
+  BUILDING STORY 6 THERMALZONE PTAC FAN:Fan Electric Energy
+  1 ZONE VAV FAN:Fan Electric Energy
+  1 ZONE VAV 1 FAN:Fan Electric Energy
+  1 ZONE VAV 2 FAN:Fan Electric Energy
+  1 ZONE VAV 3 FAN:Fan Electric Energy
+  1 ZONE VAV 4 FAN:Fan Electric Energy
+  ZONE LARGEHOTEL KITCHEN A  - STORY GROUND EXHAUST FAN:Fan Electric Energy
+  ZONE LARGEHOTEL KITCHEN B  - STORY GROUND EXHAUST FAN:Fan Electric Energy
+  ZONE LARGEHOTEL KITCHEN C  - STORY GROUND EXHAUST FAN:Fan Electric Energy
+  BUILDING STORY 1 THERMALZONE PTAC 1SPD DX AC CLG COIL 254KBTU/HR 9.3EER:Cooling Coil Electric Energy
+  BUILDING STORY 10 THERMALZONE PTAC 1SPD DX AC CLG COIL 716KBTU/HR 9.3EER:Cooling Coil Electric Energy
+  BUILDING STORY 2 THERMALZONE PTAC 1SPD DX AC CLG COIL 484KBTU/HR 9.3EER:Cooling Coil Electric Energy
+  BUILDING STORY 5 THERMALZONE PTAC 1SPD DX AC CLG COIL 472KBTU/HR 9.3EER:Cooling Coil Electric Energy
+  BUILDING STORY 6 THERMALZONE PTAC 1SPD DX AC CLG COIL 463KBTU/HR 9.3EER:Cooling Coil Electric Energy
+  1 ZONE VAV 2 ERV:Heat Exchanger Electric Energy
+
+ For Meter=Fans:Electricity [J], ResourceType=Electricity, EndUse=Fans, contents are:
+  BUILDING STORY 1 THERMALZONE PTAC FAN:Fan Electric Energy
+  BUILDING STORY 10 THERMALZONE PTAC FAN:Fan Electric Energy
+  BUILDING STORY 2 THERMALZONE PTAC FAN:Fan Electric Energy
+  BUILDING STORY 5 THERMALZONE PTAC FAN:Fan Electric Energy
+  BUILDING STORY 6 THERMALZONE PTAC FAN:Fan Electric Energy
+  1 ZONE VAV FAN:Fan Electric Energy
+  1 ZONE VAV 1 FAN:Fan Electric Energy
+  1 ZONE VAV 2 FAN:Fan Electric Energy
+  1 ZONE VAV 3 FAN:Fan Electric Energy
+  1 ZONE VAV 4 FAN:Fan Electric Energy
+  ZONE LARGEHOTEL KITCHEN A  - STORY GROUND EXHAUST FAN:Fan Electric Energy
+  ZONE LARGEHOTEL KITCHEN B  - STORY GROUND EXHAUST FAN:Fan Electric Energy
+  ZONE LARGEHOTEL KITCHEN C  - STORY GROUND EXHAUST FAN:Fan Electric Energy
+
+ For Meter=General:Fans:Electricity [J], ResourceType=Electricity, EndUse=Fans, contents are:
+  BUILDING STORY 1 THERMALZONE PTAC FAN:Fan Electric Energy
+  BUILDING STORY 10 THERMALZONE PTAC FAN:Fan Electric Energy
+  BUILDING STORY 2 THERMALZONE PTAC FAN:Fan Electric Energy
+  BUILDING STORY 5 THERMALZONE PTAC FAN:Fan Electric Energy
+  BUILDING STORY 6 THERMALZONE PTAC FAN:Fan Electric Energy
+  1 ZONE VAV FAN:Fan Electric Energy
+  1 ZONE VAV 1 FAN:Fan Electric Energy
+  1 ZONE VAV 2 FAN:Fan Electric Energy
+  1 ZONE VAV 3 FAN:Fan Electric Energy
+  1 ZONE VAV 4 FAN:Fan Electric Energy
+
+ For Meter=Zone Exhaust Fans:Fans:Electricity [J], ResourceType=Electricity, EndUse=Fans, contents are:
+  ZONE LARGEHOTEL KITCHEN A  - STORY GROUND EXHAUST FAN:Fan Electric Energy
+  ZONE LARGEHOTEL KITCHEN B  - STORY GROUND EXHAUST FAN:Fan Electric Energy
+  ZONE LARGEHOTEL KITCHEN C  - STORY GROUND EXHAUST FAN:Fan Electric Energy
+
+ For Meter=EnergyTransfer:HVAC [J], ResourceType=EnergyTransfer, Group=HVAC, contents are:
+  HOT WATER LOOP WATER HTG COIL:Heating Coil Heating Energy
+  HOT WATER LOOP WATER HTG COIL 1:Heating Coil Heating Energy
+  HOT WATER LOOP WATER HTG COIL 2:Heating Coil Heating Energy
+  BUILDING STORY 3 THERMALZONE REHEAT COIL:Heating Coil Heating Energy
+  BUILDING STORY 4 THERMALZONE REHEAT COIL:Heating Coil Heating Energy
+  HOT WATER LOOP WATER HTG COIL 3:Heating Coil Heating Energy
+  HOT WATER LOOP WATER HTG COIL 4:Heating Coil Heating Energy
+  BUILDING STORY 7 THERMALZONE REHEAT COIL:Heating Coil Heating Energy
+  BUILDING STORY 8 THERMALZONE REHEAT COIL:Heating Coil Heating Energy
+  BUILDING STORY 9 THERMALZONE REHEAT COIL:Heating Coil Heating Energy
+  1 ZONE VAV MAIN HTG COIL:Heating Coil Heating Energy
+  1 ZONE VAV 1 MAIN HTG COIL:Heating Coil Heating Energy
+  1 ZONE VAV 2 MAIN HTG COIL:Heating Coil Heating Energy
+  1 ZONE VAV 3 MAIN HTG COIL:Heating Coil Heating Energy
+  1 ZONE VAV 4 MAIN HTG COIL:Heating Coil Heating Energy
+  1 ZONE VAV CLG COIL:Cooling Coil Total Cooling Energy
+  1 ZONE VAV 1 CLG COIL:Cooling Coil Total Cooling Energy
+  1 ZONE VAV 2 CLG COIL:Cooling Coil Total Cooling Energy
+  1 ZONE VAV 3 CLG COIL:Cooling Coil Total Cooling Energy
+  1 ZONE VAV 4 CLG COIL:Cooling Coil Total Cooling Energy
+  BUILDING STORY 1 THERMALZONE PTAC 1SPD DX AC CLG COIL 254KBTU/HR 9.3EER:Cooling Coil Total Cooling Energy
+  BUILDING STORY 10 THERMALZONE PTAC 1SPD DX AC CLG COIL 716KBTU/HR 9.3EER:Cooling Coil Total Cooling Energy
+  BUILDING STORY 2 THERMALZONE PTAC 1SPD DX AC CLG COIL 484KBTU/HR 9.3EER:Cooling Coil Total Cooling Energy
+  BUILDING STORY 5 THERMALZONE PTAC 1SPD DX AC CLG COIL 472KBTU/HR 9.3EER:Cooling Coil Total Cooling Energy
+  BUILDING STORY 6 THERMALZONE PTAC 1SPD DX AC CLG COIL 463KBTU/HR 9.3EER:Cooling Coil Total Cooling Energy
+  1 ZONE VAV 2 ERV:Heat Exchanger Total Heating Energy
+  1 ZONE VAV 2 ERV:Heat Exchanger Total Cooling Energy
+
+ For Meter=HeatingCoils:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=HeatingCoils, contents are:
+  HOT WATER LOOP WATER HTG COIL:Heating Coil Heating Energy
+  HOT WATER LOOP WATER HTG COIL 1:Heating Coil Heating Energy
+  HOT WATER LOOP WATER HTG COIL 2:Heating Coil Heating Energy
+  BUILDING STORY 3 THERMALZONE REHEAT COIL:Heating Coil Heating Energy
+  BUILDING STORY 4 THERMALZONE REHEAT COIL:Heating Coil Heating Energy
+  HOT WATER LOOP WATER HTG COIL 3:Heating Coil Heating Energy
+  HOT WATER LOOP WATER HTG COIL 4:Heating Coil Heating Energy
+  BUILDING STORY 7 THERMALZONE REHEAT COIL:Heating Coil Heating Energy
+  BUILDING STORY 8 THERMALZONE REHEAT COIL:Heating Coil Heating Energy
+  BUILDING STORY 9 THERMALZONE REHEAT COIL:Heating Coil Heating Energy
+  1 ZONE VAV MAIN HTG COIL:Heating Coil Heating Energy
+  1 ZONE VAV 1 MAIN HTG COIL:Heating Coil Heating Energy
+  1 ZONE VAV 2 MAIN HTG COIL:Heating Coil Heating Energy
+  1 ZONE VAV 3 MAIN HTG COIL:Heating Coil Heating Energy
+  1 ZONE VAV 4 MAIN HTG COIL:Heating Coil Heating Energy
+
+ For Meter=PlantLoopHeatingDemand:HVAC [J], ResourceType=PlantLoopHeatingDemand, Group=HVAC, contents are:
+  HOT WATER LOOP WATER HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  HOT WATER LOOP WATER HTG COIL 1:Heating Coil Source Side Heat Transfer Energy
+  HOT WATER LOOP WATER HTG COIL 2:Heating Coil Source Side Heat Transfer Energy
+  BUILDING STORY 3 THERMALZONE REHEAT COIL:Heating Coil Source Side Heat Transfer Energy
+  BUILDING STORY 4 THERMALZONE REHEAT COIL:Heating Coil Source Side Heat Transfer Energy
+  HOT WATER LOOP WATER HTG COIL 3:Heating Coil Source Side Heat Transfer Energy
+  HOT WATER LOOP WATER HTG COIL 4:Heating Coil Source Side Heat Transfer Energy
+  BUILDING STORY 7 THERMALZONE REHEAT COIL:Heating Coil Source Side Heat Transfer Energy
+  BUILDING STORY 8 THERMALZONE REHEAT COIL:Heating Coil Source Side Heat Transfer Energy
+  BUILDING STORY 9 THERMALZONE REHEAT COIL:Heating Coil Source Side Heat Transfer Energy
+  1 ZONE VAV MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  1 ZONE VAV 1 MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  1 ZONE VAV 2 MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  1 ZONE VAV 3 MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  1 ZONE VAV 4 MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy
+
+ For Meter=HeatingCoils:PlantLoopHeatingDemand [J], ResourceType=PlantLoopHeatingDemand, EndUse=HeatingCoils, contents are:
+  HOT WATER LOOP WATER HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  HOT WATER LOOP WATER HTG COIL 1:Heating Coil Source Side Heat Transfer Energy
+  HOT WATER LOOP WATER HTG COIL 2:Heating Coil Source Side Heat Transfer Energy
+  BUILDING STORY 3 THERMALZONE REHEAT COIL:Heating Coil Source Side Heat Transfer Energy
+  BUILDING STORY 4 THERMALZONE REHEAT COIL:Heating Coil Source Side Heat Transfer Energy
+  HOT WATER LOOP WATER HTG COIL 3:Heating Coil Source Side Heat Transfer Energy
+  HOT WATER LOOP WATER HTG COIL 4:Heating Coil Source Side Heat Transfer Energy
+  BUILDING STORY 7 THERMALZONE REHEAT COIL:Heating Coil Source Side Heat Transfer Energy
+  BUILDING STORY 8 THERMALZONE REHEAT COIL:Heating Coil Source Side Heat Transfer Energy
+  BUILDING STORY 9 THERMALZONE REHEAT COIL:Heating Coil Source Side Heat Transfer Energy
+  1 ZONE VAV MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  1 ZONE VAV 1 MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  1 ZONE VAV 2 MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  1 ZONE VAV 3 MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  1 ZONE VAV 4 MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy
+
+ For Meter=CoolingCoils:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=CoolingCoils, contents are:
+  1 ZONE VAV CLG COIL:Cooling Coil Total Cooling Energy
+  1 ZONE VAV 1 CLG COIL:Cooling Coil Total Cooling Energy
+  1 ZONE VAV 2 CLG COIL:Cooling Coil Total Cooling Energy
+  1 ZONE VAV 3 CLG COIL:Cooling Coil Total Cooling Energy
+  1 ZONE VAV 4 CLG COIL:Cooling Coil Total Cooling Energy
+  BUILDING STORY 1 THERMALZONE PTAC 1SPD DX AC CLG COIL 254KBTU/HR 9.3EER:Cooling Coil Total Cooling Energy
+  BUILDING STORY 10 THERMALZONE PTAC 1SPD DX AC CLG COIL 716KBTU/HR 9.3EER:Cooling Coil Total Cooling Energy
+  BUILDING STORY 2 THERMALZONE PTAC 1SPD DX AC CLG COIL 484KBTU/HR 9.3EER:Cooling Coil Total Cooling Energy
+  BUILDING STORY 5 THERMALZONE PTAC 1SPD DX AC CLG COIL 472KBTU/HR 9.3EER:Cooling Coil Total Cooling Energy
+  BUILDING STORY 6 THERMALZONE PTAC 1SPD DX AC CLG COIL 463KBTU/HR 9.3EER:Cooling Coil Total Cooling Energy
+
+ For Meter=PlantLoopCoolingDemand:Facility [J], ResourceType=PlantLoopCoolingDemand, contents are:
+  1 ZONE VAV CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+  1 ZONE VAV 1 CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+  1 ZONE VAV 2 CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+  1 ZONE VAV 3 CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+  1 ZONE VAV 4 CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+
+ For Meter=PlantLoopCoolingDemand:HVAC [J], ResourceType=PlantLoopCoolingDemand, Group=HVAC, contents are:
+  1 ZONE VAV CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+  1 ZONE VAV 1 CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+  1 ZONE VAV 2 CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+  1 ZONE VAV 3 CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+  1 ZONE VAV 4 CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+
+ For Meter=CoolingCoils:PlantLoopCoolingDemand [J], ResourceType=PlantLoopCoolingDemand, EndUse=CoolingCoils, contents are:
+  1 ZONE VAV CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+  1 ZONE VAV 1 CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+  1 ZONE VAV 2 CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+  1 ZONE VAV 3 CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+  1 ZONE VAV 4 CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+
+ For Meter=Cooling:Electricity [J], ResourceType=Electricity, EndUse=Cooling, contents are:
+  BUILDING STORY 1 THERMALZONE PTAC 1SPD DX AC CLG COIL 254KBTU/HR 9.3EER:Cooling Coil Electric Energy
+  BUILDING STORY 10 THERMALZONE PTAC 1SPD DX AC CLG COIL 716KBTU/HR 9.3EER:Cooling Coil Electric Energy
+  BUILDING STORY 2 THERMALZONE PTAC 1SPD DX AC CLG COIL 484KBTU/HR 9.3EER:Cooling Coil Electric Energy
+  BUILDING STORY 5 THERMALZONE PTAC 1SPD DX AC CLG COIL 472KBTU/HR 9.3EER:Cooling Coil Electric Energy
+  BUILDING STORY 6 THERMALZONE PTAC 1SPD DX AC CLG COIL 463KBTU/HR 9.3EER:Cooling Coil Electric Energy
+  BUILDING STORY 1 THERMALZONE PTAC 1SPD DX AC CLG COIL 254KBTU/HR 9.3EER:Cooling Coil Crankcase Heater Electric Energy
+  BUILDING STORY 10 THERMALZONE PTAC 1SPD DX AC CLG COIL 716KBTU/HR 9.3EER:Cooling Coil Crankcase Heater Electric Energy
+  BUILDING STORY 2 THERMALZONE PTAC 1SPD DX AC CLG COIL 484KBTU/HR 9.3EER:Cooling Coil Crankcase Heater Electric Energy
+  BUILDING STORY 5 THERMALZONE PTAC 1SPD DX AC CLG COIL 472KBTU/HR 9.3EER:Cooling Coil Crankcase Heater Electric Energy
+  BUILDING STORY 6 THERMALZONE PTAC 1SPD DX AC CLG COIL 463KBTU/HR 9.3EER:Cooling Coil Crankcase Heater Electric Energy
+  90.1-2004 WATERCOOLED  ROTARY SCREW CHILLER 0 545TONS 0.6KW/TON:Chiller Electric Energy
+
+ For Meter=ExteriorLights:Electricity [J], ResourceType=Electricity, EndUse=ExteriorLights, contents are:
+  BUILDING FACADES:Exterior Lights Electric Energy
+  ENTRY CANOPIES:Exterior Lights Electric Energy
+  MAIN ENTRIES:Exterior Lights Electric Energy
+  OTHER DOORS:Exterior Lights Electric Energy
+  PARKING AREAS AND DRIVES:Exterior Lights Electric Energy
+
+ For Meter=Building Facades:ExteriorLights:Electricity [J], ResourceType=Electricity, EndUse=ExteriorLights, contents are:
+  BUILDING FACADES:Exterior Lights Electric Energy
+
+ For Meter=Entry Canopies:ExteriorLights:Electricity [J], ResourceType=Electricity, EndUse=ExteriorLights, contents are:
+  ENTRY CANOPIES:Exterior Lights Electric Energy
+
+ For Meter=Main Entries:ExteriorLights:Electricity [J], ResourceType=Electricity, EndUse=ExteriorLights, contents are:
+  MAIN ENTRIES:Exterior Lights Electric Energy
+
+ For Meter=Other Doors:ExteriorLights:Electricity [J], ResourceType=Electricity, EndUse=ExteriorLights, contents are:
+  OTHER DOORS:Exterior Lights Electric Energy
+
+ For Meter=Parking Areas and Drives:ExteriorLights:Electricity [J], ResourceType=Electricity, EndUse=ExteriorLights, contents are:
+  PARKING AREAS AND DRIVES:Exterior Lights Electric Energy
+
+ For Meter=HeatRecoveryForHeating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=HeatRecoveryForHeating, contents are:
+  1 ZONE VAV 2 ERV:Heat Exchanger Total Heating Energy
+
+ For Meter=HeatRecoveryForCooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=HeatRecoveryForCooling, contents are:
+  1 ZONE VAV 2 ERV:Heat Exchanger Total Cooling Energy
+
+ For Meter=HeatRecovery:Electricity [J], ResourceType=Electricity, EndUse=HeatRecovery, contents are:
+  1 ZONE VAV 2 ERV:Heat Exchanger Electric Energy
+
+ For Meter=General:Cooling:Electricity [J], ResourceType=Electricity, EndUse=Cooling, contents are:
+  90.1-2004 WATERCOOLED  ROTARY SCREW CHILLER 0 545TONS 0.6KW/TON:Chiller Electric Energy
+
+ For Meter=Chillers:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Chillers, contents are:
+  90.1-2004 WATERCOOLED  ROTARY SCREW CHILLER 0 545TONS 0.6KW/TON:Chiller Evaporator Cooling Energy
+
+ For Meter=HeatRejection:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=HeatRejection, contents are:
+  90.1-2004 WATERCOOLED  ROTARY SCREW CHILLER 0 545TONS 0.6KW/TON:Chiller Condenser Heat Transfer Energy
+
+ For Meter=LoopToLoop:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=LoopToLoop, contents are:
+  HX FOR BOOSTER WATER HEATING:Fluid Heat Exchanger Heat Transfer Energy
+
+ For Meter=HeatRejection:Electricity [J], ResourceType=Electricity, EndUse=HeatRejection, contents are:
+  PROPELLER OR AXIAL TWOSPEED FAN OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Fan Electric Energy
+
+ For Meter=General:HeatRejection:Electricity [J], ResourceType=Electricity, EndUse=HeatRejection, contents are:
+  PROPELLER OR AXIAL TWOSPEED FAN OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Fan Electric Energy
+
+ For Meter=HeatRejection:Water [m3], ResourceType=Water, EndUse=HeatRejection, contents are:
+  PROPELLER OR AXIAL TWOSPEED FAN OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Make Up Water Volume
+
+ For Meter=HeatRejection:MainsWater [m3], ResourceType=MainsWater, EndUse=HeatRejection, contents are:
+  PROPELLER OR AXIAL TWOSPEED FAN OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Make Up Mains Water Volume
+
+ For Meter=Boilers:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Boilers, contents are:
+  BOILER 11186KBTU/HR 0.75 THERMAL EFF:Boiler Heating Energy
+
+ For Meter=Heating:Gas [J], ResourceType=Gas, EndUse=Heating, contents are:
+  BOILER 11186KBTU/HR 0.75 THERMAL EFF:Boiler Gas Energy
+
+ For Meter=General:Heating:Gas [J], ResourceType=Gas, EndUse=Heating, contents are:
+  BOILER 11186KBTU/HR 0.75 THERMAL EFF:Boiler Gas Energy
+
+ For Meter=Heating:Electricity [J], ResourceType=Electricity, EndUse=Heating, contents are:
+  BOILER 11186KBTU/HR 0.75 THERMAL EFF:Boiler Ancillary Electric Energy
+
+ For Meter=Boiler Parasitic:Heating:Electricity [J], ResourceType=Electricity, EndUse=Heating, contents are:
+  BOILER 11186KBTU/HR 0.75 THERMAL EFF:Boiler Ancillary Electric Energy
+
+ For Meter=Pumps:Electricity [J], ResourceType=Electricity, EndUse=Pumps, contents are:
+  CHILLED WATER LOOP SECONDARY PUMP:Pump Electric Energy
+  HOT WATER LOOP PUMP:Pump Electric Energy
+  BOOSTER WATER LOOP PUMP:Pump Electric Energy
+  LARGEHOTEL KITCHEN - 90.1-2004 SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN:Pump Electric Energy
+  LARGEHOTEL LAUNDRY - 90.1-2004 SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN:Pump Electric Energy
+  CHILLED WATER LOOP PRIMARY PUMP:Pump Electric Energy
+  CONDENSER WATER LOOP CONSTANT PUMP:Pump Electric Energy
+  LARGEHOTEL SHARED SERVICE WATER LOOP CIRCULATOR PUMP:Pump Electric Energy
+
+ For Meter=General:Pumps:Electricity [J], ResourceType=Electricity, EndUse=Pumps, contents are:
+  CHILLED WATER LOOP SECONDARY PUMP:Pump Electric Energy
+  HOT WATER LOOP PUMP:Pump Electric Energy
+  BOOSTER WATER LOOP PUMP:Pump Electric Energy
+  LARGEHOTEL KITCHEN - 90.1-2004 SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN:Pump Electric Energy
+  LARGEHOTEL LAUNDRY - 90.1-2004 SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN:Pump Electric Energy
+  CHILLED WATER LOOP PRIMARY PUMP:Pump Electric Energy
+  CONDENSER WATER LOOP CONSTANT PUMP:Pump Electric Energy
+  LARGEHOTEL SHARED SERVICE WATER LOOP CIRCULATOR PUMP:Pump Electric Energy
+
+ For Meter=Carbon Equivalent:Facility [kg], ResourceType=Carbon Equivalent, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
+
+ For Meter=CarbonEquivalentEmissions:Carbon Equivalent [kg], ResourceType=Carbon Equivalent, EndUse=CarbonEquivalentEmissions, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass

@@ -1,0 +1,217 @@
+{
+  "id": "6",
+  "name": "Residential 5",
+  "directory_name": "/Users/tkwasnik/github/urbanopt-example-geojson-reopt-project/jupyter_example/run/baseline_scenario/6",
+  "feature_type": "Building",
+  "timesteps_per_hour": 1,
+  "simulation_status": "Complete",
+  "timeseries_csv": {
+    "path": "/Users/tkwasnik/github/urbanopt-example-geojson-reopt-project/jupyter_example/run/baseline_scenario/6/010_default_feature_reports/default_feature_reports.csv",
+    "first_report_datetime": "0",
+    "column_names": [
+      "Electricity:Facility",
+      "ElectricityProduced:Facility",
+      "Gas:Facility",
+      "DistrictCooling:Facility",
+      "DistrictHeating:Facility",
+      "District Cooling Chilled Water Rate",
+      "District Cooling Mass Flow Rate",
+      "District Cooling Inlet Temperature",
+      "District Cooling Outlet Temperature",
+      "District Heating Hot Water Rate",
+      "District Heating Mass Flow Rate",
+      "District Heating Inlet Temperature",
+      "District Heating Outlet Temperature"
+    ]
+  },
+  "location": {
+    "latitude": 42.93,
+    "longitude": -78.73,
+    "surface_elevation": 215.0
+  },
+  "program": {
+    "floor_area": 10683.5040058969,
+    "conditioned_area": 10683.5040058969,
+    "unconditioned_area": 0.0,
+    "footprint_area": 10683.5040058969,
+    "maximum_roof_height": 3.0,
+    "maximum_number_of_stories": 1,
+    "number_of_residential_units": 1,
+    "building_types": [
+      {
+        "building_type": "MidriseApartment",
+        "floor_area": 10683.489150681404,
+        "maximum_occupancy": 25.15644395357697
+      }
+    ],
+    "window_area": {
+      "north_window_area": 191.16704900076468,
+      "south_window_area": 191.16704900076468,
+      "east_window_area": 487.174585460282,
+      "west_window_area": 487.174585460282,
+      "total_window_area": 1356.6832689220932
+    },
+    "wall_area": {
+      "north_wall_area": 637.3311357733827,
+      "south_wall_area": 637.3311357733827,
+      "east_wall_area": 1623.9511645689959,
+      "west_wall_area": 1623.9511645689959,
+      "total_wall_area": 4522.564600684757
+    },
+    "roof_area": {
+      "total_roof_area": 10683.489150681404
+    },
+    "orientation": 0.0,
+    "aspect_ratio": 0.3924570822562471
+  },
+  "construction_costs": [
+
+  ],
+  "reporting_periods": [
+    {
+      "start_date": {
+        "month": 1,
+        "day_of_month": 1,
+        "year": "2018"
+      },
+      "end_date": {
+        "month": 12,
+        "day_of_month": 31,
+        "year": "2018"
+      },
+      "total_site_energy": 704559.8563849044,
+      "total_source_energy": 1668357.1733467043,
+      "net_site_energy": 704559.8563849044,
+      "net_source_energy": 1668357.1733467043,
+      "electricity": 434280.3263563588,
+      "natural_gas": 270279.5300285456,
+      "additional_fuel": 0.0,
+      "district_cooling": 0.0,
+      "district_heating": 0.0,
+      "water": 604.88,
+      "electricity_produced": 434284.1176248401,
+      "end_uses": {
+        "electricity": {
+          "heating": 0.0,
+          "cooling": 24254.64010881779,
+          "interior_lighting": 41940.907573864286,
+          "exterior_lighting": 31856.133413730593,
+          "interior_equipment": 116505.68042891295,
+          "exterior_equipment": 0.0,
+          "fans": 105150.83132755941,
+          "pumps": 369.6486769221937,
+          "heat_rejection": 0.0,
+          "humidification": 0.0,
+          "heat_recovery": 0.0,
+          "water_systems": 114202.4848265516,
+          "refrigeration": 0.0,
+          "generators": 0.0
+        },
+        "natural_gas": {
+          "heating": 270279.5300285456,
+          "cooling": 0.0,
+          "interior_lighting": 0.0,
+          "exterior_lighting": 0.0,
+          "interior_equipment": 0.0,
+          "exterior_equipment": 0.0,
+          "fans": 0.0,
+          "pumps": 0.0,
+          "heat_rejection": 0.0,
+          "humidification": 0.0,
+          "heat_recovery": 0.0,
+          "water_systems": 0.0,
+          "refrigeration": 0.0,
+          "generators": 0.0
+        },
+        "additional_fuel": {
+          "heating": 0.0,
+          "cooling": 0.0,
+          "interior_lighting": 0.0,
+          "exterior_lighting": 0.0,
+          "interior_equipment": 0.0,
+          "exterior_equipment": 0.0,
+          "fans": 0.0,
+          "pumps": 0.0,
+          "heat_rejection": 0.0,
+          "humidification": 0.0,
+          "heat_recovery": 0.0,
+          "water_systems": 0.0,
+          "refrigeration": 0.0,
+          "generators": 0.0
+        },
+        "district_cooling": {
+          "heating": 0.0,
+          "cooling": 0.0,
+          "interior_lighting": 0.0,
+          "exterior_lighting": 0.0,
+          "interior_equipment": 0.0,
+          "exterior_equipment": 0.0,
+          "fans": 0.0,
+          "pumps": 0.0,
+          "heat_rejection": 0.0,
+          "humidification": 0.0,
+          "heat_recovery": 0.0,
+          "water_systems": 0.0,
+          "refrigeration": 0.0,
+          "generators": 0.0
+        },
+        "district_heating": {
+          "heating": 0.0,
+          "cooling": 0.0,
+          "interior_lighting": 0.0,
+          "exterior_lighting": 0.0,
+          "interior_equipment": 0.0,
+          "exterior_equipment": 0.0,
+          "fans": 0.0,
+          "pumps": 0.0,
+          "heat_rejection": 0.0,
+          "humidification": 0.0,
+          "heat_recovery": 0.0,
+          "water_systems": 0.0,
+          "refrigeration": 0.0,
+          "generators": 0.0
+        },
+        "water": {
+          "heating": 0.0,
+          "cooling": 0.0,
+          "interior_lighting": 0.0,
+          "exterior_lighting": 0.0,
+          "interior_equipment": 0.0,
+          "exterior_equipment": 0.0,
+          "fans": 0.0,
+          "pumps": 0.0,
+          "heat_rejection": 0.0,
+          "humidification": 0.0,
+          "heat_recovery": 0.0,
+          "water_systems": 573315.6197351194,
+          "refrigeration": 0.0,
+          "generators": 0.0
+        }
+      },
+      "energy_production": {
+        "electricity_produced": {
+          "photovoltaic": 0.0
+        }
+      },
+      "utility_costs": [
+        {
+        }
+      ],
+      "comfort_result": {
+        "time_setpoint_not_met_during_occupied_cooling": 0.0,
+        "time_setpoint_not_met_during_occupied_heating": 0.0,
+        "time_setpoint_not_met_during_occupied_hours": 0.0
+      }
+    }
+  ],
+  "distributed_generation": {
+    "solar_pv": {
+    },
+    "wind": {
+    },
+    "generator": {
+    },
+    "storage": {
+    }
+  }
+}

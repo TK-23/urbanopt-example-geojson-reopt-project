@@ -1,0 +1,92 @@
+[openstudio.model.YearDescription] <1> 'UseWeatherFile' is not yet a supported option for YearDescription
+[openstudio.model.YearDescription] <1> 'UseWeatherFile' is not yet a supported option for YearDescription
+[12:57:10.867783 WARN] No valid weather file defined in either the osm or osw.
+[12:57:12.180646 WARN] weather_file.path is .
+[12:57:22.170833 WARN] Could not find color for 90.1-2004 Hospital Corridor
+[12:57:22.171850 WARN] Could not find color for 90.1-2004 Hospital Dining
+[12:57:22.172803 WARN] Could not find color for 90.1-2004 Hospital ER_Exam
+[12:57:22.173772 WARN] Could not find color for 90.1-2004 Hospital ER_NurseStn
+[12:57:22.174653 WARN] Could not find color for 90.1-2004 Hospital ER_Trauma
+[12:57:22.175554 WARN] Could not find color for 90.1-2004 Hospital ER_Triage
+[12:57:22.176427 WARN] Could not find color for 90.1-2004 Hospital ICU_NurseStn
+[12:57:22.177561 WARN] Could not find color for 90.1-2004 Hospital ICE_Open
+[12:57:22.178445 WARN] Could not find color for 90.1-2004 Hospital ICU_PatRm
+[12:57:22.179903 WARN] Could not find color for 90.1-2004 Hospital Kitchen
+[12:57:22.180749 WARN] Could not find color for 90.1-2004 Hospital Lab
+[12:57:22.181583 WARN] Could not find color for 90.1-2004 Hospital Lobby
+[12:57:22.182381 WARN] Could not find color for 90.1-2004 Hospital NurseStn
+[12:57:22.183202 WARN] Could not find color for 90.1-2004 Hospital Office
+[12:57:22.184020 WARN] Could not find color for 90.1-2004 Hospital OR
+[12:57:22.184862 WARN] Could not find color for 90.1-2004 Hospital PatCorridor
+[12:57:22.185692 WARN] Could not find color for 90.1-2004 Hospital PatRoom
+[12:57:22.186516 WARN] Could not find color for 90.1-2004 Hospital PhysTherapy
+[12:57:22.187341 WARN] Could not find color for 90.1-2004 Hospital Radiology
+[12:57:22.199336 WARN] User-defined single floor area was used for calculation of total building floor area
+[12:57:44.443861 WARN] [openstudio.standards.SpaceType] Space type properties lookup failed: {"template"=>"90.1-2004", "building_type"=>"Hospital", "space_type"=>"ICE_Open"}.
+[12:57:44.444070 WARN] [openstudio.standards.SpaceType] Space type properties lookup failed: {"template"=>"90.1-2004", "building_type"=>"Hospital", "space_type"=>"ICE_Open"}.
+[12:57:44.459601 WARN] [openstudio.standards.Model] Find object search criteria returned 5 results, the first one will be returned. Called from /Users/tkwasnik/github/urbanopt-example-geojson-reopt-project/.bundle/install/ruby/2.2.0/gems/openstudio-standards-0.2.10/lib/openstudio-standards/standards/Standards.Model.rb:2431:in `model_find_and_add_construction'. 
+ Search criteria: 
+ {"template"=>"90.1-2004", "climate_zone_set"=>"ClimateZone 6", "intended_surface_type"=>"ExteriorWindow", "standards_construction_type"=>"Metal framing (all other)", "building_category"=>"Nonresidential"}, capacity =  
+  All results: 
+ {"template"=>"90.1-2004", "climate_zone_set"=>"ClimateZone 6", "operation_type"=>nil, "intended_surface_type"=>"ExteriorWindow", "standards_construction_type"=>"Metal framing (all other)", "building_category"=>"Nonresidential", "construction"=>"U 0.57 SHGC 0.49 Dbl Blue 6mm/6mm Air", "orientation"=>nil, "minimum_percent_of_surface"=>1.0, "maximum_percent_of_surface"=>10.0, "assembly_maximum_u_value"=>0.57, "u_value_includes_interior_film_coefficient"=>true, "u_value_includes_exterior_film_coefficient"=>true, "assembly_maximum_f_factor"=>nil, "assembly_maximum_c_factor"=>nil, "assembly_maximum_solar_heat_gain_coefficient"=>0.49, "assembly_minimum_vt_shgc"=>nil, "notes"=>nil}
+{"template"=>"90.1-2004", "climate_zone_set"=>"ClimateZone 6", "operation_type"=>nil, "intended_surface_type"=>"ExteriorWindow", "standards_construction_type"=>"Metal framing (all other)", "building_category"=>"Nonresidential", "construction"=>"U 0.57 SHGC 0.39 Dbl Ref-D Clr 6mm/6mm Air", "orientation"=>nil, "minimum_percent_of_surface"=>10.001, "maximum_percent_of_surface"=>20.0, "assembly_maximum_u_value"=>0.57, "u_value_includes_interior_film_coefficient"=>true, "u_value_includes_exterior_film_coefficient"=>true, "assembly_maximum_f_factor"=>nil, "assembly_maximum_c_factor"=>nil, "assembly_maximum_solar_heat_gain_coefficient"=>0.39, "assembly_minimum_vt_shgc"=>nil, "notes"=>nil}
+{"template"=>"90.1-2004", "climate_zone_set"=>"ClimateZone 6", "operation_type"=>nil, "intended_surface_type"=>"ExteriorWindow", "standards_construction_type"=>"Metal framing (all other)", "building_category"=>"Nonresidential", "construction"=>"U 0.57 SHGC 0.39 Dbl Ref-D Clr 6mm/6mm Air", "orientation"=>nil, "minimum_percent_of_surface"=>20.001, "maximum_percent_of_surface"=>30.0, "assembly_maximum_u_value"=>0.57, "u_value_includes_interior_film_coefficient"=>true, "u_value_includes_exterior_film_coefficient"=>true, "assembly_maximum_f_factor"=>nil, "assembly_maximum_c_factor"=>nil, "assembly_maximum_solar_heat_gain_coefficient"=>0.39, "assembly_minimum_vt_shgc"=>nil, "notes"=>nil}
+{"template"=>"90.1-2004", "climate_zone_set"=>"ClimateZone 6", "operation_type"=>nil, "intended_surface_type"=>"ExteriorWindow", "standards_construction_type"=>"Metal framing (all other)", "building_category"=>"Nonresidential", "construction"=>"U 0.57 SHGC 0.39 Dbl Ref-D Clr 6mm/6mm Air", "orientation"=>nil, "minimum_percent_of_surface"=>30.001, "maximum_percent_of_surface"=>40.0, "assembly_maximum_u_value"=>0.57, "u_value_includes_interior_film_coefficient"=>true, "u_value_includes_exterior_film_coefficient"=>true, "assembly_maximum_f_factor"=>nil, "assembly_maximum_c_factor"=>nil, "assembly_maximum_solar_heat_gain_coefficient"=>0.39, "assembly_minimum_vt_shgc"=>nil, "notes"=>nil}
+{"template"=>"90.1-2004", "climate_zone_set"=>"ClimateZone 6", "operation_type"=>nil, "intended_surface_type"=>"ExteriorWindow", "standards_construction_type"=>"Metal framing (all other)", "building_category"=>"Nonresidential", "construction"=>"U 0.44 SHGC 0.20 Dbl Ref-B-H Tint 6mm/13mm Air", "orientation"=>nil, "minimum_percent_of_surface"=>40.001, "maximum_percent_of_surface"=>100.0, "assembly_maximum_u_value"=>0.46, "u_value_includes_interior_film_coefficient"=>true, "u_value_includes_exterior_film_coefficient"=>true, "assembly_maximum_f_factor"=>nil, "assembly_maximum_c_factor"=>nil, "assembly_maximum_solar_heat_gain_coefficient"=>0.26, "assembly_minimum_vt_shgc"=>nil, "notes"=>nil}
+[12:57:44.459746 WARN] [openstudio.standards.ConstructionBase] Can only set the u-value of opaque constructions or simple glazing. U 0.57 SHGC 0.49 Dbl Blue 6mm/6mm Air is not opaque or simple glazing.
+[12:57:44.459869 WARN] [openstudio.standards.Model] Find object search criteria returned 5 results, the first one will be returned. Called from /Users/tkwasnik/github/urbanopt-example-geojson-reopt-project/.bundle/install/ruby/2.2.0/gems/openstudio-standards-0.2.10/lib/openstudio-standards/standards/Standards.Model.rb:2431:in `model_find_and_add_construction'. 
+ Search criteria: 
+ {"template"=>"90.1-2004", "climate_zone_set"=>"ClimateZone 6", "intended_surface_type"=>"ExteriorWindow", "standards_construction_type"=>"Metal framing (all other)", "building_category"=>"Nonresidential"}, capacity =  
+  All results: 
+ {"template"=>"90.1-2004", "climate_zone_set"=>"ClimateZone 6", "operation_type"=>nil, "intended_surface_type"=>"ExteriorWindow", "standards_construction_type"=>"Metal framing (all other)", "building_category"=>"Nonresidential", "construction"=>"U 0.57 SHGC 0.49 Dbl Blue 6mm/6mm Air", "orientation"=>nil, "minimum_percent_of_surface"=>1.0, "maximum_percent_of_surface"=>10.0, "assembly_maximum_u_value"=>0.57, "u_value_includes_interior_film_coefficient"=>true, "u_value_includes_exterior_film_coefficient"=>true, "assembly_maximum_f_factor"=>nil, "assembly_maximum_c_factor"=>nil, "assembly_maximum_solar_heat_gain_coefficient"=>0.49, "assembly_minimum_vt_shgc"=>nil, "notes"=>nil}
+{"template"=>"90.1-2004", "climate_zone_set"=>"ClimateZone 6", "operation_type"=>nil, "intended_surface_type"=>"ExteriorWindow", "standards_construction_type"=>"Metal framing (all other)", "building_category"=>"Nonresidential", "construction"=>"U 0.57 SHGC 0.39 Dbl Ref-D Clr 6mm/6mm Air", "orientation"=>nil, "minimum_percent_of_surface"=>10.001, "maximum_percent_of_surface"=>20.0, "assembly_maximum_u_value"=>0.57, "u_value_includes_interior_film_coefficient"=>true, "u_value_includes_exterior_film_coefficient"=>true, "assembly_maximum_f_factor"=>nil, "assembly_maximum_c_factor"=>nil, "assembly_maximum_solar_heat_gain_coefficient"=>0.39, "assembly_minimum_vt_shgc"=>nil, "notes"=>nil}
+{"template"=>"90.1-2004", "climate_zone_set"=>"ClimateZone 6", "operation_type"=>nil, "intended_surface_type"=>"ExteriorWindow", "standards_construction_type"=>"Metal framing (all other)", "building_category"=>"Nonresidential", "construction"=>"U 0.57 SHGC 0.39 Dbl Ref-D Clr 6mm/6mm Air", "orientation"=>nil, "minimum_percent_of_surface"=>20.001, "maximum_percent_of_surface"=>30.0, "assembly_maximum_u_value"=>0.57, "u_value_includes_interior_film_coefficient"=>true, "u_value_includes_exterior_film_coefficient"=>true, "assembly_maximum_f_factor"=>nil, "assembly_maximum_c_factor"=>nil, "assembly_maximum_solar_heat_gain_coefficient"=>0.39, "assembly_minimum_vt_shgc"=>nil, "notes"=>nil}
+{"template"=>"90.1-2004", "climate_zone_set"=>"ClimateZone 6", "operation_type"=>nil, "intended_surface_type"=>"ExteriorWindow", "standards_construction_type"=>"Metal framing (all other)", "building_category"=>"Nonresidential", "construction"=>"U 0.57 SHGC 0.39 Dbl Ref-D Clr 6mm/6mm Air", "orientation"=>nil, "minimum_percent_of_surface"=>30.001, "maximum_percent_of_surface"=>40.0, "assembly_maximum_u_value"=>0.57, "u_value_includes_interior_film_coefficient"=>true, "u_value_includes_exterior_film_coefficient"=>true, "assembly_maximum_f_factor"=>nil, "assembly_maximum_c_factor"=>nil, "assembly_maximum_solar_heat_gain_coefficient"=>0.39, "assembly_minimum_vt_shgc"=>nil, "notes"=>nil}
+{"template"=>"90.1-2004", "climate_zone_set"=>"ClimateZone 6", "operation_type"=>nil, "intended_surface_type"=>"ExteriorWindow", "standards_construction_type"=>"Metal framing (all other)", "building_category"=>"Nonresidential", "construction"=>"U 0.44 SHGC 0.20 Dbl Ref-B-H Tint 6mm/13mm Air", "orientation"=>nil, "minimum_percent_of_surface"=>40.001, "maximum_percent_of_surface"=>100.0, "assembly_maximum_u_value"=>0.46, "u_value_includes_interior_film_coefficient"=>true, "u_value_includes_exterior_film_coefficient"=>true, "assembly_maximum_f_factor"=>nil, "assembly_maximum_c_factor"=>nil, "assembly_maximum_solar_heat_gain_coefficient"=>0.26, "assembly_minimum_vt_shgc"=>nil, "notes"=>nil}
+[utilities.geometry.joinAll] <1> Expected polygons to join together
+[utilities.geometry.joinAll] <1> Expected polygons to join together
+[12:57:44.460495 WARN] [openstudio.standards.Model] Find object search criteria returned 5 results, the first one will be returned. Called from /Users/tkwasnik/github/urbanopt-example-geojson-reopt-project/.bundle/install/ruby/2.2.0/gems/openstudio-standards-0.2.10/lib/openstudio-standards/standards/Standards.Model.rb:2431:in `model_find_and_add_construction'. 
+ Search criteria: 
+ {"template"=>"90.1-2004", "climate_zone_set"=>"ClimateZone 6", "intended_surface_type"=>"GlassDoor", "standards_construction_type"=>"Metal framing (entrance door)", "building_category"=>"Nonresidential"}, capacity =  
+  All results: 
+ {"template"=>"90.1-2004", "climate_zone_set"=>"ClimateZone 6", "operation_type"=>nil, "intended_surface_type"=>"GlassDoor", "standards_construction_type"=>"Metal framing (entrance door)", "building_category"=>"Nonresidential", "construction"=>"U 0.57 SHGC 0.49 Dbl Blue 6mm/6mm Air", "orientation"=>nil, "minimum_percent_of_surface"=>1.0, "maximum_percent_of_surface"=>10.0, "assembly_maximum_u_value"=>0.57, "u_value_includes_interior_film_coefficient"=>true, "u_value_includes_exterior_film_coefficient"=>true, "assembly_maximum_f_factor"=>nil, "assembly_maximum_c_factor"=>nil, "assembly_maximum_solar_heat_gain_coefficient"=>0.49, "assembly_minimum_vt_shgc"=>nil, "notes"=>nil}
+{"template"=>"90.1-2004", "climate_zone_set"=>"ClimateZone 6", "operation_type"=>nil, "intended_surface_type"=>"GlassDoor", "standards_construction_type"=>"Metal framing (entrance door)", "building_category"=>"Nonresidential", "construction"=>"U 0.57 SHGC 0.39 Dbl Ref-D Clr 6mm/6mm Air", "orientation"=>nil, "minimum_percent_of_surface"=>10.001, "maximum_percent_of_surface"=>20.0, "assembly_maximum_u_value"=>0.57, "u_value_includes_interior_film_coefficient"=>true, "u_value_includes_exterior_film_coefficient"=>true, "assembly_maximum_f_factor"=>nil, "assembly_maximum_c_factor"=>nil, "assembly_maximum_solar_heat_gain_coefficient"=>0.39, "assembly_minimum_vt_shgc"=>nil, "notes"=>nil}
+{"template"=>"90.1-2004", "climate_zone_set"=>"ClimateZone 6", "operation_type"=>nil, "intended_surface_type"=>"GlassDoor", "standards_construction_type"=>"Metal framing (entrance door)", "building_category"=>"Nonresidential", "construction"=>"U 0.57 SHGC 0.39 Dbl Ref-D Clr 6mm/6mm Air", "orientation"=>nil, "minimum_percent_of_surface"=>20.001, "maximum_percent_of_surface"=>30.0, "assembly_maximum_u_value"=>0.57, "u_value_includes_interior_film_coefficient"=>true, "u_value_includes_exterior_film_coefficient"=>true, "assembly_maximum_f_factor"=>nil, "assembly_maximum_c_factor"=>nil, "assembly_maximum_solar_heat_gain_coefficient"=>0.39, "assembly_minimum_vt_shgc"=>nil, "notes"=>nil}
+{"template"=>"90.1-2004", "climate_zone_set"=>"ClimateZone 6", "operation_type"=>nil, "intended_surface_type"=>"GlassDoor", "standards_construction_type"=>"Metal framing (entrance door)", "building_category"=>"Nonresidential", "construction"=>"U 0.57 SHGC 0.39 Dbl Ref-D Clr 6mm/6mm Air", "orientation"=>nil, "minimum_percent_of_surface"=>30.001, "maximum_percent_of_surface"=>40.0, "assembly_maximum_u_value"=>0.57, "u_value_includes_interior_film_coefficient"=>true, "u_value_includes_exterior_film_coefficient"=>true, "assembly_maximum_f_factor"=>nil, "assembly_maximum_c_factor"=>nil, "assembly_maximum_solar_heat_gain_coefficient"=>0.39, "assembly_minimum_vt_shgc"=>nil, "notes"=>nil}
+{"template"=>"90.1-2004", "climate_zone_set"=>"ClimateZone 6", "operation_type"=>nil, "intended_surface_type"=>"GlassDoor", "standards_construction_type"=>"Metal framing (entrance door)", "building_category"=>"Nonresidential", "construction"=>"U 0.44 SHGC 0.20 Dbl Ref-B-H Tint 6mm/13mm Air", "orientation"=>nil, "minimum_percent_of_surface"=>40.001, "maximum_percent_of_surface"=>100.0, "assembly_maximum_u_value"=>0.46, "u_value_includes_interior_film_coefficient"=>true, "u_value_includes_exterior_film_coefficient"=>true, "assembly_maximum_f_factor"=>nil, "assembly_maximum_c_factor"=>nil, "assembly_maximum_solar_heat_gain_coefficient"=>0.26, "assembly_minimum_vt_shgc"=>nil, "notes"=>nil}
+[12:57:44.472193 WARN] [openstudio.model.Model] Model has zone with
+[12:57:44.472327 WARN] [openstudio.model.Model] Model has zone with
+[12:57:44.472453 WARN] [openstudio.model.Model] Model has zone with
+[12:57:44.472623 WARN] [openstudio.model.Model] Model has zone with
+[12:57:44.472744 WARN] [openstudio.model.Model] Model has zone with
+[12:57:44.472869 WARN] [openstudio.model.Model] Model has zone with
+[12:57:44.473271 WARN] [openstudio.model.Model] Model has zone with
+[12:57:44.473400 WARN] [openstudio.model.Model] Model has zone with
+[12:57:44.473525 WARN] [openstudio.model.Model] Model has zone with
+[12:57:44.473731 WARN] [openstudio.standards.SpaceType] Space type properties lookup failed: {"template"=>"90.1-2004", "building_type"=>"Hospital", "space_type"=>"ICE_Open"}.
+[12:57:44.473827 WARN] [openstudio.standards.SpaceType] Space type properties lookup failed: {"template"=>"90.1-2004", "building_type"=>"Hospital", "space_type"=>"ICE_Open"}.
+[12:57:44.473919 WARN] [openstudio.standards.SpaceType] Space type properties lookup failed: {"template"=>"90.1-2004", "building_type"=>"Hospital", "space_type"=>"ICE_Open"}.
+[12:57:44.475710 WARN] [openstudio.standards.SpaceType] Space type properties lookup failed: {"template"=>"90.1-2004", "building_type"=>"Hospital", "space_type"=>"ICE_Open"}.
+[12:57:44.475969 WARN] [openstudio.model.Model] In model_add_typical, num_water_heaters = 1
+[12:57:44.685894 WARN] [openstudio.standards.SpaceType] Space type properties lookup failed: {"template"=>"90.1-2004", "building_type"=>"Hospital", "space_type"=>"ICE_Open"}.
+[12:57:49.146680 WARN] Surface elevation not set for building 'Hospital 2'
+[12:57:49.158113 WARN] Reversing floor print
+[12:57:49.167609 WARN] Reversing floor print
+[12:57:49.183316 WARN] Reversing floor print
+[12:57:49.194836 WARN] Reversing floor print
+[12:57:49.195355 WARN] Reversing floor print
+[12:57:49.203420 WARN] Reversing floor print
+[12:57:49.224734 WARN] Reversing floor print
+[12:57:49.227561 WARN] Reversing floor print
+[12:57:49.243876 WARN] Reversing floor print
+[12:57:49.246839 WARN] Reversing floor print
+[12:57:49.247559 WARN] Reversing floor print
+[12:57:49.273236 WARN] Reversing floor print
+[12:57:49.292399 WARN] Reversing floor print
+[12:57:49.325888 WARN] Reversing floor print
+[12:57:49.343040 WARN] Reversing floor print
+"/Applications/OpenStudio-2.8.0/bin/openstudio" run -w "/Users/tkwasnik/github/urbanopt-example-geojson-reopt-project/run/baseline_scenario/9/006_create_typical_building_from_model/SR1/in.osw"
+[12:58:21.526980 WARN] [openstudio.model.Model] The run completed but had the following severe errors: InitFans: Fan=
+[12:58:21.527518 WARN] [openstudio.standards.Fan] For 1 Zone VAV 1 Fan, there is no greater nominal HP.  Use the efficiency of the largest motor category.
+[12:58:21.527924 WARN] [openstudio.standards.AirLoopHVAC] Cannot find economizer limits for 90.1-2004, , assuming no economizer required.
+[12:58:21.528030 WARN] [openstudio.standards.AirLoopHVAC] Cannot find economizer limits for 90.1-2004, , assuming no economizer required.
