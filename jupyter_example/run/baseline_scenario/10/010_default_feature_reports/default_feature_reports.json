@@ -1,12 +1,12 @@
 {
   "id": "10",
   "name": "Mixed use 2",
-  "directory_name": "/Users/tkwasnik/github/urbanopt-example-geojson-reopt-project/jupyter_example/run/baseline_scenario/10",
+  "directory_name": "./run/baseline_scenario/10",
   "feature_type": "Building",
   "timesteps_per_hour": 1,
   "simulation_status": "Complete",
   "timeseries_csv": {
-    "path": "/Users/tkwasnik/github/urbanopt-example-geojson-reopt-project/jupyter_example/run/baseline_scenario/10/010_default_feature_reports/default_feature_reports.csv",
+    "path": "./run/baseline_scenario/10/010_default_feature_reports/default_feature_reports.csv",
     "first_report_datetime": "0",
     "column_names": [
       "Electricity:Facility",
