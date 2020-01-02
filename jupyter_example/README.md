@@ -22,39 +22,39 @@ You will also need to install operating system specific dependencies (i.e. ZeroM
 
 **Ubuntu 17.04 to 19.04**
 ```
-sudo apt install libtool libffi-dev ruby ruby-dev make
-sudo apt install libzmq3-dev libczmq-dev
+	(env) $ sudo apt install libtool libffi-dev ruby ruby-dev make
+	(env) $ sudo apt install libzmq3-dev libczmq-dev
 ```
 
 **Ubuntu 16.04**
 ```
-sudo apt install libtool libffi-dev ruby ruby-dev make
-sudo apt install git libzmq-dev autoconf pkg-config
-git clone https://github.com/zeromq/czmq
-cd czmq
-./autogen.sh && ./configure && sudo make && sudo make install
+	(env) $ sudo apt install libtool libffi-dev ruby ruby-dev make
+	(env) $ sudo apt install git libzmq-dev autoconf pkg-config
+	(env) $ git clone https://github.com/zeromq/czmq
+	(env) $ cd czmq
+	(env) $ ./autogen.sh && ./configure && sudo make && sudo make install
 
-gem install cztop
+	(env) $ gem install cztop
 ```
 
 **Windows**
 ```
-pacman -S mingw64/mingw-w64-x86_64-zeromq
+	(env) $ pacman -S mingw64/mingw-w64-x86_64-zeromq
 ```
 
 **Mac (with [Homebrew](https://brew.sh/))**
 ```
-brew install automake gmp libtool wget
-brew install zeromq --HEAD
-brew install czmq --HEAD
+	(env) $ brew install automake gmp libtool wget
+	(env) $ brew install zeromq --HEAD
+	(env) $ brew install czmq --HEAD
 ```
 
 
 Finally Set up your Ruby dependencies with:
 ```
-	$ bundle install
-	$ bundle update
-	$ iruby register --force
+	(env) $ bundle install
+	(env) $ bundle update
+	(env) $ iruby register --force
 ```
 
 ## Tutorial
