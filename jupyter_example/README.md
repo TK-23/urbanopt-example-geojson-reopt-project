@@ -61,6 +61,6 @@ Finally Set up your Ruby dependencies with:
 
 Next, run the following to open a notebook that will open in a browser window:
 
-	$  iruby notebook 'WorkflowTutorial.ipynb'
+	(env) $ iruby notebook 'WorkflowTutorial.ipynb'
 
 The text in this notebook will guide you through the rest of the tutorial.
