@@ -16,6 +16,7 @@ Install Jupyter Notebook with:
 ```
 	(env) $ python -m venv env
 	(env) $ source env/bin/activate
+	(env) $ pip install jupyterlab
 ```
 
 You will also need to install operating system specific dependencies (i.e. ZeroMQ) per the instructions found on this page [https://github.com/SciRuby/iruby](https://github.com/SciRuby/iruby)
